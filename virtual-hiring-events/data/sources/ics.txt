@@ -1,6 +1,0 @@
-# https://example.com/events.ics
-https://calendar.google.com/calendar/ical/careerfairplus.com_fairs%40group.calendar.google.com/public/basic.ics
-https://calendar.google.com/calendar/ical/handshake.com_events%40group.calendar.google.com/public/basic.ics
-https://calendar.google.com/calendar/ical/careercenter.indiana.edu%40gmail.com/public/basic.ics
-https://calendar.google.com/calendar/ical/careerservices.tamu.edu_8q7d9ovc7hnl2p5lp7v8d7i8g4%40group.calendar.google.com/public/basic.ics
-https://calendar.google.com/calendar/ical/careercenter.wisc.edu%40gmail.com/public/basic.ics
