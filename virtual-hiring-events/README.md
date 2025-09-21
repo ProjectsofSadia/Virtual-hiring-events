@@ -36,6 +36,22 @@ You can also trigger it manually from the Actions tab.
 
 | Date | Event Name | Company/Org | Location | Link |
 |------|------------|-------------|----------|------|
-| _Auto-filled by workflow_ | | | | |
-
-📦 Full dataset: see `data/events.csv` and `data/events.json`.
+| Aug 25, 2025 | Sourcer, Business Recruiting | datadog | Virtual | [Register](https://careers.datadoghq.com/detail/6888865/?gh_jid=6888865) |
+| Aug 25, 2025 | Sourcer, Business Recruiting | datadog | Virtual | [Register](https://careers.datadoghq.com/detail/7142207/?gh_jid=7142207) |
+| Aug 26, 2025 | Recruiter II, Business Recruiting - London | datadog | Virtual | [Register](https://careers.datadoghq.com/detail/6900429/?gh_jid=6900429) |
+| Aug 26, 2025 | Senior Recruiter, Tech Recruiting | datadog | Virtual | [Register](https://careers.datadoghq.com/detail/7089557/?gh_jid=7089557) |
+| Aug 26, 2025 | Senior Recruiter, Tech Recruiting | datadog | Virtual | [Register](https://careers.datadoghq.com/detail/7105200/?gh_jid=7105200) |
+| Sep 09, 2025 | Core Recruiter (Fixed Term Contract) | stripe | Virtual | [Register](https://stripe.com/jobs/search?gh_jid=7216261) |
+| Sep 09, 2025 | Go-To-Market Recruiter (Fixed Term Contract) | stripe | Virtual | [Register](https://stripe.com/jobs/search?gh_jid=7231138) |
+| Sep 09, 2025 | Go-To-Market Recruiter (Fixed Term Contract) | stripe | Virtual | [Register](https://stripe.com/jobs/search?gh_jid=7228783) |
+| Sep 09, 2025 | Go-To-Market Recruiter (Fixed Term Contract) | stripe | Virtual | [Register](https://stripe.com/jobs/search?gh_jid=7216346) |
+| Sep 09, 2025 | Recruiting Product Marketing Manager | stripe | Virtual | [Register](https://stripe.com/jobs/search?gh_jid=7185485) |
+| Sep 10, 2025 | Recruiting Coordination Manager | stripe | Virtual | [Register](https://stripe.com/jobs/search?gh_jid=7229581) |
+| Sep 10, 2025 | Recruiting Scheduler | stripe | Virtual | [Register](https://stripe.com/jobs/search?gh_jid=7229583) |
+| Sep 11, 2025 | Recruiter II, Business Recruiting | datadog | Virtual | [Register](https://careers.datadoghq.com/detail/7235437/?gh_jid=7235437) |
+| Sep 15, 2025 | Senior Recruiter, Business Recruiting | datadog | Virtual | [Register](https://careers.datadoghq.com/detail/7235421/?gh_jid=7235421) |
+| Sep 16, 2025 | Business Recruiter (Fixed Term Contract) | stripe | Virtual | [Register](https://stripe.com/jobs/search?gh_jid=7233201) |
+| Sep 16, 2025 | Go-To-Market Recruiter (Fixed Term Contract) | stripe | Virtual | [Register](https://stripe.com/jobs/search?gh_jid=7249012) |
+| Sep 16, 2025 | Go-To-Market Recruiter (Fixed Term Contract) | stripe | Virtual | [Register](https://stripe.com/jobs/search?gh_jid=7218467) |
+| Sep 18, 2025 | Recruiting Scheduler (Fixed Term Contract) | stripe | Virtual | [Register](https://stripe.com/jobs/search?gh_jid=7228682) |
+| Sep 19, 2025 | Recruiter - Sales - Contract | datadog | Virtual | [Register](https://careers.datadoghq.com/detail/7082196/?gh_jid=7082196) |

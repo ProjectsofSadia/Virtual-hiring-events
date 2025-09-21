@@ -1,4 +1,4 @@
-import os, json, csv, re, sys
+import os, json, re, sys
 from datetime import datetime, timezone
 from dateutil import parser as dtp
 import pandas as pd
@@ -16,6 +16,9 @@ JSON_PATH = os.path.join(DATA_DIR, "events.json")
 
 os.makedirs(DATA_DIR, exist_ok=True)
 
+# Optional filters via GitHub Secrets or local env:
+#   SEARCH_TERMS="virtual career fair,info session,hiring event"
+#   LOCATIONS="Remote;United States;New York"
 SEARCH_TERMS = [t.strip().lower() for t in (os.getenv("SEARCH_TERMS","").split(",")) if t.strip()]
 LOCATIONS    = [l.strip().lower() for l in (os.getenv("LOCATIONS","").split(";")) if l.strip()]
 
@@ -59,7 +62,7 @@ def dedupe_sort(events):
     uniq = []
     for e in events:
         key = (e.get("url","").strip(), e.get("date_iso","").strip(), e.get("name","").strip())
-        if key in seen: 
+        if key in seen:
             continue
         seen.add(key)
         uniq.append(e)
@@ -73,12 +76,11 @@ def matches_filters(ev):
     if SEARCH_TERMS and not any(t in name for t in SEARCH_TERMS):
         return False
     if LOCATIONS and all(l not in loc for l in LOCATIONS):
-        # Allow virtual if locations filter provided but event is explicitly virtual
+        # allow explicitly virtual events to pass
         if loc not in ("virtual","online","remote"):
             return False
     return True
 
-# ---------- RSS ----------
 def load_list(path):
     urls = []
     if not os.path.exists(path):
@@ -86,7 +88,7 @@ def load_list(path):
     with open(path, "r", encoding="utf-8") as f:
         for line in f:
             line = line.strip()
-            if not line or line.startswith("#"): 
+            if not line or line.startswith("#"):
                 continue
             urls.append(line)
     return urls
@@ -116,7 +118,6 @@ def fetch_from_rss(url, label=None):
     return out
 
 def _guess_date_from_text(txt):
-    # very rough; looks for YYYY-MM-DD or "Month DD, YYYY"
     m = re.findall(r"\b(\d{4}-\d{2}-\d{2})\b", txt)
     if m:
         return parse_date(m[0])
@@ -125,7 +126,6 @@ def _guess_date_from_text(txt):
         return parse_date(m[0])
     return None
 
-# ---------- ICS ----------
 def fetch_from_ics(url, label=None):
     out = []
     try:
@@ -156,13 +156,11 @@ def fetch_from_ics(url, label=None):
         print(f"[WARN] ICS fetch failed for {url}: {e}", file=sys.stderr)
     return out
 
-# ---------- Greenhouse ----------
 def fetch_greenhouse(subdomain):
     """
     Greenhouse public board: https://boards.greenhouse.io/{subdomain}
-    There's a JSON feed often available at:
-      https://boards-api.greenhouse.io/v1/boards/{subdomain}/jobs
-    We'll look for job posts that look like virtual events / recruiting sessions by title heuristics.
+    JSON feed: https://boards-api.greenhouse.io/v1/boards/{subdomain}/jobs
+    We heuristically treat titles like info sessions / hiring events as events.
     """
     out = []
     api_url = f"https://boards-api.greenhouse.io/v1/boards/{subdomain}/jobs"
@@ -173,19 +171,15 @@ def fetch_greenhouse(subdomain):
         data = r.json()
         for job in data.get("jobs", []):
             title = (job.get("title") or "").strip()
-            # Heuristic: treat titles suggesting info sessions, events, fairs, recruiting
             if not re.search(r"(info session|hiring event|career fair|recruit|open house|virtual event)", title, re.I):
                 continue
-            # Try to find a date in metadata or the title/body (rare; fallback to posted date)
             dt = None
-            # Greenhouse has "updated_at" in ISO8601
             dt_s = job.get("updated_at") or job.get("created_at")
             if dt_s:
                 p = parse_date(dt_s)
                 if p:
                     dt = p
             if not dt:
-                # as last resort, current date
                 dt = datetime.now(timezone.utc)
             org = subdomain
             url = job.get("absolute_url") or f"https://boards.greenhouse.io/{subdomain}"
@@ -215,7 +209,7 @@ def update_readme_table(events, readme_path=README):
     if "## Upcoming (sample)" in content:
         new_content = re.sub(
             r"(## Upcoming \(sample\)\s*\n)(?:\|.*\n)+",
-            r"\\1" + table + "\n",
+            r"\1" + table + "\n",
             content,
             flags=re.DOTALL
         )
