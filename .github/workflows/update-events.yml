@@ -2,7 +2,7 @@ name: Update Hiring Events
 
 on:
   schedule:
-    - cron: "0 12 * * *"   # daily at 12:00 UTC (8am ET)
+    - cron: "0 12 * * *"   # daily 8am ET
   workflow_dispatch: {}
   push:
     branches: [ main ]
@@ -25,6 +25,14 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Show tree (debug)
+        run: |
+          pwd
+          ls -la
+          echo "::group::sources"
+          ls -la data/sources || true
+          echo "::endgroup::"
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -37,15 +45,14 @@ jobs:
 
       - name: Run updater
         env:
-          SEARCH_TERMS: ${{ secrets.SEARCH_TERMS }}
-          LOCATIONS: ${{ secrets.LOCATIONS }}
-        run: |
-          python scripts/update_events.py
+          SEARCH_TERMS: ${{ secrets.SEARCH_TERMS || '' }}
+          LOCATIONS: ${{ secrets.LOCATIONS || '' }}
+        run: python scripts/update_events.py
 
-      - name: Mirror README to index.md for GitHub Pages
+      - name: Mirror README to index.md (GitHub Pages)
         run: |
           cp README.md index.md
-          touch .nojekyll   # ensures GitHub Pages doesn’t try to build with Jekyll
+          touch .nojekyll
 
       - name: Commit & push if changed
         run: |
