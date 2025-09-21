@@ -157,9 +157,51 @@ def fetch_from_ics(url, label=None):
 def fetch_eventbrite_category(url):
     out = []
     try:
-        resp = requests.get(url, timeout=30, headers={"User-Agent":"Mozilla/5.0"})
+        resp = requests.get(url, timeout=30, headers={
+            "User-Agent": "Mozilla/5.0"
+        })
         resp.raise_for_status()
         soup = BeautifulSoup(resp.text, "html.parser")
+
+        # 1) Try JSON-LD structured data (often contains events on listing pages)
+        found = False
+        for tag in soup.find_all("script", type="application/ld+json"):
+            try:
+                data = json.loads(tag.string or "{}")
+            except Exception:
+                continue
+
+            # Normalize to list
+            candidates = data if isinstance(data, list) else [data]
+            for item in candidates:
+                if item.get("@type") in ("Event",):
+                    name = (item.get("name") or "").strip()
+                    start = item.get("startDate") or item.get("startdate")
+                    url_e = item.get("url") or ""
+                    loc_block = item.get("location") or {}
+                    # virtual if "VirtualLocation" or online meetup
+                    is_virtual = (
+                        (isinstance(loc_block, dict) and loc_block.get("@type") in ("VirtualLocation","OnlineEventAttendanceMode")) or
+                        "virtual" in (name.lower()) or "online" in (name.lower())
+                    )
+                    pdt = parse_date(start) or datetime.now(timezone.utc)
+                    ev = {
+                        "date_iso": pdt.date().isoformat(),
+                        "date_human": pdt.strftime("%b %d, %Y"),
+                        "name": name,
+                        "org": "Eventbrite",
+                        "location": "Virtual",
+                        "url": url_e,
+                        "source": "Eventbrite",
+                    }
+                    if is_virtual and matches_event_filters(ev):
+                        out.append(to_event_row(ev))
+                        found = True
+
+        if found:
+            return out
+
+        # 2) Fallback to card selectors
         cards = soup.select('[data-testid="event-card"]') or soup.select("section div div[data-spec*='event-card']")
         for c in cards[:50]:
             a = c.find("a", href=True)
@@ -185,6 +227,7 @@ def fetch_eventbrite_category(url):
     except Exception as e:
         print(f"[WARN] Eventbrite fetch failed for {url}: {e}", file=sys.stderr)
     return out
+
 
 def dedupe_sort_jobs(rows):
     seen = set()
