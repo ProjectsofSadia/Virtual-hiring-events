@@ -83,20 +83,19 @@ def md_event_table(sample):
         "|------|------------|-------------|----------|------|",
     ]
     for e in sample:
-        lines.append(
-            f"| {e.get('date_human') or e.get('date_iso','')} "
-            f"| {e.get('name','').replace('|','-')} "
-            f"| {e.get('org','').replace('|','-')} "
-            f"| {e.get('location','').replace('|','-')} "
-            f"| [Register]({e.get('url','')}) |"
-        )
+        date = str(e.get('date_human') or e.get('date_iso',''))
+        name = str(e.get('name','')).replace('|','-')
+        org = str(e.get('org','')).replace('|','-')
+        loc = str(e.get('location','')).replace('|','-')
+        url = e.get('url','')
+        lines.append(f"| {date} | {name} | {org} | {loc} | [Register]({url}) |")
     return "\n".join(lines)
 
 def fetch_from_rss(url, label=None):
     out = []
     feed = feedparser.parse(url)
-    label = label or (feed.feed.get("title","RSS"))
-    for entry in feed.entries:
+    label = label or (getattr(feed, "feed", {}) or {}).get("title","RSS")
+    for entry in getattr(feed, "entries", []):
         title = (entry.get("title") or "").strip()
         link  = (entry.get("link") or "").strip()
         dt = entry.get("published") or entry.get("updated") or ""
@@ -203,8 +202,6 @@ def jobs_md_table(rows):
         lines.append(f"| {date} | {title} | {company} | {location} | [Apply]({apply_url}) |")
     return "\n".join(lines)
 
-
-
 def fetch_greenhouse_jobs(subdomain):
     out = []
     api_url = f"https://boards-api.greenhouse.io/v1/boards/{subdomain}/jobs"
@@ -218,7 +215,7 @@ def fetch_greenhouse_jobs(subdomain):
                 continue
             locs = [l.get("name","") for l in job.get("offices",[])]
             loc_text = ", ".join([l for l in locs if l]) or (job.get("location","") or "")
-            if LOCATIONS and (not any(L in loc_text.lower() for L in LOCATIONS) and "remote" not in loc_text.lower()):
+            if LOCATIONS and (not any(L in (loc_text or "").lower() for L in LOCATIONS) and "remote" not in (loc_text or "").lower()):
                 continue
             url = job.get("absolute_url")
             dt = parse_date(job.get("updated_at") or job.get("created_at")) or datetime.now(timezone.utc)
@@ -247,7 +244,7 @@ def fetch_lever_jobs(subdomain):
             if SEARCH_TERMS and not any(t in title.lower() for t in SEARCH_TERMS):
                 continue
             loc_text = (job.get("categories",{}).get("location") or "")
-            if LOCATIONS and (not any(L in loc_text.lower() for L in LOCATIONS) and "remote" not in loc_text.lower()):
+            if LOCATIONS and (not any(L in (loc_text or "").lower() for L in LOCATIONS) and "remote" not in (loc_text or "").lower()):
                 continue
             url = job.get("hostedUrl") or job.get("applyUrl")
             dt = parse_date(job.get("updatedAt")) or datetime.now(timezone.utc)
@@ -270,58 +267,63 @@ def categorize_job(job):
         return "internship"
     return "fulltime"
 
-def replace_or_append_section(content, header, table_text):
+def replace_or_append_section(content, header, table_text, footer_links=""):
+    block = f"{table_text}\n\n{footer_links}".strip() + "\n"
     if header in content:
         return re.sub(
-            rf"({re.escape(header)}\s*\n)(?:\|.*\n)+",
-            r"\1" + table_text + "\n",
+            rf"({re.escape(header)}\s*\n)(?:\|.*\n)+(?:\n*(?:➡️.*\n)*)?",
+            r"\1" + block,
             content,
             flags=re.DOTALL
         )
     else:
-        return content + f"\n\n{header}\n\n{table_text}\n"
+        return content + f"\n\n{header}\n\n{block}"
 
 def update_readme_events(events, readme_path=README):
     table = md_event_table(events[:20])
+    footer = "➡️ [View All Events (CSV)](data/events.csv) | [View All Events (JSON)](data/events.json)"
     try:
         with open(readme_path, "r", encoding="utf-8") as f:
             content = f.read()
     except FileNotFoundError:
-        content = "# Virtual Hiring Events Hub\n"
-    content = replace_or_append_section(content, "## Upcoming Events (Auto-updated)", table)
+        content = "# Virtual Hiring Events & Jobs Hub\n"
+    content = replace_or_append_section(content, "## 📅 Upcoming Events (Auto-updated)", table, footer)
     with open(readme_path, "w", encoding="utf-8") as f:
         f.write(content)
 
 def update_readme_jobs(jobs, readme_path=README):
     table = jobs_md_table(jobs[:25])
+    footer = "➡️ [View All Jobs (CSV)](data/jobs.csv) | [View All Jobs (JSON)](data/jobs.json)"
     try:
         with open(readme_path, "r", encoding="utf-8") as f:
             content = f.read()
     except FileNotFoundError:
-        content = "# Virtual Hiring Events Hub\n"
-    content = replace_or_append_section(content, "## Open Roles (Auto-updated)", table)
+        content = "# Virtual Hiring Events & Jobs Hub\n"
+    content = replace_or_append_section(content, "## 💼 Open Roles (Auto-updated)", table, footer)
     with open(readme_path, "w", encoding="utf-8") as f:
         f.write(content)
 
 def update_readme_internships(internships, readme_path=README):
     table = jobs_md_table(internships[:20])
+    footer = "➡️ [View All Internships (CSV)](data/internships.csv) | [View All Internships (JSON)](data/internships.json)"
     try:
         with open(readme_path,"r",encoding="utf-8") as f:
             content = f.read()
     except FileNotFoundError:
-        content = "# Virtual Hiring Events Hub\n"
-    content = replace_or_append_section(content, "## Internship Roles (Auto-updated)", table)
+        content = "# Virtual Hiring Events & Jobs Hub\n"
+    content = replace_or_append_section(content, "## 🎓 Internship Roles (Auto-updated)", table, footer)
     with open(readme_path,"w",encoding="utf-8") as f:
         f.write(content)
 
 def update_readme_fulltime(fulltime, readme_path=README):
     table = jobs_md_table(fulltime[:20])
+    footer = "➡️ [View All Full-Time (CSV)](data/fulltime.csv) | [View All Full-Time (JSON)](data/fulltime.json)"
     try:
         with open(readme_path,"r",encoding="utf-8") as f:
             content = f.read()
     except FileNotFoundError:
-        content = "# Virtual Hiring Events Hub\n"
-    content = replace_or_append_section(content, "## Full-Time Opportunities (Auto-updated)", table)
+        content = "# Virtual Hiring Events & Jobs Hub\n"
+    content = replace_or_append_section(content, "## 🏢 Full-Time Opportunities (Auto-updated)", table, footer)
     with open(readme_path,"w",encoding="utf-8") as f:
         f.write(content)
 
