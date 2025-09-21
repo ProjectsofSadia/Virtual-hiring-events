@@ -1,29 +1,16 @@
-# Virtual-hiring-events
-A daily-updated list of virtual hiring events, career fairs, and recruitment sessions across industries.
-## 📅 Upcoming Events (Auto-updated)
+# 🌐 Virtual Hiring Events Hub
 
-| Date | Event Name | Company/Org | Location | Link |
-|------|------------|-------------|----------|------|
-| _loading…_ | _waiting for first run_ | | | |
+Welcome to the **Virtual Hiring Events** project!  
+This repository auto-updates with the latest **career fairs, internships, and job opportunities**.
 
-➡️ [View All Events (CSV)](data/events.csv) | [View All Events (JSON)](data/events.json)
+👉 Main project lives inside [`virtual-hiring-events/`](./virtual-hiring-events/)
 
----
-
-## 🎓 Internship Roles (Auto-updated)
-
-| Date | Title | Company | Location | Apply |
-|------|-------|---------|----------|-------|
-| _loading…_ | _waiting for first run_ | | | |
-
-➡️ [View All Internships (CSV)](data/internships.csv) | [View All Internships (JSON)](data/internships.json)
+## Quick Links
+- 📅 [Upcoming Events](./virtual-hiring-events/README.md#-upcoming-events-auto-updated)  
+- 🎓 [Internship Roles](./virtual-hiring-events/README.md#-internship-roles-auto-updated)  
+- 🏢 [Full-Time Opportunities](./virtual-hiring-events/README.md#-full-time-opportunities-auto-updated)  
 
 ---
 
-## 🏢 Full-Time Opportunities (Auto-updated)
-
-| Date | Title | Company | Location | Apply |
-|------|-------|---------|----------|-------|
-| _loading…_ | _waiting for first run_ | | | |
-
-➡️ [View All Full-Time (CSV)](data/fulltime.csv) | [View All Full-Time (JSON)](data/fulltime.json)
+🚀 GitHub Pages will serve this as the homepage:  
+[https://projectsofsadia.github.io/Virtual-hiring-events/](https://projectsofsadia.github.io/Virtual-hiring-events/)
