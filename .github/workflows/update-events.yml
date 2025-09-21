@@ -4,6 +4,14 @@ on:
   schedule:
     - cron: "0 12 * * *"   # daily at 12:00 UTC (8am ET)
   workflow_dispatch: {}
+  push:
+    branches: [ main ]
+    paths:
+      - "scripts/**"
+      - "data/**"
+      - "requirements.txt"
+      - ".github/workflows/update-events.yml"
+      - "README.md"
 
 permissions:
   contents: write
@@ -33,6 +41,11 @@ jobs:
           LOCATIONS: ${{ secrets.LOCATIONS }}
         run: |
           python scripts/update_events.py
+
+      - name: Mirror README to index.md for GitHub Pages
+        run: |
+          cp README.md index.md
+          touch .nojekyll   # ensures GitHub Pages doesn’t try to build with Jekyll
 
       - name: Commit & push if changed
         run: |
