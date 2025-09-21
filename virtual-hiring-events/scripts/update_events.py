@@ -4,6 +4,7 @@ from dateutil import parser as dtp
 import pandas as pd
 import requests
 import feedparser
+from bs4 import BeautifulSoup
 from ics import Calendar
 
 DATA_DIR = "data"
@@ -68,9 +69,12 @@ def dedupe_sort_events(events):
     return uniq
 
 def matches_event_filters(ev):
-    name = f"{ev.get('name','')} {ev.get('org','')} {ev.get('source','')}".lower()
+    title = f"{ev.get('name','')} {ev.get('org','')} {ev.get('source','')}".lower()
     loc  = (ev.get("location","") or "").lower()
-    if SEARCH_TERMS and not any(t in name for t in SEARCH_TERMS):
+    is_virtual = any(k in title for k in ["virtual","online","webinar","remote"]) or loc in ("virtual","online","remote")
+    if not is_virtual:
+        return False
+    if SEARCH_TERMS and not any(t in title for t in SEARCH_TERMS):
         return False
     if LOCATIONS and all(l not in loc for l in LOCATIONS):
         if loc not in ("virtual","online","remote"):
@@ -150,31 +154,36 @@ def fetch_from_ics(url, label=None):
         print(f"[WARN] ICS fetch failed for {url}: {e}", file=sys.stderr)
     return out
 
-def fetch_greenhouse_events(subdomain):
+def fetch_eventbrite_category(url):
     out = []
-    api_url = f"https://boards-api.greenhouse.io/v1/boards/{subdomain}/jobs"
     try:
-        r = requests.get(api_url, timeout=30)
-        if r.status_code != 200: return out
-        data = r.json()
-        for job in data.get("jobs", []):
-            title = (job.get("title") or "").strip()
-            if not re.search(r"(info session|hiring event|career fair|recruit|open house|virtual event)", title, re.I):
+        resp = requests.get(url, timeout=30, headers={"User-Agent":"Mozilla/5.0"})
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, "html.parser")
+        cards = soup.select('[data-testid="event-card"]') or soup.select("section div div[data-spec*='event-card']")
+        for c in cards[:50]:
+            a = c.find("a", href=True)
+            if not a:
                 continue
-            dt = parse_date(job.get("updated_at") or job.get("created_at")) or datetime.now(timezone.utc)
+            link = a["href"]
+            title_el = c.select_one('[data-testid="event-card__formatted-name"], h2, h3')
+            title = (title_el.get_text(strip=True) if title_el else "Event").strip()
+            date_el = c.select_one('[data-testid="event-card__formatted-date"]')
+            date_txt = (date_el.get_text(" ", strip=True) if date_el else "")
+            pdt = parse_date(date_txt) or datetime.now(timezone.utc)
             ev = {
-                "date_iso": dt.date().isoformat(),
-                "date_human": dt.strftime("%b %d, %Y"),
+                "date_iso": pdt.date().isoformat(),
+                "date_human": pdt.strftime("%b %d, %Y"),
                 "name": title,
-                "org": subdomain,
+                "org": "Eventbrite",
                 "location": "Virtual",
-                "url": job.get("absolute_url"),
-                "source": f"Greenhouse:{subdomain}",
+                "url": link,
+                "source": "Eventbrite",
             }
             if matches_event_filters(ev):
                 out.append(to_event_row(ev))
     except Exception as e:
-        print(f"[WARN] Greenhouse events failed for {subdomain}: {e}", file=sys.stderr)
+        print(f"[WARN] Eventbrite fetch failed for {url}: {e}", file=sys.stderr)
     return out
 
 def dedupe_sort_jobs(rows):
@@ -333,18 +342,24 @@ def main():
     ics_list = load_list(os.path.join(SRC_DIR, "ics.txt"))
     gh_list  = load_list(os.path.join(SRC_DIR, "greenhouse.txt"))
     lever_list = load_list(os.path.join(SRC_DIR, "lever.txt"))
+    eb_list = load_list(os.path.join(SRC_DIR, "eventbrite.txt"))
 
-    for url in rss_list: events += fetch_from_rss(url)
-    for url in ics_list: events += fetch_from_ics(url)
-    for sub in gh_list: events += fetch_greenhouse_events(sub)
+    for url in rss_list:
+        events += fetch_from_rss(url)
+    for url in ics_list:
+        events += fetch_from_ics(url)
+    for url in eb_list:
+        events += fetch_eventbrite_category(url)
 
     events = dedupe_sort_events(events)
     pd.DataFrame(events).to_csv(EVENTS_CSV, index=False)
     with open(EVENTS_JSON,"w",encoding="utf-8") as f: json.dump(events,f,indent=2,ensure_ascii=False)
 
     jobs = []
-    for sub in gh_list: jobs += fetch_greenhouse_jobs(sub)
-    for sub in lever_list: jobs += fetch_lever_jobs(sub)
+    for sub in gh_list:
+        jobs += fetch_greenhouse_jobs(sub)
+    for sub in lever_list:
+        jobs += fetch_lever_jobs(sub)
 
     jobs = dedupe_sort_jobs(jobs)
     pd.DataFrame(jobs).to_csv(JOBS_CSV, index=False)
