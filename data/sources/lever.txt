@@ -1,0 +1,8 @@
+﻿openai
+scaleai
+databricks
+notion
+figma
+rippling
+mixpanel
+pilot

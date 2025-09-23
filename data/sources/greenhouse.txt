@@ -1,0 +1,12 @@
+﻿stripe
+datadog
+roblox
+asana
+figma
+notion
+discord
+snowflake
+ramp
+brex
+square
+coinbase

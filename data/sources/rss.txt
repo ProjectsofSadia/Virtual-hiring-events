@@ -1,0 +1,3 @@
+﻿https://developer.microsoft.com/reactor/feed/
+https://developers.google.com/events/rss.xml
+https://community.aws/events/rss
