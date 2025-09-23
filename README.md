@@ -18,96 +18,103 @@ This repository auto-updates with the latest **career fairs, internships, and jo
 
 ## 📅 Upcoming Events (Auto-updated)
 
-| Date | Event Name | Company/Org | Location | Link |
-|------|------------|-------------|----------|------|
+| date_human | name | org | location | url |
+|------|------|------|------|------|
 
 ➡️ [View All Events (CSV)](data/events.csv) | [View All Events (JSON)](data/events.json)
 
-
 ## 💼 Open Roles (Auto-updated)
 
-| Date | Title | Company | Location | Apply |
-|------|-------|---------|----------|-------|
-| Jul 16, 2025 | Senior Product Designer, Core Product | discord | {'name': 'San Francisco Bay Area'} | [Apply](https://job-boards.greenhouse.io/discord/jobs/8024582002) |
-| Jul 16, 2025 | Staff Software Engineer, Audio/Video Infrastructure | discord | {'name': 'San Francisco Bay Area'} | [Apply](https://job-boards.greenhouse.io/discord/jobs/7953473002) |
-| Jul 18, 2025 | Senior Engineering Manager, Client Platforms | discord | {'name': 'San Francisco Bay Area'} | [Apply](https://job-boards.greenhouse.io/discord/jobs/8045535002) |
-| Jul 18, 2025 | Senior Staff Software Engineer, Client Platform | discord | {'name': 'San Francisco Bay Area'} | [Apply](https://job-boards.greenhouse.io/discord/jobs/7803984002) |
-| Jul 21, 2025 | Account Executive, Enterprise | figma | {'name': 'San Francisco, CA • New York, NY • United States'} | [Apply](https://boards.greenhouse.io/figma/jobs/5426468004?gh_jid=5426468004) |
-| Jul 21, 2025 | Account Executive, Enterprise (London, United Kingdom) | figma | {'name': 'London, England'} | [Apply](https://boards.greenhouse.io/figma/jobs/5458801004?gh_jid=5458801004) |
-| Jul 21, 2025 | Account Executive, Enterprise (Paris, France) | figma | {'name': 'Paris, France'} | [Apply](https://boards.greenhouse.io/figma/jobs/5428656004?gh_jid=5428656004) |
-| Jul 21, 2025 | Account Executive, Enterprise - Public Sector (Sydney, Australia) | figma | {'name': 'Sydney, Australia'} | [Apply](https://boards.greenhouse.io/figma/jobs/5567678004?gh_jid=5567678004) |
-| Jul 21, 2025 | Account Executive, Mid-Market | figma | {'name': 'San Francisco, CA • New York, NY • United States'} | [Apply](https://boards.greenhouse.io/figma/jobs/5422236004?gh_jid=5422236004) |
-| Jul 21, 2025 | Account Executive, Mid-Market (London, United Kingdom) | figma | {'name': 'London, England'} | [Apply](https://boards.greenhouse.io/figma/jobs/5415515004?gh_jid=5415515004) |
-| Jul 21, 2025 | Account Executive, SMB | figma | {'name': 'San Francisco, CA • New York, NY • United States'} | [Apply](https://boards.greenhouse.io/figma/jobs/5565447004?gh_jid=5565447004) |
-| Jul 21, 2025 | Account Executive, Strategic | figma | {'name': 'San Francisco, CA • New York, NY • United States'} | [Apply](https://boards.greenhouse.io/figma/jobs/5558737004?gh_jid=5558737004) |
-| Jul 21, 2025 | Account Executive, Strategic (Paris, France) | figma | {'name': 'Paris, France'} | [Apply](https://boards.greenhouse.io/figma/jobs/5565921004?gh_jid=5565921004) |
-| Jul 21, 2025 | Brand Marketing Strategist | figma | {'name': 'San Francisco, CA • New York, NY • United States'} | [Apply](https://boards.greenhouse.io/figma/jobs/5576030004?gh_jid=5576030004) |
-| Jul 21, 2025 | Content Strategist, Product | figma | {'name': 'San Francisco, CA • New York, NY • United States'} | [Apply](https://boards.greenhouse.io/figma/jobs/5546257004?gh_jid=5546257004) |
-| Jul 21, 2025 | Customer Enablement Manager (Tokyo, Japan) | figma | {'name': 'Tokyo, Japan'} | [Apply](https://boards.greenhouse.io/figma/jobs/5552495004?gh_jid=5552495004) |
-| Jul 21, 2025 | Data Scientist | figma | {'name': 'San Francisco, CA • New York, NY • United States'} | [Apply](https://boards.greenhouse.io/figma/jobs/5552580004?gh_jid=5552580004) |
-| Jul 21, 2025 | Director, Sales Content & Solutions | figma | {'name': 'San Francisco, CA • New York, NY • United States'} | [Apply](https://boards.greenhouse.io/figma/jobs/5575736004?gh_jid=5575736004) |
-| Jul 21, 2025 | Director, Sales Development | figma | {'name': 'San Francisco, CA • New York, NY'} | [Apply](https://boards.greenhouse.io/figma/jobs/5565436004?gh_jid=5565436004) |
-| Jul 21, 2025 | Director, Software Engineering - Growth | figma | {'name': 'San Francisco, CA • New York, NY • United States'} | [Apply](https://boards.greenhouse.io/figma/jobs/5579903004?gh_jid=5579903004) |
-| Jul 21, 2025 | Enterprise Solutions Consultant | figma | {'name': 'San Francisco, CA'} | [Apply](https://boards.greenhouse.io/figma/jobs/5478247004?gh_jid=5478247004) |
-| Jul 21, 2025 | Manager, Commercial Sales (São Paulo, Brazil) | figma | {'name': 'São Paulo, Brazil'} | [Apply](https://boards.greenhouse.io/figma/jobs/5563744004?gh_jid=5563744004) |
-| Jul 21, 2025 | Manager, Enterprise Sales | figma | {'name': 'San Francisco, CA • New York, NY • United States'} | [Apply](https://boards.greenhouse.io/figma/jobs/5465794004?gh_jid=5465794004) |
-| Jul 21, 2025 | Manager, Mid-Market Sales | figma | {'name': 'New York, NY'} | [Apply](https://boards.greenhouse.io/figma/jobs/5564202004?gh_jid=5564202004) |
-| Jul 21, 2025 | Manager, Mid-Market Sales (Berlin, Germany) | figma | {'name': 'Berlin, Germany'} | [Apply](https://boards.greenhouse.io/figma/jobs/5412879004?gh_jid=5412879004) |
+| date_human | title | company | location | apply |
+|------|------|------|------|------|
+| Sep 23, 2025 | Software Engineer, Application Security | coinbase | Remote - USA | [Apply](https://www.coinbase.com/careers/positions/6863924?gh_jid=6863924) |
+| Sep 23, 2025 | Head of Events | brex | Seattle, Washington, United States | [Apply](https://www.brex.com/careers/8181497002?gh_jid=8181497002) |
+| Sep 23, 2025 | Head of Events | brex | San Francisco, California, United States | [Apply](https://www.brex.com/careers/8181493002?gh_jid=8181493002) |
+| Sep 23, 2025 | Head of Events | brex | New York, New York, United States | [Apply](https://www.brex.com/careers/8181496002?gh_jid=8181496002) |
+| Sep 22, 2025 | Workplace Programs Lead | brex | New York, New York, United States | [Apply](https://www.brex.com/careers/8178247002?gh_jid=8178247002) |
+| Sep 22, 2025 | Workplace Lead | asana | Vancouver, BC | [Apply](https://www.asana.com/jobs/apply/6976256?gh_jid=6976256) |
+| Sep 22, 2025 | Workplace Design Program Manager | coinbase | Remote - USA | [Apply](https://www.coinbase.com/careers/positions/7258709?gh_jid=7258709) |
+| Sep 22, 2025 | Visual Designer, Contract | datadog | New York, New York, USA | [Apply](https://careers.datadoghq.com/detail/7263543/?gh_jid=7263543) |
+| Sep 22, 2025 | Strategic Program Manager, Global Public Affairs | roblox | San Mateo, CA, United States | [Apply](https://careers.roblox.com/jobs/7259111?gh_jid=7259111) |
+| Sep 22, 2025 | Strategic Finance Associate - NYC | datadog | New York, New York, USA | [Apply](https://careers.datadoghq.com/detail/7262906/?gh_jid=7262906) |
+| Sep 22, 2025 | Staff Software Engineer, Trading | coinbase | Remote - Singapore | [Apply](https://www.coinbase.com/careers/positions/7010523?gh_jid=7010523) |
+| Sep 22, 2025 | Staff Software Engineer, Platform Security | discord | San Francisco Bay Area | [Apply](https://job-boards.greenhouse.io/discord/jobs/8177912002) |
+| Sep 22, 2025 | Software Engineering Intern | datadog | Madrid, Spain | [Apply](https://careers.datadoghq.com/detail/7158112/?gh_jid=7158112) |
+| Sep 22, 2025 | Software Engineering Intern | datadog | Paris, France | [Apply](https://careers.datadoghq.com/detail/7158118/?gh_jid=7158118) |
+| Sep 22, 2025 | Software Engineer, Backend - DevX | coinbase | Remote - USA | [Apply](https://www.coinbase.com/careers/positions/6981984?gh_jid=6981984) |
+| Sep 22, 2025 | Senior/Principal Machine Learning Engineer - Core AI | roblox | San Mateo, CA, United States | [Apply](https://careers.roblox.com/jobs/7246965?gh_jid=7246965) |
+| Sep 22, 2025 | Senior Technical Program Manager, Creator | roblox | San Mateo, CA, United States | [Apply](https://careers.roblox.com/jobs/7254934?gh_jid=7254934) |
+| Sep 22, 2025 | Senior Staff Software Engineer, Backend (Platform - FinHub) | coinbase | Remote - USA | [Apply](https://www.coinbase.com/careers/positions/6485609?gh_jid=6485609) |
+| Sep 22, 2025 | Senior Software Engineer - Threat Intelligence & Detection Experiences (TIDEx) | datadog | New York, New York, USA | [Apply](https://careers.datadoghq.com/detail/7264409/?gh_jid=7264409) |
+| Sep 22, 2025 | Senior Software Engineer - Engine UI  | roblox | San Mateo, CA, United States | [Apply](https://careers.roblox.com/jobs/7260757?gh_jid=7260757) |
+| Sep 22, 2025 | Senior Manager, Education Policy | roblox | United Kingdom | [Apply](https://careers.roblox.com/jobs/7260973?gh_jid=7260973) |
+| Sep 22, 2025 | Senior Manager of Policy Communications  | roblox | San Mateo, CA, United States | [Apply](https://careers.roblox.com/jobs/7263286?gh_jid=7263286) |
+| Sep 22, 2025 | Senior Machine Learning - Core AI | roblox | San Mateo, CA, United States | [Apply](https://careers.roblox.com/jobs/7249513?gh_jid=7249513) |
+| Sep 22, 2025 | Senior Financial Analyst, FP&A | coinbase | Remote - USA | [Apply](https://www.coinbase.com/careers/positions/7253510?gh_jid=7253510) |
+| Sep 22, 2025 | Senior Data Science Manager, Core Product | discord | San Francisco Bay Area | [Apply](https://job-boards.greenhouse.io/discord/jobs/8174003002) |
 
-➡️ [View All Jobs (CSV)](data/jobs.csv) | [View All Jobs (JSON)](data/jobs.json)
-
+➡️ [All Jobs (CSV)](data/jobs.csv) | [All Jobs (JSON)](data/jobs.json)
 
 ## 🎓 Internship Roles (Auto-updated)
 
-| Date | Title | Company | Location | Apply |
-|------|-------|---------|----------|-------|
-| Aug 05, 2025 | Senior Software Engineer, Backend (Consumer -  International) | coinbase | {'name': 'Remote - Canada'} | [Apply](https://www.coinbase.com/careers/positions/7012102?gh_jid=7012102) |
-| Aug 06, 2025 | Senior Director, Internal Audit | discord | {'name': 'San Francisco Bay Area'} | [Apply](https://job-boards.greenhouse.io/discord/jobs/8103520002) |
-| Aug 08, 2025 | Senior Product Manager, International Derivatives | coinbase | {'name': 'Remote - USA'} | [Apply](https://www.coinbase.com/careers/positions/7144470?gh_jid=7144470) |
-| Aug 18, 2025 | Program Manager, HR M&A and International Expansion | coinbase | {'name': 'Remote - USA'} | [Apply](https://www.coinbase.com/careers/positions/7099818?gh_jid=7099818) |
-| Aug 18, 2025 | Specialist, Coinbase Derivatives & International Exchange | coinbase | {'name': 'Remote - Ireland'} | [Apply](https://www.coinbase.com/careers/positions/7128691?gh_jid=7128691) |
-| Aug 18, 2025 | Specialist, Coinbase Derivatives & International Exchange | coinbase | {'name': 'Remote - UK'} | [Apply](https://www.coinbase.com/careers/positions/7128692?gh_jid=7128692) |
-| Aug 19, 2025 | Staff Software Engineer, Backend (Consumer - International) | coinbase | {'name': 'Remote - Brazil'} | [Apply](https://www.coinbase.com/careers/positions/6377946?gh_jid=6377946) |
-| Aug 19, 2025 | Data Engineer Intern (2026) | figma | {'name': 'San Francisco, CA • New York, NY'} | [Apply](https://boards.greenhouse.io/figma/jobs/5623087004?gh_jid=5623087004) |
-| Aug 19, 2025 | Data Science Intern (2026) | figma | {'name': 'San Francisco, CA • New York, NY'} | [Apply](https://boards.greenhouse.io/figma/jobs/5614980004?gh_jid=5614980004) |
-| Aug 19, 2025 | Software Engineer Intern (2026) | figma | {'name': 'San Francisco, CA • New York, NY'} | [Apply](https://boards.greenhouse.io/figma/jobs/5602159004?gh_jid=5602159004) |
-| Aug 20, 2025 | Group Product Manager, International Derivatives | coinbase | {'name': 'Remote - USA'} | [Apply](https://www.coinbase.com/careers/positions/7180361?gh_jid=7180361) |
-| Aug 20, 2025 | Product Design Intern (2026) | figma | {'name': 'San Francisco, CA • New York, NY'} | [Apply](https://boards.greenhouse.io/figma/jobs/5616453004?gh_jid=5616453004) |
-| Aug 25, 2025 | Manager II, Engineering - Internal Services Platform: Workloads & Integrations | datadog | {'name': 'New York, New York, USA'} | [Apply](https://careers.datadoghq.com/detail/7184953/?gh_jid=7184953) |
-| Aug 25, 2025 | [Summer 2026] Software Engineer Intern | roblox | {'name': 'San Mateo, CA, United States'} | [Apply](https://careers.roblox.com/jobs/7114765?gh_jid=7114765) |
-| Aug 27, 2025 | Senior Software Engineer - Windows system internals | datadog | {'name': 'Lisbon, Portugal'} | [Apply](https://careers.datadoghq.com/detail/6841346/?gh_jid=6841346) |
-| Aug 27, 2025 | Senior Software Engineer - macOS System internals | datadog | {'name': 'Lisbon, Portugal'} | [Apply](https://careers.datadoghq.com/detail/7116235/?gh_jid=7116235) |
-| Aug 28, 2025 | Senior Software Engineer - Internal Service Platform | datadog | {'name': 'Paris, France'} | [Apply](https://careers.datadoghq.com/detail/6370445/?gh_jid=6370445) |
-| Aug 28, 2025 | Product Research Intern (2026) | figma | {'name': 'San Francisco, CA'} | [Apply](https://boards.greenhouse.io/figma/jobs/5617444004?gh_jid=5617444004) |
-| Aug 29, 2025 | International Leaves and Accommodations Administrator | asana | {'name': 'Warsaw'} | [Apply](https://www.asana.com/jobs/apply/7089716?gh_jid=7089716) |
-| Sep 02, 2025 | Senior Product Designer - Internal Tools | datadog | {'name': 'New York, New York, USA'} | [Apply](https://careers.datadoghq.com/detail/6871675/?gh_jid=6871675) |
+| date_human | title | company | location | apply |
+|------|------|------|------|------|
+| Sep 22, 2025 | Software Engineering Intern | datadog | Madrid, Spain | [Apply](https://careers.datadoghq.com/detail/7158112/?gh_jid=7158112) |
+| Sep 22, 2025 | Software Engineering Intern | datadog | Paris, France | [Apply](https://careers.datadoghq.com/detail/7158118/?gh_jid=7158118) |
+| Sep 19, 2025 | [Summer 2026 Canada] Software Engineer Intern | roblox | Vancouver, British Columbia, Canada | [Apply](https://careers.roblox.com/jobs/7206219?gh_jid=7206219) |
+| Sep 17, 2025 | Senior Internal Auditor | datadog | New York, New York, USA | [Apply](https://careers.datadoghq.com/detail/6993745/?gh_jid=6993745) |
+| Sep 17, 2025 | Operations Intern | brex | São Paulo, São Paulo, Brazil | [Apply](https://www.brex.com/careers/8172520002?gh_jid=8172520002) |
+| Sep 17, 2025 | Internal Audit IT Analyst | coinbase | Remote - USA | [Apply](https://www.coinbase.com/careers/positions/7255828?gh_jid=7255828) |
+| Sep 16, 2025 | Governance Risk and Compliance, Intern | brex | São Paulo, São Paulo, Brazil | [Apply](https://www.brex.com/careers/8121844002?gh_jid=8121844002) |
+| Sep 15, 2025 | [Summer 2026] Product Management Intern | roblox | San Mateo, CA, United States | [Apply](https://careers.roblox.com/jobs/7167598?gh_jid=7167598) |
+| Sep 12, 2025 | Senior Internal Communications Manager | coinbase | Remote - USA | [Apply](https://www.coinbase.com/careers/positions/7107185?gh_jid=7107185) |
+| Sep 12, 2025 | Product Management Intern | datadog | Paris, France | [Apply](https://careers.datadoghq.com/detail/7158105/?gh_jid=7158105) |
+| Sep 12, 2025 | Manager I, Engineering - Internal Services Platform: Workloads & Integrations | datadog | Lisbon, Portugal | [Apply](https://careers.datadoghq.com/detail/7137278/?gh_jid=7137278) |
+| Sep 12, 2025 | International Policy Manager | coinbase | Remote - UK | [Apply](https://www.coinbase.com/careers/positions/7215736?gh_jid=7215736) |
+| Sep 12, 2025 | Internal Audit Lead | asana | San Francisco | [Apply](https://www.asana.com/jobs/apply/7211201?gh_jid=7211201) |
+| Sep 11, 2025 | IT Internal Audit Analytics Senior Associate | coinbase | Remote - USA | [Apply](https://www.coinbase.com/careers/positions/7227279?gh_jid=7227279) |
+| Sep 11, 2025 | Applied Science Intern | datadog | Paris, France | [Apply](https://careers.datadoghq.com/detail/7158100/?gh_jid=7158100) |
+| Sep 10, 2025 | Internal Audit - SOX Senior Manager | coinbase | Remote - USA | [Apply](https://www.coinbase.com/careers/positions/6953339?gh_jid=6953339) |
+| Sep 08, 2025 | Software Engineering Intern (Summer) | datadog | Boston, Massachusetts, USA; New York, New York, USA | [Apply](https://careers.datadoghq.com/detail/7158137/?gh_jid=7158137) |
+| Sep 08, 2025 | Software Engineer Intern, Developer Tools (2026) (London, United Kingdom) | figma | London, England | [Apply](https://boards.greenhouse.io/figma/jobs/5621177004?gh_jid=5621177004) |
+| Sep 08, 2025 | Product Management Intern | datadog | New York, New York, USA | [Apply](https://careers.datadoghq.com/detail/7127832/?gh_jid=7127832) |
+| Sep 08, 2025 | PhD Intern, Software Engineer - Graphics (2026) | figma | San Francisco, CA • New York, NY | [Apply](https://boards.greenhouse.io/figma/jobs/5609067004?gh_jid=5609067004) |
+| Sep 08, 2025 | PhD Intern, Security Engineer (2026) | figma | San Francisco, CA • New York, NY | [Apply](https://boards.greenhouse.io/figma/jobs/5611154004?gh_jid=5611154004) |
+| Sep 08, 2025 | PhD Intern, AI Applied Scientist (2026) | figma | San Francisco, CA • New York, NY | [Apply](https://boards.greenhouse.io/figma/jobs/5598934004?gh_jid=5598934004) |
+| Sep 05, 2025 | Engineering Manager - Internal Developer Experience | discord | San Francisco Bay Area | [Apply](https://job-boards.greenhouse.io/discord/jobs/8150540002) |
+| Sep 03, 2025 | Senior Security Engineer, Internal Trust | datadog | New York, New York, USA | [Apply](https://careers.datadoghq.com/detail/6574046/?gh_jid=6574046) |
+| Sep 02, 2025 | Senior Product Designer - Internal Tools | datadog | New York, New York, USA | [Apply](https://careers.datadoghq.com/detail/6871675/?gh_jid=6871675) |
 
-➡️ [View All Internships (CSV)](data/internships.csv) | [View All Internships (JSON)](data/internships.json)
-
+➡️ [Internships (CSV)](data/internships.csv) | [Internships (JSON)](data/internships.json)
 
 ## 🏢 Full-Time Opportunities (Auto-updated)
 
-| Date | Title | Company | Location | Apply |
-|------|-------|---------|----------|-------|
-| Jul 16, 2025 | Senior Product Designer, Core Product | discord | {'name': 'San Francisco Bay Area'} | [Apply](https://job-boards.greenhouse.io/discord/jobs/8024582002) |
-| Jul 16, 2025 | Staff Software Engineer, Audio/Video Infrastructure | discord | {'name': 'San Francisco Bay Area'} | [Apply](https://job-boards.greenhouse.io/discord/jobs/7953473002) |
-| Jul 18, 2025 | Senior Engineering Manager, Client Platforms | discord | {'name': 'San Francisco Bay Area'} | [Apply](https://job-boards.greenhouse.io/discord/jobs/8045535002) |
-| Jul 18, 2025 | Senior Staff Software Engineer, Client Platform | discord | {'name': 'San Francisco Bay Area'} | [Apply](https://job-boards.greenhouse.io/discord/jobs/7803984002) |
-| Jul 21, 2025 | Account Executive, Enterprise | figma | {'name': 'San Francisco, CA • New York, NY • United States'} | [Apply](https://boards.greenhouse.io/figma/jobs/5426468004?gh_jid=5426468004) |
-| Jul 21, 2025 | Account Executive, Enterprise (London, United Kingdom) | figma | {'name': 'London, England'} | [Apply](https://boards.greenhouse.io/figma/jobs/5458801004?gh_jid=5458801004) |
-| Jul 21, 2025 | Account Executive, Enterprise (Paris, France) | figma | {'name': 'Paris, France'} | [Apply](https://boards.greenhouse.io/figma/jobs/5428656004?gh_jid=5428656004) |
-| Jul 21, 2025 | Account Executive, Enterprise - Public Sector (Sydney, Australia) | figma | {'name': 'Sydney, Australia'} | [Apply](https://boards.greenhouse.io/figma/jobs/5567678004?gh_jid=5567678004) |
-| Jul 21, 2025 | Account Executive, Mid-Market | figma | {'name': 'San Francisco, CA • New York, NY • United States'} | [Apply](https://boards.greenhouse.io/figma/jobs/5422236004?gh_jid=5422236004) |
-| Jul 21, 2025 | Account Executive, Mid-Market (London, United Kingdom) | figma | {'name': 'London, England'} | [Apply](https://boards.greenhouse.io/figma/jobs/5415515004?gh_jid=5415515004) |
-| Jul 21, 2025 | Account Executive, SMB | figma | {'name': 'San Francisco, CA • New York, NY • United States'} | [Apply](https://boards.greenhouse.io/figma/jobs/5565447004?gh_jid=5565447004) |
-| Jul 21, 2025 | Account Executive, Strategic | figma | {'name': 'San Francisco, CA • New York, NY • United States'} | [Apply](https://boards.greenhouse.io/figma/jobs/5558737004?gh_jid=5558737004) |
-| Jul 21, 2025 | Account Executive, Strategic (Paris, France) | figma | {'name': 'Paris, France'} | [Apply](https://boards.greenhouse.io/figma/jobs/5565921004?gh_jid=5565921004) |
-| Jul 21, 2025 | Brand Marketing Strategist | figma | {'name': 'San Francisco, CA • New York, NY • United States'} | [Apply](https://boards.greenhouse.io/figma/jobs/5576030004?gh_jid=5576030004) |
-| Jul 21, 2025 | Content Strategist, Product | figma | {'name': 'San Francisco, CA • New York, NY • United States'} | [Apply](https://boards.greenhouse.io/figma/jobs/5546257004?gh_jid=5546257004) |
-| Jul 21, 2025 | Customer Enablement Manager (Tokyo, Japan) | figma | {'name': 'Tokyo, Japan'} | [Apply](https://boards.greenhouse.io/figma/jobs/5552495004?gh_jid=5552495004) |
-| Jul 21, 2025 | Data Scientist | figma | {'name': 'San Francisco, CA • New York, NY • United States'} | [Apply](https://boards.greenhouse.io/figma/jobs/5552580004?gh_jid=5552580004) |
-| Jul 21, 2025 | Director, Sales Content & Solutions | figma | {'name': 'San Francisco, CA • New York, NY • United States'} | [Apply](https://boards.greenhouse.io/figma/jobs/5575736004?gh_jid=5575736004) |
-| Jul 21, 2025 | Director, Sales Development | figma | {'name': 'San Francisco, CA • New York, NY'} | [Apply](https://boards.greenhouse.io/figma/jobs/5565436004?gh_jid=5565436004) |
-| Jul 21, 2025 | Director, Software Engineering - Growth | figma | {'name': 'San Francisco, CA • New York, NY • United States'} | [Apply](https://boards.greenhouse.io/figma/jobs/5579903004?gh_jid=5579903004) |
+| date_human | title | company | location | apply |
+|------|------|------|------|------|
+| Sep 23, 2025 | Software Engineer, Application Security | coinbase | Remote - USA | [Apply](https://www.coinbase.com/careers/positions/6863924?gh_jid=6863924) |
+| Sep 23, 2025 | Head of Events | brex | Seattle, Washington, United States | [Apply](https://www.brex.com/careers/8181497002?gh_jid=8181497002) |
+| Sep 23, 2025 | Head of Events | brex | San Francisco, California, United States | [Apply](https://www.brex.com/careers/8181493002?gh_jid=8181493002) |
+| Sep 23, 2025 | Head of Events | brex | New York, New York, United States | [Apply](https://www.brex.com/careers/8181496002?gh_jid=8181496002) |
+| Sep 22, 2025 | Workplace Programs Lead | brex | New York, New York, United States | [Apply](https://www.brex.com/careers/8178247002?gh_jid=8178247002) |
+| Sep 22, 2025 | Workplace Lead | asana | Vancouver, BC | [Apply](https://www.asana.com/jobs/apply/6976256?gh_jid=6976256) |
+| Sep 22, 2025 | Workplace Design Program Manager | coinbase | Remote - USA | [Apply](https://www.coinbase.com/careers/positions/7258709?gh_jid=7258709) |
+| Sep 22, 2025 | Visual Designer, Contract | datadog | New York, New York, USA | [Apply](https://careers.datadoghq.com/detail/7263543/?gh_jid=7263543) |
+| Sep 22, 2025 | Strategic Program Manager, Global Public Affairs | roblox | San Mateo, CA, United States | [Apply](https://careers.roblox.com/jobs/7259111?gh_jid=7259111) |
+| Sep 22, 2025 | Strategic Finance Associate - NYC | datadog | New York, New York, USA | [Apply](https://careers.datadoghq.com/detail/7262906/?gh_jid=7262906) |
+| Sep 22, 2025 | Staff Software Engineer, Trading | coinbase | Remote - Singapore | [Apply](https://www.coinbase.com/careers/positions/7010523?gh_jid=7010523) |
+| Sep 22, 2025 | Staff Software Engineer, Platform Security | discord | San Francisco Bay Area | [Apply](https://job-boards.greenhouse.io/discord/jobs/8177912002) |
+| Sep 22, 2025 | Software Engineer, Backend - DevX | coinbase | Remote - USA | [Apply](https://www.coinbase.com/careers/positions/6981984?gh_jid=6981984) |
+| Sep 22, 2025 | Senior/Principal Machine Learning Engineer - Core AI | roblox | San Mateo, CA, United States | [Apply](https://careers.roblox.com/jobs/7246965?gh_jid=7246965) |
+| Sep 22, 2025 | Senior Technical Program Manager, Creator | roblox | San Mateo, CA, United States | [Apply](https://careers.roblox.com/jobs/7254934?gh_jid=7254934) |
+| Sep 22, 2025 | Senior Staff Software Engineer, Backend (Platform - FinHub) | coinbase | Remote - USA | [Apply](https://www.coinbase.com/careers/positions/6485609?gh_jid=6485609) |
+| Sep 22, 2025 | Senior Software Engineer - Threat Intelligence & Detection Experiences (TIDEx) | datadog | New York, New York, USA | [Apply](https://careers.datadoghq.com/detail/7264409/?gh_jid=7264409) |
+| Sep 22, 2025 | Senior Software Engineer - Engine UI  | roblox | San Mateo, CA, United States | [Apply](https://careers.roblox.com/jobs/7260757?gh_jid=7260757) |
+| Sep 22, 2025 | Senior Manager, Education Policy | roblox | United Kingdom | [Apply](https://careers.roblox.com/jobs/7260973?gh_jid=7260973) |
+| Sep 22, 2025 | Senior Manager of Policy Communications  | roblox | San Mateo, CA, United States | [Apply](https://careers.roblox.com/jobs/7263286?gh_jid=7263286) |
+| Sep 22, 2025 | Senior Machine Learning - Core AI | roblox | San Mateo, CA, United States | [Apply](https://careers.roblox.com/jobs/7249513?gh_jid=7249513) |
+| Sep 22, 2025 | Senior Financial Analyst, FP&A | coinbase | Remote - USA | [Apply](https://www.coinbase.com/careers/positions/7253510?gh_jid=7253510) |
+| Sep 22, 2025 | Senior Data Science Manager, Core Product | discord | San Francisco Bay Area | [Apply](https://job-boards.greenhouse.io/discord/jobs/8174003002) |
+| Sep 22, 2025 | Senior Data Engineer | roblox | Gurugram, Haryana, India | [Apply](https://careers.roblox.com/jobs/7142522?gh_jid=7142522) |
+| Sep 22, 2025 | Senior Associate, Broker Dealer Operations  | coinbase | Remote - USA | [Apply](https://www.coinbase.com/careers/positions/7255834?gh_jid=7255834) |
 
-➡️ [View All Full-Time (CSV)](data/fulltime.csv) | [View All Full-Time (JSON)](data/fulltime.json)
+➡️ [Full-Time (CSV)](data/fulltime.csv) | [Full-Time (JSON)](data/fulltime.json)
