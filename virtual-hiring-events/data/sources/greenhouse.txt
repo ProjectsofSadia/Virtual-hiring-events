@@ -1,5 +1,0 @@
-# One Greenhouse subdomain per line (lines starting with # are ignored)
-# Example: (these are company board subdomains on greenhouse.io)
-openai
-stripe
-datadog
