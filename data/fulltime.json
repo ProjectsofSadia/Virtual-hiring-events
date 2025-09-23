@@ -742,9 +742,9 @@
     "title": "Associate Manager, Compliance",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Ireland"
+      "name": "Charlotte, NC"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6986290?gh_jid=6986290",
+    "apply_url": "https://www.coinbase.com/careers/positions/6675509?gh_jid=6675509",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -764,9 +764,9 @@
     "title": "Associate Manager, Compliance",
     "company": "coinbase",
     "location": {
-      "name": "Charlotte, NC"
+      "name": "Remote - Ireland"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6675509?gh_jid=6675509",
+    "apply_url": "https://www.coinbase.com/careers/positions/6986290?gh_jid=6986290",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -907,6 +907,17 @@
     "title": "Principal Software Engineer, Backend - Platform",
     "company": "coinbase",
     "location": {
+      "name": "Remote - India"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/6821476?gh_jid=6821476",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-08-05",
+    "date_human": "Aug 05, 2025",
+    "title": "Principal Software Engineer, Backend - Platform",
+    "company": "coinbase",
+    "location": {
       "name": "Remote - USA"
     },
     "apply_url": "https://www.coinbase.com/careers/positions/6710135?gh_jid=6710135",
@@ -921,17 +932,6 @@
       "name": "Remote - Canada"
     },
     "apply_url": "https://www.coinbase.com/careers/positions/6710137?gh_jid=6710137",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-08-05",
-    "date_human": "Aug 05, 2025",
-    "title": "Principal Software Engineer, Backend - Platform",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - India"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/6821476?gh_jid=6821476",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -1083,17 +1083,6 @@
     "title": "Senior Software Engineer, Backend (Blockchain Platform)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Canada"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/7059328?gh_jid=7059328",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-08-05",
-    "date_human": "Aug 05, 2025",
-    "title": "Senior Software Engineer, Backend (Blockchain Platform)",
-    "company": "coinbase",
-    "location": {
       "name": "Remote - USA"
     },
     "apply_url": "https://www.coinbase.com/careers/positions/7059327?gh_jid=7059327",
@@ -1102,12 +1091,12 @@
   {
     "date_iso": "2025-08-05",
     "date_human": "Aug 05, 2025",
-    "title": "Senior Software Engineer, Backend (Consumer - Growth)",
+    "title": "Senior Software Engineer, Backend (Blockchain Platform)",
     "company": "coinbase",
     "location": {
       "name": "Remote - Canada"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6650938?gh_jid=6650938",
+    "apply_url": "https://www.coinbase.com/careers/positions/7059328?gh_jid=7059328",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -1119,6 +1108,17 @@
       "name": "Remote - USA"
     },
     "apply_url": "https://www.coinbase.com/careers/positions/6650932?gh_jid=6650932",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-08-05",
+    "date_human": "Aug 05, 2025",
+    "title": "Senior Software Engineer, Backend (Consumer - Growth)",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - Canada"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/6650938?gh_jid=6650938",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -1259,17 +1259,6 @@
     "title": "Senior Software Engineer, Infrastructure (Platform - Datastores)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - USA"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/6196407?gh_jid=6196407",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-08-05",
-    "date_human": "Aug 05, 2025",
-    "title": "Senior Software Engineer, Infrastructure (Platform - Datastores)",
-    "company": "coinbase",
-    "location": {
       "name": "Remote - Canada"
     },
     "apply_url": "https://www.coinbase.com/careers/positions/6196410?gh_jid=6196410",
@@ -1278,12 +1267,12 @@
   {
     "date_iso": "2025-08-05",
     "date_human": "Aug 05, 2025",
-    "title": "Senior Software Engineer, Infrastructure (Platform)",
+    "title": "Senior Software Engineer, Infrastructure (Platform - Datastores)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Canada"
+      "name": "Remote - USA"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6206391?gh_jid=6206391",
+    "apply_url": "https://www.coinbase.com/careers/positions/6196407?gh_jid=6196407",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -1295,6 +1284,17 @@
       "name": "Remote - USA"
     },
     "apply_url": "https://www.coinbase.com/careers/positions/6206378?gh_jid=6206378",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-08-05",
+    "date_human": "Aug 05, 2025",
+    "title": "Senior Software Engineer, Infrastructure (Platform)",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - Canada"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/6206391?gh_jid=6206391",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -1369,9 +1369,9 @@
     "title": "Software Engineer, Backend  (Consumer - Trading)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Canada"
+      "name": "Remote - USA"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6869392?gh_jid=6869392",
+    "apply_url": "https://www.coinbase.com/careers/positions/6812261?gh_jid=6812261",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -1380,9 +1380,9 @@
     "title": "Software Engineer, Backend  (Consumer - Trading)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - USA"
+      "name": "Remote - Canada"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6812261?gh_jid=6812261",
+    "apply_url": "https://www.coinbase.com/careers/positions/6869392?gh_jid=6869392",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -1611,9 +1611,9 @@
     "title": "Staff Software Engineer, Backend (Consumer - Growth)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - USA"
+      "name": "Remote - Canada"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6650942?gh_jid=6650942",
+    "apply_url": "https://www.coinbase.com/careers/positions/6650948?gh_jid=6650948",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -1622,9 +1622,9 @@
     "title": "Staff Software Engineer, Backend (Consumer - Growth)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Canada"
+      "name": "Remote - USA"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6650948?gh_jid=6650948",
+    "apply_url": "https://www.coinbase.com/careers/positions/6650942?gh_jid=6650942",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -1710,9 +1710,9 @@
     "title": "TMS Compliance Analyst 4",
     "company": "coinbase",
     "location": {
-      "name": "Remote - UK"
+      "name": "Remote - Ireland"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/7078159?gh_jid=7078159",
+    "apply_url": "https://www.coinbase.com/careers/positions/7078204?gh_jid=7078204",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -1721,9 +1721,9 @@
     "title": "TMS Compliance Analyst 4",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Ireland"
+      "name": "Remote - UK"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/7078204?gh_jid=7078204",
+    "apply_url": "https://www.coinbase.com/careers/positions/7078159?gh_jid=7078159",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -2603,7 +2603,7 @@
     "location": {
       "name": "San Mateo, CA, United States"
     },
-    "apply_url": "https://careers.roblox.com/jobs/6936474?gh_jid=6936474",
+    "apply_url": "https://careers.roblox.com/jobs/7114347?gh_jid=7114347",
     "source": "Greenhouse:roblox"
   },
   {
@@ -2614,7 +2614,7 @@
     "location": {
       "name": "San Mateo, CA, United States"
     },
-    "apply_url": "https://careers.roblox.com/jobs/7114347?gh_jid=7114347",
+    "apply_url": "https://careers.roblox.com/jobs/6936474?gh_jid=6936474",
     "source": "Greenhouse:roblox"
   },
   {
@@ -2917,17 +2917,6 @@
   {
     "date_iso": "2025-08-13",
     "date_human": "Aug 13, 2025",
-    "title": "Supply Chain Manager - Server Hardware",
-    "company": "roblox",
-    "location": {
-      "name": "San Mateo, CA, United States"
-    },
-    "apply_url": "https://careers.roblox.com/jobs/6983045?gh_jid=6983045",
-    "source": "Greenhouse:roblox"
-  },
-  {
-    "date_iso": "2025-08-13",
-    "date_human": "Aug 13, 2025",
     "title": "Traffic Engineering Manager",
     "company": "roblox",
     "location": {
@@ -3041,9 +3030,9 @@
     "title": "Senior Software Engineer, Backend (Platform)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - USA"
+      "name": "Remote - Canada"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/5948179?gh_jid=5948179",
+    "apply_url": "https://www.coinbase.com/careers/positions/5963372?gh_jid=5963372",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -3052,9 +3041,9 @@
     "title": "Senior Software Engineer, Backend (Platform)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Canada"
+      "name": "Remote - USA"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/5963372?gh_jid=5963372",
+    "apply_url": "https://www.coinbase.com/careers/positions/5948179?gh_jid=5948179",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -3481,9 +3470,9 @@
     "title": "Manager, EMEA Security Program Management",
     "company": "coinbase",
     "location": {
-      "name": "Remote - UK"
+      "name": "Remote - Ireland"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/7076823?gh_jid=7076823",
+    "apply_url": "https://www.coinbase.com/careers/positions/6757034?gh_jid=6757034",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -3492,9 +3481,9 @@
     "title": "Manager, EMEA Security Program Management",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Ireland"
+      "name": "Remote - UK"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6757034?gh_jid=6757034",
+    "apply_url": "https://www.coinbase.com/careers/positions/7076823?gh_jid=7076823",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -3558,9 +3547,9 @@
     "title": "Senior Engineering Manager, Finance Analytics",
     "company": "coinbase",
     "location": {
-      "name": "Remote - USA"
+      "name": "Remote - Canada"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6741679?gh_jid=6741679",
+    "apply_url": "https://www.coinbase.com/careers/positions/6741675?gh_jid=6741675",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -3569,9 +3558,9 @@
     "title": "Senior Engineering Manager, Finance Analytics",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Canada"
+      "name": "Remote - USA"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6741675?gh_jid=6741675",
+    "apply_url": "https://www.coinbase.com/careers/positions/6741679?gh_jid=6741679",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -4171,17 +4160,6 @@
   {
     "date_iso": "2025-08-25",
     "date_human": "Aug 25, 2025",
-    "title": "Solutions Consultant DACH",
-    "company": "asana",
-    "location": {
-      "name": "Munich"
-    },
-    "apply_url": "https://www.asana.com/jobs/apply/6859364?gh_jid=6859364",
-    "source": "Greenhouse:asana"
-  },
-  {
-    "date_iso": "2025-08-25",
-    "date_human": "Aug 25, 2025",
     "title": "Solutions Engineer",
     "company": "asana",
     "location": {
@@ -4218,17 +4196,6 @@
     "title": "Commercial Account Executive",
     "company": "datadog",
     "location": {
-      "name": "Bangalore, India"
-    },
-    "apply_url": "https://careers.datadoghq.com/detail/6512321/?gh_jid=6512321",
-    "source": "Greenhouse:datadog"
-  },
-  {
-    "date_iso": "2025-08-25",
-    "date_human": "Aug 25, 2025",
-    "title": "Commercial Account Executive",
-    "company": "datadog",
-    "location": {
       "name": "Denver, Colorado, USA"
     },
     "apply_url": "https://careers.datadoghq.com/detail/1694375/?gh_jid=1694375",
@@ -4243,6 +4210,17 @@
       "name": "Tokyo, Japan"
     },
     "apply_url": "https://careers.datadoghq.com/detail/6009777/?gh_jid=6009777",
+    "source": "Greenhouse:datadog"
+  },
+  {
+    "date_iso": "2025-08-25",
+    "date_human": "Aug 25, 2025",
+    "title": "Commercial Account Executive",
+    "company": "datadog",
+    "location": {
+      "name": "Bangalore, India"
+    },
+    "apply_url": "https://careers.datadoghq.com/detail/6512321/?gh_jid=6512321",
     "source": "Greenhouse:datadog"
   },
   {
@@ -4385,17 +4363,6 @@
     "location": {
       "name": "Tokyo, Japan"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6009779/?gh_jid=6009779",
-    "source": "Greenhouse:datadog"
-  },
-  {
-    "date_iso": "2025-08-25",
-    "date_human": "Aug 25, 2025",
-    "title": "Customer Success Associate",
-    "company": "datadog",
-    "location": {
-      "name": "Tokyo, Japan"
-    },
     "apply_url": "https://careers.datadoghq.com/detail/5486716/?gh_jid=5486716",
     "source": "Greenhouse:datadog"
   },
@@ -4408,6 +4375,17 @@
       "name": "Sydney, Australia"
     },
     "apply_url": "https://careers.datadoghq.com/detail/6989535/?gh_jid=6989535",
+    "source": "Greenhouse:datadog"
+  },
+  {
+    "date_iso": "2025-08-25",
+    "date_human": "Aug 25, 2025",
+    "title": "Customer Success Associate",
+    "company": "datadog",
+    "location": {
+      "name": "Tokyo, Japan"
+    },
+    "apply_url": "https://careers.datadoghq.com/detail/6009779/?gh_jid=6009779",
     "source": "Greenhouse:datadog"
   },
   {
@@ -4460,9 +4438,9 @@
     "title": "Director, Enterprise Security Sales",
     "company": "datadog",
     "location": {
-      "name": "Chicago, Illinois, USA; San Francisco, California, USA"
+      "name": "Boston, Massachusetts, USA; New York, New York, USA"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7129430/?gh_jid=7129430",
+    "apply_url": "https://careers.datadoghq.com/detail/7129436/?gh_jid=7129436",
     "source": "Greenhouse:datadog"
   },
   {
@@ -4471,9 +4449,9 @@
     "title": "Director, Enterprise Security Sales",
     "company": "datadog",
     "location": {
-      "name": "Boston, Massachusetts, USA; New York, New York, USA"
+      "name": "Chicago, Illinois, USA; San Francisco, California, USA"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7129436/?gh_jid=7129436",
+    "apply_url": "https://careers.datadoghq.com/detail/7129430/?gh_jid=7129430",
     "source": "Greenhouse:datadog"
   },
   {
@@ -4515,9 +4493,9 @@
     "title": "Enterprise Security Sales Specialist",
     "company": "datadog",
     "location": {
-      "name": "Texas, USA, Remote"
+      "name": "Florida, USA, Remote; Georgia, USA, Remote"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7132867/?gh_jid=7132867",
+    "apply_url": "https://careers.datadoghq.com/detail/7132132/?gh_jid=7132132",
     "source": "Greenhouse:datadog"
   },
   {
@@ -4537,9 +4515,9 @@
     "title": "Enterprise Security Sales Specialist",
     "company": "datadog",
     "location": {
-      "name": "Florida, USA, Remote; Georgia, USA, Remote"
+      "name": "Texas, USA, Remote"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7132132/?gh_jid=7132132",
+    "apply_url": "https://careers.datadoghq.com/detail/7132867/?gh_jid=7132867",
     "source": "Greenhouse:datadog"
   },
   {
@@ -4581,9 +4559,9 @@
     "title": "Head of APJ Sales Engineering (Commercial & Mid-Market)",
     "company": "datadog",
     "location": {
-      "name": "Singapore, Singapore"
+      "name": "Sydney, Australia"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7109311/?gh_jid=7109311",
+    "apply_url": "https://careers.datadoghq.com/detail/7110107/?gh_jid=7110107",
     "source": "Greenhouse:datadog"
   },
   {
@@ -4592,9 +4570,9 @@
     "title": "Head of APJ Sales Engineering (Commercial & Mid-Market)",
     "company": "datadog",
     "location": {
-      "name": "Sydney, Australia"
+      "name": "Singapore, Singapore"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7110107/?gh_jid=7110107",
+    "apply_url": "https://careers.datadoghq.com/detail/7109311/?gh_jid=7109311",
     "source": "Greenhouse:datadog"
   },
   {
@@ -4713,6 +4691,17 @@
     "title": "Partner Solutions Architect",
     "company": "datadog",
     "location": {
+      "name": "Tokyo, Japan"
+    },
+    "apply_url": "https://careers.datadoghq.com/detail/6603606/?gh_jid=6603606",
+    "source": "Greenhouse:datadog"
+  },
+  {
+    "date_iso": "2025-08-25",
+    "date_human": "Aug 25, 2025",
+    "title": "Partner Solutions Architect",
+    "company": "datadog",
+    "location": {
       "name": "Jakarta, Indonesia"
     },
     "apply_url": "https://careers.datadoghq.com/detail/6737937/?gh_jid=6737937",
@@ -4727,17 +4716,6 @@
       "name": "Tokyo, Japan"
     },
     "apply_url": "https://careers.datadoghq.com/detail/6359712/?gh_jid=6359712",
-    "source": "Greenhouse:datadog"
-  },
-  {
-    "date_iso": "2025-08-25",
-    "date_human": "Aug 25, 2025",
-    "title": "Partner Solutions Architect",
-    "company": "datadog",
-    "location": {
-      "name": "Tokyo, Japan"
-    },
-    "apply_url": "https://careers.datadoghq.com/detail/6603606/?gh_jid=6603606",
     "source": "Greenhouse:datadog"
   },
   {
@@ -4823,9 +4801,9 @@
     "title": "Senior Partner Manager - Channels",
     "company": "datadog",
     "location": {
-      "name": "Mexico, Remote"
+      "name": "Mexico City, Mexico"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7090712/?gh_jid=7090712",
+    "apply_url": "https://careers.datadoghq.com/detail/7081693/?gh_jid=7081693",
     "source": "Greenhouse:datadog"
   },
   {
@@ -4834,9 +4812,9 @@
     "title": "Senior Partner Manager - Channels",
     "company": "datadog",
     "location": {
-      "name": "Mexico City, Mexico"
+      "name": "Mexico, Remote"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7081693/?gh_jid=7081693",
+    "apply_url": "https://careers.datadoghq.com/detail/7090712/?gh_jid=7090712",
     "source": "Greenhouse:datadog"
   },
   {
@@ -5098,9 +5076,9 @@
     "title": "Senior Recruiter, Tech Recruiting",
     "company": "datadog",
     "location": {
-      "name": "Madrid, Spain; Paris, France"
+      "name": "Lisbon, Portugal"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7089557/?gh_jid=7089557",
+    "apply_url": "https://careers.datadoghq.com/detail/7105200/?gh_jid=7105200",
     "source": "Greenhouse:datadog"
   },
   {
@@ -5109,9 +5087,9 @@
     "title": "Senior Recruiter, Tech Recruiting",
     "company": "datadog",
     "location": {
-      "name": "Lisbon, Portugal"
+      "name": "Madrid, Spain; Paris, France"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7105200/?gh_jid=7105200",
+    "apply_url": "https://careers.datadoghq.com/detail/7089557/?gh_jid=7089557",
     "source": "Greenhouse:datadog"
   },
   {
@@ -5705,7 +5683,7 @@
     "location": {
       "name": "Tokyo, Japan"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7188438/?gh_jid=7188438",
+    "apply_url": "https://careers.datadoghq.com/detail/7186546/?gh_jid=7186546",
     "source": "Greenhouse:datadog"
   },
   {
@@ -5716,7 +5694,7 @@
     "location": {
       "name": "Tokyo, Japan"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7186546/?gh_jid=7186546",
+    "apply_url": "https://careers.datadoghq.com/detail/7188438/?gh_jid=7188438",
     "source": "Greenhouse:datadog"
   },
   {
@@ -5747,20 +5725,9 @@
     "title": "Senior Library Software Engineer - Rust",
     "company": "datadog",
     "location": {
-      "name": "Berlin, Germany; Dublin, Ireland; Madrid, Spain; Paris, France; Rome, Italy; Schwyz, Switzerland; Stockholm, Sweden"
+      "name": "Lisbon, Portugal"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7192897/?gh_jid=7192897",
-    "source": "Greenhouse:datadog"
-  },
-  {
-    "date_iso": "2025-08-28",
-    "date_human": "Aug 28, 2025",
-    "title": "Senior Library Software Engineer - Rust",
-    "company": "datadog",
-    "location": {
-      "name": "France, Remote; Germany, Remote; Ireland, Remote; Italy, Remote; Spain, Remote; Sweden, Remote; Switzerland, Remote"
-    },
-    "apply_url": "https://careers.datadoghq.com/detail/7193917/?gh_jid=7193917",
+    "apply_url": "https://careers.datadoghq.com/detail/7193942/?gh_jid=7193942",
     "source": "Greenhouse:datadog"
   },
   {
@@ -5780,9 +5747,20 @@
     "title": "Senior Library Software Engineer - Rust",
     "company": "datadog",
     "location": {
-      "name": "Lisbon, Portugal"
+      "name": "Berlin, Germany; Dublin, Ireland; Madrid, Spain; Paris, France; Rome, Italy; Schwyz, Switzerland; Stockholm, Sweden"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7193942/?gh_jid=7193942",
+    "apply_url": "https://careers.datadoghq.com/detail/7192897/?gh_jid=7192897",
+    "source": "Greenhouse:datadog"
+  },
+  {
+    "date_iso": "2025-08-28",
+    "date_human": "Aug 28, 2025",
+    "title": "Senior Library Software Engineer - Rust",
+    "company": "datadog",
+    "location": {
+      "name": "France, Remote; Germany, Remote; Ireland, Remote; Italy, Remote; Spain, Remote; Sweden, Remote; Switzerland, Remote"
+    },
+    "apply_url": "https://careers.datadoghq.com/detail/7193917/?gh_jid=7193917",
     "source": "Greenhouse:datadog"
   },
   {
@@ -6382,17 +6360,6 @@
   {
     "date_iso": "2025-08-29",
     "date_human": "Aug 29, 2025",
-    "title": "Enterprise Customer Success Manager - Dublin (German Speaking)",
-    "company": "datadog",
-    "location": {
-      "name": "Dublin, Ireland"
-    },
-    "apply_url": "https://careers.datadoghq.com/detail/7120713/?gh_jid=7120713",
-    "source": "Greenhouse:datadog"
-  },
-  {
-    "date_iso": "2025-08-29",
-    "date_human": "Aug 29, 2025",
     "title": "Enterprise Sales Engineer",
     "company": "datadog",
     "location": {
@@ -6407,9 +6374,9 @@
     "title": "Enterprise Sales Engineer (Bahasa Indonesia speaking)",
     "company": "datadog",
     "location": {
-      "name": "Singapore, Singapore"
+      "name": "Jakarta, Indonesia"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6832925/?gh_jid=6832925",
+    "apply_url": "https://careers.datadoghq.com/detail/6831903/?gh_jid=6831903",
     "source": "Greenhouse:datadog"
   },
   {
@@ -6418,9 +6385,9 @@
     "title": "Enterprise Sales Engineer (Bahasa Indonesia speaking)",
     "company": "datadog",
     "location": {
-      "name": "Jakarta, Indonesia"
+      "name": "Singapore, Singapore"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6831903/?gh_jid=6831903",
+    "apply_url": "https://careers.datadoghq.com/detail/6832925/?gh_jid=6832925",
     "source": "Greenhouse:datadog"
   },
   {
@@ -6465,17 +6432,6 @@
       "name": "New York, New York, USA"
     },
     "apply_url": "https://careers.datadoghq.com/detail/6679282/?gh_jid=6679282",
-    "source": "Greenhouse:datadog"
-  },
-  {
-    "date_iso": "2025-08-29",
-    "date_human": "Aug 29, 2025",
-    "title": "Senior Enterprise Sales Engineer (Majors Accounts)",
-    "company": "datadog",
-    "location": {
-      "name": "California, USA, Remote"
-    },
-    "apply_url": "https://careers.datadoghq.com/detail/6941210/?gh_jid=6941210",
     "source": "Greenhouse:datadog"
   },
   {
@@ -6968,9 +6924,9 @@
     "title": "Enterprise Sales Engineer",
     "company": "datadog",
     "location": {
-      "name": "Sydney, Australia"
+      "name": "Seoul, South Korea"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6925284/?gh_jid=6925284",
+    "apply_url": "https://careers.datadoghq.com/detail/6937124/?gh_jid=6937124",
     "source": "Greenhouse:datadog"
   },
   {
@@ -6979,9 +6935,9 @@
     "title": "Enterprise Sales Engineer",
     "company": "datadog",
     "location": {
-      "name": "Seoul, South Korea"
+      "name": "Sydney, Australia"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6937124/?gh_jid=6937124",
+    "apply_url": "https://careers.datadoghq.com/detail/6925284/?gh_jid=6925284",
     "source": "Greenhouse:datadog"
   },
   {
@@ -7394,17 +7350,6 @@
   {
     "date_iso": "2025-09-02",
     "date_human": "Sep 02, 2025",
-    "title": "Manager II, Engineering - Applied AI",
-    "company": "datadog",
-    "location": {
-      "name": "New York, New York, USA"
-    },
-    "apply_url": "https://careers.datadoghq.com/detail/7028142/?gh_jid=7028142",
-    "source": "Greenhouse:datadog"
-  },
-  {
-    "date_iso": "2025-09-02",
-    "date_human": "Sep 02, 2025",
     "title": "Mid Market Account Executive",
     "company": "datadog",
     "location": {
@@ -7551,9 +7496,9 @@
     "title": "Senior Product Designer, Data Visualization",
     "company": "datadog",
     "location": {
-      "name": "Paris, France"
+      "name": "New York, New York, USA"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7117237/?gh_jid=7117237",
+    "apply_url": "https://careers.datadoghq.com/detail/7116818/?gh_jid=7116818",
     "source": "Greenhouse:datadog"
   },
   {
@@ -7562,9 +7507,9 @@
     "title": "Senior Product Designer, Data Visualization",
     "company": "datadog",
     "location": {
-      "name": "New York, New York, USA"
+      "name": "Paris, France"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7116818/?gh_jid=7116818",
+    "apply_url": "https://careers.datadoghq.com/detail/7117237/?gh_jid=7117237",
     "source": "Greenhouse:datadog"
   },
   {
@@ -7793,9 +7738,9 @@
     "title": "Engineering Manager (Platform)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - USA"
+      "name": "Remote - Canada"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6669525?gh_jid=6669525",
+    "apply_url": "https://www.coinbase.com/careers/positions/6669526?gh_jid=6669526",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -7804,9 +7749,9 @@
     "title": "Engineering Manager (Platform)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Canada"
+      "name": "Remote - USA"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6669526?gh_jid=6669526",
+    "apply_url": "https://www.coinbase.com/careers/positions/6669525?gh_jid=6669525",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -7837,9 +7782,9 @@
     "title": "Staff Software Engineer, Backend (Platform - Payments)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - USA"
+      "name": "Remote - Canada"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6894602?gh_jid=6894602",
+    "apply_url": "https://www.coinbase.com/careers/positions/6894608?gh_jid=6894608",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -7848,9 +7793,9 @@
     "title": "Staff Software Engineer, Backend (Platform - Payments)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Canada"
+      "name": "Remote - USA"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6894608?gh_jid=6894608",
+    "apply_url": "https://www.coinbase.com/careers/positions/6894602?gh_jid=6894602",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -8002,9 +7947,9 @@
     "title": "Sales Development Representative",
     "company": "datadog",
     "location": {
-      "name": "Seoul, South Korea"
+      "name": "Tokyo, Japan"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6690499/?gh_jid=6690499",
+    "apply_url": "https://careers.datadoghq.com/detail/6791817/?gh_jid=6791817",
     "source": "Greenhouse:datadog"
   },
   {
@@ -8015,7 +7960,7 @@
     "location": {
       "name": "Tokyo, Japan"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6791817/?gh_jid=6791817",
+    "apply_url": "https://careers.datadoghq.com/detail/6791890/?gh_jid=6791890",
     "source": "Greenhouse:datadog"
   },
   {
@@ -8035,9 +7980,9 @@
     "title": "Sales Development Representative",
     "company": "datadog",
     "location": {
-      "name": "Tokyo, Japan"
+      "name": "Seoul, South Korea"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6791890/?gh_jid=6791890",
+    "apply_url": "https://careers.datadoghq.com/detail/6690499/?gh_jid=6690499",
     "source": "Greenhouse:datadog"
   },
   {
@@ -8442,9 +8387,9 @@
     "title": "Senior Security Engineer, Cloud Security",
     "company": "coinbase",
     "location": {
-      "name": "Remote - USA"
+      "name": "Remote - Canada"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/7187867?gh_jid=7187867",
+    "apply_url": "https://www.coinbase.com/careers/positions/7188172?gh_jid=7188172",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -8453,9 +8398,9 @@
     "title": "Senior Security Engineer, Cloud Security",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Canada"
+      "name": "Remote - USA"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/7188172?gh_jid=7188172",
+    "apply_url": "https://www.coinbase.com/careers/positions/7187867?gh_jid=7187867",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -8662,9 +8607,9 @@
     "title": "Technical Developer Connections Manager",
     "company": "roblox",
     "location": {
-      "name": "London, England, United Kingdom"
+      "name": "San Mateo, CA, United States"
     },
-    "apply_url": "https://careers.roblox.com/jobs/7217210?gh_jid=7217210",
+    "apply_url": "https://careers.roblox.com/jobs/7159180?gh_jid=7159180",
     "source": "Greenhouse:roblox"
   },
   {
@@ -8673,9 +8618,9 @@
     "title": "Technical Developer Connections Manager",
     "company": "roblox",
     "location": {
-      "name": "San Mateo, CA, United States"
+      "name": "London, England, United Kingdom"
     },
-    "apply_url": "https://careers.roblox.com/jobs/7159180?gh_jid=7159180",
+    "apply_url": "https://careers.roblox.com/jobs/7217210?gh_jid=7217210",
     "source": "Greenhouse:roblox"
   },
   {
@@ -8974,17 +8919,6 @@
     },
     "apply_url": "https://www.coinbase.com/careers/positions/7088264?gh_jid=7088264",
     "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-09-06",
-    "date_human": "Sep 06, 2025",
-    "title": "Regulatory Compliance Product Manager, Transparency Reporting",
-    "company": "roblox",
-    "location": {
-      "name": "San Mateo, CA, United States"
-    },
-    "apply_url": "https://careers.roblox.com/jobs/6979440?gh_jid=6979440",
-    "source": "Greenhouse:roblox"
   },
   {
     "date_iso": "2025-09-07",
@@ -9377,9 +9311,9 @@
     "title": "Engineering Manager (Institutional - Foundations)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Canada"
+      "name": "Remote - USA"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6001834?gh_jid=6001834",
+    "apply_url": "https://www.coinbase.com/careers/positions/6001833?gh_jid=6001833",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -9388,9 +9322,9 @@
     "title": "Engineering Manager (Institutional - Foundations)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - USA"
+      "name": "Remote - Canada"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6001833?gh_jid=6001833",
+    "apply_url": "https://www.coinbase.com/careers/positions/6001834?gh_jid=6001834",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -9993,9 +9927,9 @@
     "title": "Product Manager I - Consumer Growth",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Canada"
+      "name": "Remote - USA"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/7121952?gh_jid=7121952",
+    "apply_url": "https://www.coinbase.com/careers/positions/7121821?gh_jid=7121821",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -10004,9 +9938,9 @@
     "title": "Product Manager I - Consumer Growth",
     "company": "coinbase",
     "location": {
-      "name": "Remote - USA"
+      "name": "Remote - Canada"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/7121821?gh_jid=7121821",
+    "apply_url": "https://www.coinbase.com/careers/positions/7121952?gh_jid=7121952",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -10477,9 +10411,9 @@
     "title": "Manager I, Engineering - APM SDK Capabilities",
     "company": "datadog",
     "location": {
-      "name": "Madrid, Spain; Paris, France"
+      "name": "Lisbon, Portugal"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7095582/?gh_jid=7095582",
+    "apply_url": "https://careers.datadoghq.com/detail/7248773/?gh_jid=7248773",
     "source": "Greenhouse:datadog"
   },
   {
@@ -10488,9 +10422,9 @@
     "title": "Manager I, Engineering - APM SDK Capabilities",
     "company": "datadog",
     "location": {
-      "name": "Lisbon, Portugal"
+      "name": "Madrid, Spain; Paris, France"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7248773/?gh_jid=7248773",
+    "apply_url": "https://careers.datadoghq.com/detail/7095582/?gh_jid=7095582",
     "source": "Greenhouse:datadog"
   },
   {
@@ -10829,9 +10763,9 @@
     "title": "Manager I, Engineering - Fleet Automation",
     "company": "datadog",
     "location": {
-      "name": "Lisbon, Portugal"
+      "name": "Bordeaux, France; Lyon, France; Madrid, Spain; Montpellier, France; Nantes, France; Paris, France; Sophia Antipolis, France"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7120432/?gh_jid=7120432",
+    "apply_url": "https://careers.datadoghq.com/detail/7120397/?gh_jid=7120397",
     "source": "Greenhouse:datadog"
   },
   {
@@ -10840,9 +10774,9 @@
     "title": "Manager I, Engineering - Fleet Automation",
     "company": "datadog",
     "location": {
-      "name": "Bordeaux, France; Lyon, France; Madrid, Spain; Montpellier, France; Nantes, France; Paris, France; Sophia Antipolis, France"
+      "name": "Lisbon, Portugal"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7120397/?gh_jid=7120397",
+    "apply_url": "https://careers.datadoghq.com/detail/7120432/?gh_jid=7120432",
     "source": "Greenhouse:datadog"
   },
   {
@@ -12589,9 +12523,9 @@
     "title": "Staff Software Engineer, Backend (Platform - Core Automation)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - USA"
+      "name": "Remote - Canada"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/5948877?gh_jid=5948877",
+    "apply_url": "https://www.coinbase.com/careers/positions/5963430?gh_jid=5963430",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -12600,9 +12534,9 @@
     "title": "Staff Software Engineer, Backend (Platform - Core Automation)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Canada"
+      "name": "Remote - USA"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/5963430?gh_jid=5963430",
+    "apply_url": "https://www.coinbase.com/careers/positions/5948877?gh_jid=5948877",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -13312,45 +13246,12 @@
   {
     "date_iso": "2025-09-18",
     "date_human": "Sep 18, 2025",
-    "title": "Complaints Analyst III",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - Luxembourg"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/7182062?gh_jid=7182062",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-09-18",
-    "date_human": "Sep 18, 2025",
     "title": "Engineering Manager (Consumer - Growth)",
     "company": "coinbase",
     "location": {
       "name": "Remote - Canada; Remote - USA"
     },
     "apply_url": "https://www.coinbase.com/careers/positions/7261791?gh_jid=7261791",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-09-18",
-    "date_human": "Sep 18, 2025",
-    "title": "Engineering Manager (Platform - Risk Platform, Payments Risk)",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - Canada"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/7261321?gh_jid=7261321",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-09-18",
-    "date_human": "Sep 18, 2025",
-    "title": "Engineering Manager (Platform - Risk Platform, Payments Risk)",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - USA"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/7261297?gh_jid=7261297",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -13373,28 +13274,6 @@
       "name": "Remote - USA"
     },
     "apply_url": "https://www.coinbase.com/careers/positions/5960216?gh_jid=5960216",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-09-18",
-    "date_human": "Sep 18, 2025",
-    "title": "Senior Product Designer - Developer Platform",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - Canada"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/7260900?gh_jid=7260900",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-09-18",
-    "date_human": "Sep 18, 2025",
-    "title": "Senior Security Engineer, Insider Threat",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - UK"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/7235572?gh_jid=7235572",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -13444,17 +13323,6 @@
   {
     "date_iso": "2025-09-18",
     "date_human": "Sep 18, 2025",
-    "title": "Software Engineer, Application Security",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - Canada"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/7261610?gh_jid=7261610",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-09-18",
-    "date_human": "Sep 18, 2025",
     "title": "Software Engineer, Blockchain Platform (Blockchain Enablement)",
     "company": "coinbase",
     "location": {
@@ -13471,7 +13339,7 @@
     "location": {
       "name": "Seoul, South Korea"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6512586/?gh_jid=6512586",
+    "apply_url": "https://careers.datadoghq.com/detail/6512326/?gh_jid=6512326",
     "source": "Greenhouse:datadog"
   },
   {
@@ -13482,7 +13350,7 @@
     "location": {
       "name": "Seoul, South Korea"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6512326/?gh_jid=6512326",
+    "apply_url": "https://careers.datadoghq.com/detail/6512586/?gh_jid=6512586",
     "source": "Greenhouse:datadog"
   },
   {
@@ -13645,9 +13513,9 @@
     "title": "Product Solutions Architect 3 - APM",
     "company": "datadog",
     "location": {
-      "name": "Amsterdam, The Netherlands; Dublin, Ireland; London, United Kingdom; Paris, France"
+      "name": "Boston, Massachusetts, USA; New York, New York, USA"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7260760/?gh_jid=7260760",
+    "apply_url": "https://careers.datadoghq.com/detail/6825839/?gh_jid=6825839",
     "source": "Greenhouse:datadog"
   },
   {
@@ -13656,9 +13524,9 @@
     "title": "Product Solutions Architect 3 - APM",
     "company": "datadog",
     "location": {
-      "name": "Boston, Massachusetts, USA; New York, New York, USA"
+      "name": "Amsterdam, The Netherlands; Dublin, Ireland; London, United Kingdom; Paris, France"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6825839/?gh_jid=6825839",
+    "apply_url": "https://careers.datadoghq.com/detail/7260760/?gh_jid=7260760",
     "source": "Greenhouse:datadog"
   },
   {
@@ -14522,17 +14390,6 @@
   {
     "date_iso": "2025-09-22",
     "date_human": "Sep 22, 2025",
-    "title": "Manager, Broker Dealer Operations",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - USA"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/7255846?gh_jid=7255846",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-09-22",
-    "date_human": "Sep 22, 2025",
     "title": "Security Compliance Associate Manager",
     "company": "coinbase",
     "location": {
@@ -14572,17 +14429,6 @@
       "name": "Remote - USA"
     },
     "apply_url": "https://www.coinbase.com/careers/positions/7187852?gh_jid=7187852",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-09-22",
-    "date_human": "Sep 22, 2025",
-    "title": "Senior Associate, Broker Dealer Operations",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - USA"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/7255834?gh_jid=7255834",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -14649,17 +14495,6 @@
       "name": "New York, New York, USA"
     },
     "apply_url": "https://careers.datadoghq.com/detail/7242481/?gh_jid=7242481",
-    "source": "Greenhouse:datadog"
-  },
-  {
-    "date_iso": "2025-09-22",
-    "date_human": "Sep 22, 2025",
-    "title": "Enterprise IT Support Technician I (EMEA)",
-    "company": "datadog",
-    "location": {
-      "name": "Paris, France"
-    },
-    "apply_url": "https://careers.datadoghq.com/detail/7262894/?gh_jid=7262894",
     "source": "Greenhouse:datadog"
   },
   {
@@ -14914,5 +14749,159 @@
     },
     "apply_url": "https://careers.roblox.com/jobs/7259111?gh_jid=7259111",
     "source": "Greenhouse:roblox"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Solutions Consultant DACH",
+    "company": "asana",
+    "location": {
+      "name": "Munich"
+    },
+    "apply_url": "https://www.asana.com/jobs/apply/6859364?gh_jid=6859364",
+    "source": "Greenhouse:asana"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Associate Manager, Complaints",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - USA"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/7248320?gh_jid=7248320",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Complaints Analyst III",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - Luxembourg"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/7182062?gh_jid=7182062",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Engineering Manager (Platform - Risk Platform, Payments Risk)",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - Canada"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/7261321?gh_jid=7261321",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Engineering Manager (Platform - Risk Platform, Payments Risk)",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - USA"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/7261297?gh_jid=7261297",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Manager, Broker Dealer Operations",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - USA"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/7255846?gh_jid=7255846",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Senior Associate, Broker Dealer Operations",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - USA"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/7255834?gh_jid=7255834",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Senior Product Designer - Developer Platform",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - Canada"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/7260900?gh_jid=7260900",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Senior Security Engineer, Insider Threat",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - UK"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/7235572?gh_jid=7235572",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Software Engineer, Application Security",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - Canada"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/7261610?gh_jid=7261610",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Enterprise Customer Success Manager - Dublin",
+    "company": "datadog",
+    "location": {
+      "name": "Dublin, Ireland"
+    },
+    "apply_url": "https://careers.datadoghq.com/detail/7166237/?gh_jid=7166237",
+    "source": "Greenhouse:datadog"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Enterprise Customer Success Manager - Dublin (German Speaking)",
+    "company": "datadog",
+    "location": {
+      "name": "Amsterdam, The Netherlands; Dublin, Ireland"
+    },
+    "apply_url": "https://careers.datadoghq.com/detail/7120713/?gh_jid=7120713",
+    "source": "Greenhouse:datadog"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Enterprise IT Support Technician I",
+    "company": "datadog",
+    "location": {
+      "name": "Paris, France"
+    },
+    "apply_url": "https://careers.datadoghq.com/detail/7262894/?gh_jid=7262894",
+    "source": "Greenhouse:datadog"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Manager II, Engineering - Applied AI",
+    "company": "datadog",
+    "location": {
+      "name": "New York, New York, USA"
+    },
+    "apply_url": "https://careers.datadoghq.com/detail/7028142/?gh_jid=7028142",
+    "source": "Greenhouse:datadog"
   }
 ]

@@ -65,8 +65,8 @@ This repository auto-updates with the latest **career fairs, internships, and jo
 | Aug 06, 2025 | Senior Director, Internal Audit | discord | {'name': 'San Francisco Bay Area'} | [Apply](https://job-boards.greenhouse.io/discord/jobs/8103520002) |
 | Aug 08, 2025 | Senior Product Manager, International Derivatives | coinbase | {'name': 'Remote - USA'} | [Apply](https://www.coinbase.com/careers/positions/7144470?gh_jid=7144470) |
 | Aug 18, 2025 | Program Manager, HR M&A and International Expansion | coinbase | {'name': 'Remote - USA'} | [Apply](https://www.coinbase.com/careers/positions/7099818?gh_jid=7099818) |
-| Aug 18, 2025 | Specialist, Coinbase Derivatives & International Exchange | coinbase | {'name': 'Remote - UK'} | [Apply](https://www.coinbase.com/careers/positions/7128692?gh_jid=7128692) |
 | Aug 18, 2025 | Specialist, Coinbase Derivatives & International Exchange | coinbase | {'name': 'Remote - Ireland'} | [Apply](https://www.coinbase.com/careers/positions/7128691?gh_jid=7128691) |
+| Aug 18, 2025 | Specialist, Coinbase Derivatives & International Exchange | coinbase | {'name': 'Remote - UK'} | [Apply](https://www.coinbase.com/careers/positions/7128692?gh_jid=7128692) |
 | Aug 19, 2025 | Staff Software Engineer, Backend (Consumer - International) | coinbase | {'name': 'Remote - Brazil'} | [Apply](https://www.coinbase.com/careers/positions/6377946?gh_jid=6377946) |
 | Aug 19, 2025 | Data Engineer Intern (2026) | figma | {'name': 'San Francisco, CA • New York, NY'} | [Apply](https://boards.greenhouse.io/figma/jobs/5623087004?gh_jid=5623087004) |
 | Aug 19, 2025 | Data Science Intern (2026) | figma | {'name': 'San Francisco, CA • New York, NY'} | [Apply](https://boards.greenhouse.io/figma/jobs/5614980004?gh_jid=5614980004) |
