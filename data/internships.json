@@ -1,16 +1,5 @@
 [
   {
-    "date_iso": "2025-08-05",
-    "date_human": "Aug 05, 2025",
-    "title": "Senior Software Engineer, Backend (Consumer -  International)",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - Canada"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/7012102?gh_jid=7012102",
-    "source": "Greenhouse:coinbase"
-  },
-  {
     "date_iso": "2025-08-06",
     "date_human": "Aug 06, 2025",
     "title": "Senior Director, Internal Audit",
@@ -20,61 +9,6 @@
     },
     "apply_url": "https://job-boards.greenhouse.io/discord/jobs/8103520002",
     "source": "Greenhouse:discord"
-  },
-  {
-    "date_iso": "2025-08-08",
-    "date_human": "Aug 08, 2025",
-    "title": "Senior Product Manager, International Derivatives",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - USA"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/7144470?gh_jid=7144470",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-08-18",
-    "date_human": "Aug 18, 2025",
-    "title": "Program Manager, HR M&A and International Expansion",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - USA"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/7099818?gh_jid=7099818",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-08-18",
-    "date_human": "Aug 18, 2025",
-    "title": "Specialist, Coinbase Derivatives & International Exchange",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - Ireland"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/7128691?gh_jid=7128691",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-08-18",
-    "date_human": "Aug 18, 2025",
-    "title": "Specialist, Coinbase Derivatives & International Exchange",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - UK"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/7128692?gh_jid=7128692",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-08-19",
-    "date_human": "Aug 19, 2025",
-    "title": "Staff Software Engineer, Backend (Consumer - International)",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - Brazil"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/6377946?gh_jid=6377946",
-    "source": "Greenhouse:coinbase"
   },
   {
     "date_iso": "2025-08-19",
@@ -108,17 +42,6 @@
     },
     "apply_url": "https://boards.greenhouse.io/figma/jobs/5602159004?gh_jid=5602159004",
     "source": "Greenhouse:figma"
-  },
-  {
-    "date_iso": "2025-08-20",
-    "date_human": "Aug 20, 2025",
-    "title": "Group Product Manager, International Derivatives",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - USA"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/7180361?gh_jid=7180361",
-    "source": "Greenhouse:coinbase"
   },
   {
     "date_iso": "2025-08-20",
@@ -319,28 +242,6 @@
     "source": "Greenhouse:figma"
   },
   {
-    "date_iso": "2025-09-10",
-    "date_human": "Sep 10, 2025",
-    "title": "Internal Audit - SOX Senior Manager",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - USA"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/6953339?gh_jid=6953339",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-09-11",
-    "date_human": "Sep 11, 2025",
-    "title": "IT Internal Audit Analytics Senior Associate",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - USA"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/7227279?gh_jid=7227279",
-    "source": "Greenhouse:coinbase"
-  },
-  {
     "date_iso": "2025-09-11",
     "date_human": "Sep 11, 2025",
     "title": "Applied Science Intern",
@@ -361,28 +262,6 @@
     },
     "apply_url": "https://www.asana.com/jobs/apply/7211201?gh_jid=7211201",
     "source": "Greenhouse:asana"
-  },
-  {
-    "date_iso": "2025-09-12",
-    "date_human": "Sep 12, 2025",
-    "title": "International Policy Manager",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - UK"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/7215736?gh_jid=7215736",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-09-12",
-    "date_human": "Sep 12, 2025",
-    "title": "Senior Internal Communications Manager",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - USA"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/7107185?gh_jid=7107185",
-    "source": "Greenhouse:coinbase"
   },
   {
     "date_iso": "2025-09-12",
@@ -418,39 +297,6 @@
     "source": "Greenhouse:roblox"
   },
   {
-    "date_iso": "2025-09-16",
-    "date_human": "Sep 16, 2025",
-    "title": "Governance Risk and Compliance, Intern",
-    "company": "brex",
-    "location": {
-      "name": "São Paulo, São Paulo, Brazil"
-    },
-    "apply_url": "https://www.brex.com/careers/8121844002?gh_jid=8121844002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-17",
-    "date_human": "Sep 17, 2025",
-    "title": "Operations Intern",
-    "company": "brex",
-    "location": {
-      "name": "São Paulo, São Paulo, Brazil"
-    },
-    "apply_url": "https://www.brex.com/careers/8172520002?gh_jid=8172520002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-17",
-    "date_human": "Sep 17, 2025",
-    "title": "Internal Audit IT Analyst",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - USA"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/7255828?gh_jid=7255828",
-    "source": "Greenhouse:coinbase"
-  },
-  {
     "date_iso": "2025-09-17",
     "date_human": "Sep 17, 2025",
     "title": "Senior Internal Auditor",
@@ -478,9 +324,9 @@
     "title": "Software Engineering Intern",
     "company": "datadog",
     "location": {
-      "name": "Madrid, Spain"
+      "name": "Paris, France"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7158112/?gh_jid=7158112",
+    "apply_url": "https://careers.datadoghq.com/detail/7158118/?gh_jid=7158118",
     "source": "Greenhouse:datadog"
   },
   {
@@ -489,9 +335,163 @@
     "title": "Software Engineering Intern",
     "company": "datadog",
     "location": {
-      "name": "Paris, France"
+      "name": "Madrid, Spain"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7158118/?gh_jid=7158118",
+    "apply_url": "https://careers.datadoghq.com/detail/7158112/?gh_jid=7158112",
     "source": "Greenhouse:datadog"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Governance Risk and Compliance, Intern",
+    "company": "brex",
+    "location": {
+      "name": "São Paulo, São Paulo, Brazil"
+    },
+    "apply_url": "https://www.brex.com/careers/8121844002?gh_jid=8121844002",
+    "source": "Greenhouse:brex"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Operations Intern",
+    "company": "brex",
+    "location": {
+      "name": "São Paulo, São Paulo, Brazil"
+    },
+    "apply_url": "https://www.brex.com/careers/8172520002?gh_jid=8172520002",
+    "source": "Greenhouse:brex"
+  },
+  {
+    "date_iso": "2025-09-24",
+    "date_human": "Sep 24, 2025",
+    "title": "Group Product Manager, International Derivatives",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - USA"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/7180361?gh_jid=7180361",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-24",
+    "date_human": "Sep 24, 2025",
+    "title": "IT Internal Audit Analytics Senior Associate",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - USA"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/7227279?gh_jid=7227279",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-24",
+    "date_human": "Sep 24, 2025",
+    "title": "Internal Audit - SOX Senior Manager",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - USA"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/6953339?gh_jid=6953339",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-24",
+    "date_human": "Sep 24, 2025",
+    "title": "Internal Audit IT Analyst",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - USA"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/7255828?gh_jid=7255828",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-24",
+    "date_human": "Sep 24, 2025",
+    "title": "International Policy Manager",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - UK"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/7215736?gh_jid=7215736",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-24",
+    "date_human": "Sep 24, 2025",
+    "title": "Program Manager, HR M&A and International Expansion",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - USA"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/7099818?gh_jid=7099818",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-24",
+    "date_human": "Sep 24, 2025",
+    "title": "Senior Internal Communications Manager",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - USA"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/7107185?gh_jid=7107185",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-24",
+    "date_human": "Sep 24, 2025",
+    "title": "Senior Product Manager, International Derivatives",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - USA"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/7144470?gh_jid=7144470",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-24",
+    "date_human": "Sep 24, 2025",
+    "title": "Senior Software Engineer, Backend (Consumer -  International)",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - Canada"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/7012102?gh_jid=7012102",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-24",
+    "date_human": "Sep 24, 2025",
+    "title": "Specialist, Coinbase Derivatives & International Exchange",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - Ireland"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/7128691?gh_jid=7128691",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-24",
+    "date_human": "Sep 24, 2025",
+    "title": "Specialist, Coinbase Derivatives & International Exchange",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - UK"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/7128692?gh_jid=7128692",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-24",
+    "date_human": "Sep 24, 2025",
+    "title": "Staff Software Engineer, Backend (Consumer - International)",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - Brazil"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/6377946?gh_jid=6377946",
+    "source": "Greenhouse:coinbase"
   }
 ]
