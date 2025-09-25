@@ -66,21 +66,21 @@ This repository auto-updates with the latest **career fairs, internships, and jo
 | Aug 19, 2025 | Data Science Intern (2026) | figma | {'name': 'San Francisco, CA • New York, NY'} | [Apply](https://boards.greenhouse.io/figma/jobs/5614980004?gh_jid=5614980004) |
 | Aug 19, 2025 | Software Engineer Intern (2026) | figma | {'name': 'San Francisco, CA • New York, NY'} | [Apply](https://boards.greenhouse.io/figma/jobs/5602159004?gh_jid=5602159004) |
 | Aug 20, 2025 | Product Design Intern (2026) | figma | {'name': 'San Francisco, CA • New York, NY'} | [Apply](https://boards.greenhouse.io/figma/jobs/5616453004?gh_jid=5616453004) |
-| Aug 25, 2025 | Manager II, Engineering - Internal Services Platform: Workloads & Integrations | datadog | {'name': 'New York, New York, USA'} | [Apply](https://careers.datadoghq.com/detail/7184953/?gh_jid=7184953) |
 | Aug 25, 2025 | [Summer 2026] Software Engineer Intern | roblox | {'name': 'San Mateo, CA, United States'} | [Apply](https://careers.roblox.com/jobs/7114765?gh_jid=7114765) |
-| Aug 27, 2025 | Senior Software Engineer - Windows system internals | datadog | {'name': 'Lisbon, Portugal'} | [Apply](https://careers.datadoghq.com/detail/6841346/?gh_jid=6841346) |
-| Aug 27, 2025 | Senior Software Engineer - macOS System internals | datadog | {'name': 'Lisbon, Portugal'} | [Apply](https://careers.datadoghq.com/detail/7116235/?gh_jid=7116235) |
-| Aug 28, 2025 | Senior Software Engineer - Internal Service Platform | datadog | {'name': 'Paris, France'} | [Apply](https://careers.datadoghq.com/detail/6370445/?gh_jid=6370445) |
-| Aug 28, 2025 | Product Research Intern (2026) | figma | {'name': 'San Francisco, CA'} | [Apply](https://boards.greenhouse.io/figma/jobs/5617444004?gh_jid=5617444004) |
 | Aug 29, 2025 | International Leaves and Accommodations Administrator | asana | {'name': 'Warsaw'} | [Apply](https://www.asana.com/jobs/apply/7089716?gh_jid=7089716) |
-| Sep 02, 2025 | Senior Product Designer - Internal Tools | datadog | {'name': 'New York, New York, USA'} | [Apply](https://careers.datadoghq.com/detail/6871675/?gh_jid=6871675) |
 | Sep 02, 2025 | [Summer 2026] Product Design Intern | roblox | {'name': 'San Mateo, CA, United States'} | [Apply](https://careers.roblox.com/jobs/7167364?gh_jid=7167364) |
-| Sep 03, 2025 | Senior Security Engineer, Internal Trust | datadog | {'name': 'New York, New York, USA'} | [Apply](https://careers.datadoghq.com/detail/6574046/?gh_jid=6574046) |
 | Sep 05, 2025 | Engineering Manager - Internal Developer Experience | discord | {'name': 'San Francisco Bay Area'} | [Apply](https://job-boards.greenhouse.io/discord/jobs/8150540002) |
-| Sep 08, 2025 | Product Management Intern | datadog | {'name': 'New York, New York, USA'} | [Apply](https://careers.datadoghq.com/detail/7127832/?gh_jid=7127832) |
-| Sep 08, 2025 | Software Engineering Intern (Summer) | datadog | {'name': 'Boston, Massachusetts, USA; New York, New York, USA'} | [Apply](https://careers.datadoghq.com/detail/7158137/?gh_jid=7158137) |
 | Sep 08, 2025 | PhD Intern, AI Applied Scientist (2026) | figma | {'name': 'San Francisco, CA • New York, NY'} | [Apply](https://boards.greenhouse.io/figma/jobs/5598934004?gh_jid=5598934004) |
 | Sep 08, 2025 | PhD Intern, Security Engineer (2026) | figma | {'name': 'San Francisco, CA • New York, NY'} | [Apply](https://boards.greenhouse.io/figma/jobs/5611154004?gh_jid=5611154004) |
+| Sep 08, 2025 | PhD Intern, Software Engineer - Graphics (2026) | figma | {'name': 'San Francisco, CA • New York, NY'} | [Apply](https://boards.greenhouse.io/figma/jobs/5609067004?gh_jid=5609067004) |
+| Sep 08, 2025 | Software Engineer Intern, Developer Tools (2026) (London, United Kingdom) | figma | {'name': 'London, England'} | [Apply](https://boards.greenhouse.io/figma/jobs/5621177004?gh_jid=5621177004) |
+| Sep 12, 2025 | Internal Audit Lead | asana | {'name': 'San Francisco'} | [Apply](https://www.asana.com/jobs/apply/7211201?gh_jid=7211201) |
+| Sep 15, 2025 | [Summer 2026] Product Management Intern | roblox | {'name': 'San Mateo, CA, United States'} | [Apply](https://careers.roblox.com/jobs/7167598?gh_jid=7167598) |
+| Sep 19, 2025 | [Summer 2026 Canada] Software Engineer Intern | roblox | {'name': 'Vancouver, British Columbia, Canada'} | [Apply](https://careers.roblox.com/jobs/7206219?gh_jid=7206219) |
+| Sep 23, 2025 | Operations Intern | brex | {'name': 'São Paulo, São Paulo, Brazil'} | [Apply](https://www.brex.com/careers/8172520002?gh_jid=8172520002) |
+| Sep 24, 2025 | Applied Science Intern | datadog | {'name': 'Paris, France'} | [Apply](https://careers.datadoghq.com/detail/7158100/?gh_jid=7158100) |
+| Sep 24, 2025 | Manager I, Engineering - Internal Services Platform: Workloads & Integrations | datadog | {'name': 'Lisbon, Portugal'} | [Apply](https://careers.datadoghq.com/detail/7137278/?gh_jid=7137278) |
+| Sep 24, 2025 | Manager II, Engineering - Internal Services Platform: Workloads & Integrations | datadog | {'name': 'New York, New York, USA'} | [Apply](https://careers.datadoghq.com/detail/7184953/?gh_jid=7184953) |
 
 ➡️ [View All Internships (CSV)](data/internships.csv) | [View All Internships (JSON)](data/internships.json)
 
