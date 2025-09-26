@@ -19,8 +19,8 @@ date_iso,date_human,title,company,location,apply_url,source
 2025-09-24,"Sep 24, 2025",Applied Science Intern,datadog,"{'name': 'Paris, France'}",https://careers.datadoghq.com/detail/7158100/?gh_jid=7158100,Greenhouse:datadog
 2025-09-24,"Sep 24, 2025","Manager I, Engineering - Internal Services Platform: Workloads & Integrations",datadog,"{'name': 'Lisbon, Portugal'}",https://careers.datadoghq.com/detail/7137278/?gh_jid=7137278,Greenhouse:datadog
 2025-09-24,"Sep 24, 2025","Manager II, Engineering - Internal Services Platform: Workloads & Integrations",datadog,"{'name': 'New York, New York, USA'}",https://careers.datadoghq.com/detail/7184953/?gh_jid=7184953,Greenhouse:datadog
-2025-09-24,"Sep 24, 2025",Product Management Intern,datadog,"{'name': 'New York, New York, USA'}",https://careers.datadoghq.com/detail/7127832/?gh_jid=7127832,Greenhouse:datadog
 2025-09-24,"Sep 24, 2025",Product Management Intern,datadog,"{'name': 'Paris, France'}",https://careers.datadoghq.com/detail/7158105/?gh_jid=7158105,Greenhouse:datadog
+2025-09-24,"Sep 24, 2025",Product Management Intern,datadog,"{'name': 'New York, New York, USA'}",https://careers.datadoghq.com/detail/7127832/?gh_jid=7127832,Greenhouse:datadog
 2025-09-24,"Sep 24, 2025",Senior Internal Auditor,datadog,"{'name': 'New York, New York, USA'}",https://careers.datadoghq.com/detail/6993745/?gh_jid=6993745,Greenhouse:datadog
 2025-09-24,"Sep 24, 2025",Senior Product Designer - Internal Tools,datadog,"{'name': 'New York, New York, USA'}",https://careers.datadoghq.com/detail/6871675/?gh_jid=6871675,Greenhouse:datadog
 2025-09-24,"Sep 24, 2025","Senior Security Engineer, Internal Trust",datadog,"{'name': 'New York, New York, USA'}",https://careers.datadoghq.com/detail/6574046/?gh_jid=6574046,Greenhouse:datadog
@@ -28,7 +28,6 @@ date_iso,date_human,title,company,location,apply_url,source
 2025-09-24,"Sep 24, 2025",Senior Software Engineer - Windows system internals,datadog,"{'name': 'Lisbon, Portugal'}",https://careers.datadoghq.com/detail/6841346/?gh_jid=6841346,Greenhouse:datadog
 2025-09-24,"Sep 24, 2025",Senior Software Engineer - macOS System internals,datadog,"{'name': 'Lisbon, Portugal'}",https://careers.datadoghq.com/detail/7116235/?gh_jid=7116235,Greenhouse:datadog
 2025-09-24,"Sep 24, 2025",Software Engineering Intern,datadog,"{'name': 'Paris, France'}",https://careers.datadoghq.com/detail/7158118/?gh_jid=7158118,Greenhouse:datadog
-2025-09-24,"Sep 24, 2025",Software Engineering Intern,datadog,"{'name': 'Madrid, Spain'}",https://careers.datadoghq.com/detail/7158112/?gh_jid=7158112,Greenhouse:datadog
 2025-09-24,"Sep 24, 2025",Software Engineering Intern (Summer),datadog,"{'name': 'Boston, Massachusetts, USA; New York, New York, USA'}",https://careers.datadoghq.com/detail/7158137/?gh_jid=7158137,Greenhouse:datadog
 2025-09-25,"Sep 25, 2025","Group Product Manager, International Derivatives",coinbase,{'name': 'Remote - USA'},https://www.coinbase.com/careers/positions/7180361?gh_jid=7180361,Greenhouse:coinbase
 2025-09-25,"Sep 25, 2025",IT Internal Audit Analytics Senior Associate,coinbase,{'name': 'Remote - USA'},https://www.coinbase.com/careers/positions/7227279?gh_jid=7227279,Greenhouse:coinbase
@@ -40,3 +39,4 @@ date_iso,date_human,title,company,location,apply_url,source
 2025-09-25,"Sep 25, 2025","Senior Product Manager, International Derivatives",coinbase,{'name': 'Remote - USA'},https://www.coinbase.com/careers/positions/7144470?gh_jid=7144470,Greenhouse:coinbase
 2025-09-25,"Sep 25, 2025","Senior Software Engineer, Backend (Consumer -  International)",coinbase,{'name': 'Remote - Canada'},https://www.coinbase.com/careers/positions/7012102?gh_jid=7012102,Greenhouse:coinbase
 2025-09-25,"Sep 25, 2025","Staff Software Engineer, Backend (Consumer - International)",coinbase,{'name': 'Remote - Brazil'},https://www.coinbase.com/careers/positions/6377946?gh_jid=6377946,Greenhouse:coinbase
+2025-09-26,"Sep 26, 2025",Software Engineering Intern,datadog,"{'name': 'Madrid, Spain'}",https://careers.datadoghq.com/detail/7158112/?gh_jid=7158112,Greenhouse:datadog
