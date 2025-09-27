@@ -376,17 +376,6 @@
   {
     "date_iso": "2025-07-21",
     "date_human": "Jul 21, 2025",
-    "title": "Regional Marketing Manager (São Paulo, Brazil)",
-    "company": "figma",
-    "location": {
-      "name": "São Paulo, Brazil"
-    },
-    "apply_url": "https://boards.greenhouse.io/figma/jobs/5580662004?gh_jid=5580662004",
-    "source": "Greenhouse:figma"
-  },
-  {
-    "date_iso": "2025-07-21",
-    "date_human": "Jul 21, 2025",
     "title": "Security Engineer",
     "company": "figma",
     "location": {
@@ -808,9 +797,9 @@
     "title": "Product Manager",
     "company": "asana",
     "location": {
-      "name": "San Francisco"
+      "name": "Vancouver, BC"
     },
-    "apply_url": "https://www.asana.com/jobs/apply/6991808?gh_jid=6991808",
+    "apply_url": "https://www.asana.com/jobs/apply/7023063?gh_jid=7023063",
     "source": "Greenhouse:asana"
   },
   {
@@ -819,9 +808,9 @@
     "title": "Product Manager",
     "company": "asana",
     "location": {
-      "name": "Vancouver, BC"
+      "name": "San Francisco"
     },
-    "apply_url": "https://www.asana.com/jobs/apply/7023063?gh_jid=7023063",
+    "apply_url": "https://www.asana.com/jobs/apply/6991808?gh_jid=6991808",
     "source": "Greenhouse:asana"
   },
   {
@@ -841,9 +830,9 @@
     "title": "Senior Software Engineer, Product",
     "company": "asana",
     "location": {
-      "name": "New York City"
+      "name": "San Francisco"
     },
-    "apply_url": "https://www.asana.com/jobs/apply/6751576?gh_jid=6751576",
+    "apply_url": "https://www.asana.com/jobs/apply/6791159?gh_jid=6791159",
     "source": "Greenhouse:asana"
   },
   {
@@ -852,9 +841,9 @@
     "title": "Senior Software Engineer, Product",
     "company": "asana",
     "location": {
-      "name": "San Francisco"
+      "name": "New York City"
     },
-    "apply_url": "https://www.asana.com/jobs/apply/6791159?gh_jid=6791159",
+    "apply_url": "https://www.asana.com/jobs/apply/6751576?gh_jid=6751576",
     "source": "Greenhouse:asana"
   },
   {
@@ -1771,17 +1760,6 @@
     "source": "Greenhouse:figma"
   },
   {
-    "date_iso": "2025-08-19",
-    "date_human": "Aug 19, 2025",
-    "title": "Manager, Governance Risk & Compliance",
-    "company": "roblox",
-    "location": {
-      "name": "San Mateo, CA, United States"
-    },
-    "apply_url": "https://careers.roblox.com/jobs/7177948?gh_jid=7177948",
-    "source": "Greenhouse:roblox"
-  },
-  {
     "date_iso": "2025-08-20",
     "date_human": "Aug 20, 2025",
     "title": "Security Engineering Group Tech Lead",
@@ -1802,17 +1780,6 @@
     },
     "apply_url": "https://job-boards.greenhouse.io/discord/jobs/8126727002",
     "source": "Greenhouse:discord"
-  },
-  {
-    "date_iso": "2025-08-20",
-    "date_human": "Aug 20, 2025",
-    "title": "Product Marketing Manager, Developer Audience",
-    "company": "figma",
-    "location": {
-      "name": "San Francisco, CA • New York, NY • United States"
-    },
-    "apply_url": "https://boards.greenhouse.io/figma/jobs/5580664004?gh_jid=5580664004",
-    "source": "Greenhouse:figma"
   },
   {
     "date_iso": "2025-08-20",
@@ -2233,17 +2200,6 @@
     "source": "Greenhouse:roblox"
   },
   {
-    "date_iso": "2025-08-26",
-    "date_human": "Aug 26, 2025",
-    "title": "Senior/Principal Platform Engineer, ML Platform",
-    "company": "roblox",
-    "location": {
-      "name": "San Mateo, CA, United States"
-    },
-    "apply_url": "https://careers.roblox.com/jobs/7185278?gh_jid=7185278",
-    "source": "Greenhouse:roblox"
-  },
-  {
     "date_iso": "2025-08-27",
     "date_human": "Aug 27, 2025",
     "title": "Channel Partner Manager",
@@ -2637,17 +2593,6 @@
       "name": "Warsaw"
     },
     "apply_url": "https://www.asana.com/jobs/apply/7028562?gh_jid=7028562",
-    "source": "Greenhouse:asana"
-  },
-  {
-    "date_iso": "2025-08-29",
-    "date_human": "Aug 29, 2025",
-    "title": "Senior Product Manager, Reporting Connections",
-    "company": "asana",
-    "location": {
-      "name": "Warsaw"
-    },
-    "apply_url": "https://www.asana.com/jobs/apply/7028055?gh_jid=7028055",
     "source": "Greenhouse:asana"
   },
   {
@@ -3052,9 +2997,9 @@
     "title": "Technical Developer Connections Manager",
     "company": "roblox",
     "location": {
-      "name": "London, England, United Kingdom"
+      "name": "San Mateo, CA, United States"
     },
-    "apply_url": "https://careers.roblox.com/jobs/7217210?gh_jid=7217210",
+    "apply_url": "https://careers.roblox.com/jobs/7159180?gh_jid=7159180",
     "source": "Greenhouse:roblox"
   },
   {
@@ -3063,9 +3008,9 @@
     "title": "Technical Developer Connections Manager",
     "company": "roblox",
     "location": {
-      "name": "San Mateo, CA, United States"
+      "name": "London, England, United Kingdom"
     },
-    "apply_url": "https://careers.roblox.com/jobs/7159180?gh_jid=7159180",
+    "apply_url": "https://careers.roblox.com/jobs/7217210?gh_jid=7217210",
     "source": "Greenhouse:roblox"
   },
   {
@@ -3313,17 +3258,6 @@
   {
     "date_iso": "2025-09-09",
     "date_human": "Sep 09, 2025",
-    "title": "Early Career, Associate Product Manager (2026)",
-    "company": "figma",
-    "location": {
-      "name": "San Francisco, CA • New York, NY"
-    },
-    "apply_url": "https://boards.greenhouse.io/figma/jobs/5621649004?gh_jid=5621649004",
-    "source": "Greenhouse:figma"
-  },
-  {
-    "date_iso": "2025-09-09",
-    "date_human": "Sep 09, 2025",
     "title": "Early Career, Product Designer (2026)",
     "company": "figma",
     "location": {
@@ -3426,17 +3360,6 @@
     "title": "SMB Account Executive",
     "company": "asana",
     "location": {
-      "name": "Tokyo"
-    },
-    "apply_url": "https://www.asana.com/jobs/apply/7160854?gh_jid=7160854",
-    "source": "Greenhouse:asana"
-  },
-  {
-    "date_iso": "2025-09-10",
-    "date_human": "Sep 10, 2025",
-    "title": "SMB Account Executive",
-    "company": "asana",
-    "location": {
       "name": "Dublin"
     },
     "apply_url": "https://www.asana.com/jobs/apply/7160840?gh_jid=7160840",
@@ -3448,9 +3371,9 @@
     "title": "SMB Account Executive",
     "company": "asana",
     "location": {
-      "name": "Dublin"
+      "name": "Tokyo"
     },
-    "apply_url": "https://www.asana.com/jobs/apply/7160920?gh_jid=7160920",
+    "apply_url": "https://www.asana.com/jobs/apply/7160854?gh_jid=7160854",
     "source": "Greenhouse:asana"
   },
   {
@@ -3462,6 +3385,17 @@
       "name": "Sydney"
     },
     "apply_url": "https://www.asana.com/jobs/apply/7160932?gh_jid=7160932",
+    "source": "Greenhouse:asana"
+  },
+  {
+    "date_iso": "2025-09-10",
+    "date_human": "Sep 10, 2025",
+    "title": "SMB Account Executive",
+    "company": "asana",
+    "location": {
+      "name": "Dublin"
+    },
+    "apply_url": "https://www.asana.com/jobs/apply/7160920?gh_jid=7160920",
     "source": "Greenhouse:asana"
   },
   {
@@ -4086,9 +4020,9 @@
     "title": "Enterprise Account Executive",
     "company": "asana",
     "location": {
-      "name": "US - Remote"
+      "name": "Switzerland - Remote"
     },
-    "apply_url": "https://www.asana.com/jobs/apply/5694272?gh_jid=5694272",
+    "apply_url": "https://www.asana.com/jobs/apply/7111108?gh_jid=7111108",
     "source": "Greenhouse:asana"
   },
   {
@@ -4097,9 +4031,9 @@
     "title": "Enterprise Account Executive",
     "company": "asana",
     "location": {
-      "name": "Switzerland - Remote"
+      "name": "US - Remote"
     },
-    "apply_url": "https://www.asana.com/jobs/apply/7111108?gh_jid=7111108",
+    "apply_url": "https://www.asana.com/jobs/apply/5694272?gh_jid=5694272",
     "source": "Greenhouse:asana"
   },
   {
@@ -4328,17 +4262,6 @@
     "title": "Account Executive, Mid Market",
     "company": "brex",
     "location": {
-      "name": "San Francisco, California, United States"
-    },
-    "apply_url": "https://www.brex.com/careers/7704415002?gh_jid=7704415002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
-    "title": "Account Executive, Mid Market",
-    "company": "brex",
-    "location": {
       "name": "Salt Lake City, Utah, United States"
     },
     "apply_url": "https://www.brex.com/careers/7704446002?gh_jid=7704446002",
@@ -4350,9 +4273,9 @@
     "title": "Accounting Channel Partner",
     "company": "brex",
     "location": {
-      "name": "New York, New York, United States"
+      "name": "San Francisco, California, United States"
     },
-    "apply_url": "https://www.brex.com/careers/8177687002?gh_jid=8177687002",
+    "apply_url": "https://www.brex.com/careers/8177660002?gh_jid=8177660002",
     "source": "Greenhouse:brex"
   },
   {
@@ -4361,9 +4284,9 @@
     "title": "Accounting Channel Partner",
     "company": "brex",
     "location": {
-      "name": "San Francisco, California, United States"
+      "name": "New York, New York, United States"
     },
-    "apply_url": "https://www.brex.com/careers/8177660002?gh_jid=8177660002",
+    "apply_url": "https://www.brex.com/careers/8177687002?gh_jid=8177687002",
     "source": "Greenhouse:brex"
   },
   {
@@ -4386,17 +4309,6 @@
       "name": "New York, New York, United States"
     },
     "apply_url": "https://www.brex.com/careers/8106949002?gh_jid=8106949002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
-    "title": "Commercial Account Executive",
-    "company": "brex",
-    "location": {
-      "name": "New York, New York, United States"
-    },
-    "apply_url": "https://www.brex.com/careers/8178538002?gh_jid=8178538002",
     "source": "Greenhouse:brex"
   },
   {
@@ -4438,6 +4350,17 @@
     "title": "Commercial Account Executive",
     "company": "brex",
     "location": {
+      "name": "New York, New York, United States"
+    },
+    "apply_url": "https://www.brex.com/careers/8178538002?gh_jid=8178538002",
+    "source": "Greenhouse:brex"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Commercial Account Executive",
+    "company": "brex",
+    "location": {
       "name": "Salt Lake City, Utah, United States"
     },
     "apply_url": "https://www.brex.com/careers/8178541002?gh_jid=8178541002",
@@ -4452,6 +4375,17 @@
       "name": "San Francisco, California, United States"
     },
     "apply_url": "https://www.brex.com/careers/7855885002?gh_jid=7855885002",
+    "source": "Greenhouse:brex"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Commissions Analyst",
+    "company": "brex",
+    "location": {
+      "name": "Salt Lake City, Utah, United States"
+    },
+    "apply_url": "https://www.brex.com/careers/8172435002?gh_jid=8172435002",
     "source": "Greenhouse:brex"
   },
   {
@@ -4493,17 +4427,6 @@
     "title": "Commissions Analyst",
     "company": "brex",
     "location": {
-      "name": "Salt Lake City, Utah, United States"
-    },
-    "apply_url": "https://www.brex.com/careers/8172435002?gh_jid=8172435002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
-    "title": "Commissions Analyst",
-    "company": "brex",
-    "location": {
       "name": "Seattle, Washington, United States"
     },
     "apply_url": "https://www.brex.com/careers/8172424002?gh_jid=8172424002",
@@ -4518,6 +4441,17 @@
       "name": "São Paulo, São Paulo, Brazil"
     },
     "apply_url": "https://www.brex.com/careers/8174260002?gh_jid=8174260002",
+    "source": "Greenhouse:brex"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Data Scientist, Marketing",
+    "company": "brex",
+    "location": {
+      "name": "São Paulo, São Paulo, Brazil"
+    },
+    "apply_url": "https://www.brex.com/careers/8037511002?gh_jid=8037511002",
     "source": "Greenhouse:brex"
   },
   {
@@ -4545,12 +4479,12 @@
   {
     "date_iso": "2025-09-23",
     "date_human": "Sep 23, 2025",
-    "title": "Data Scientist, Marketing",
+    "title": "Director, Enterprise Sales",
     "company": "brex",
     "location": {
-      "name": "São Paulo, São Paulo, Brazil"
+      "name": "New York, New York, United States"
     },
-    "apply_url": "https://www.brex.com/careers/8037511002?gh_jid=8037511002",
+    "apply_url": "https://www.brex.com/careers/8074909002?gh_jid=8074909002",
     "source": "Greenhouse:brex"
   },
   {
@@ -4570,9 +4504,9 @@
     "title": "Director, Enterprise Sales",
     "company": "brex",
     "location": {
-      "name": "New York, New York, United States"
+      "name": "Vancouver, British Columbia, Canada"
     },
-    "apply_url": "https://www.brex.com/careers/8074909002?gh_jid=8074909002",
+    "apply_url": "https://www.brex.com/careers/8074439002?gh_jid=8074439002",
     "source": "Greenhouse:brex"
   },
   {
@@ -4584,39 +4518,6 @@
       "name": "Salt Lake City, Utah, United States"
     },
     "apply_url": "https://www.brex.com/careers/8074910002?gh_jid=8074910002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
-    "title": "Director, Enterprise Sales",
-    "company": "brex",
-    "location": {
-      "name": "Vancouver, British Columbia, Canada"
-    },
-    "apply_url": "https://www.brex.com/careers/8074439002?gh_jid=8074439002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
-    "title": "Director, Mid Market Sales",
-    "company": "brex",
-    "location": {
-      "name": "Salt Lake City, Utah, United States"
-    },
-    "apply_url": "https://www.brex.com/careers/8066813002?gh_jid=8066813002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
-    "title": "Director, Mid Market Sales",
-    "company": "brex",
-    "location": {
-      "name": "Vancouver, British Columbia, Canada"
-    },
-    "apply_url": "https://www.brex.com/careers/8066824002?gh_jid=8066824002",
     "source": "Greenhouse:brex"
   },
   {
@@ -4639,6 +4540,28 @@
       "name": "San Francisco, California, United States"
     },
     "apply_url": "https://www.brex.com/careers/8055182002?gh_jid=8055182002",
+    "source": "Greenhouse:brex"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Director, Mid Market Sales",
+    "company": "brex",
+    "location": {
+      "name": "Salt Lake City, Utah, United States"
+    },
+    "apply_url": "https://www.brex.com/careers/8066813002?gh_jid=8066813002",
+    "source": "Greenhouse:brex"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Director, Mid Market Sales",
+    "company": "brex",
+    "location": {
+      "name": "Vancouver, British Columbia, Canada"
+    },
+    "apply_url": "https://www.brex.com/careers/8066824002?gh_jid=8066824002",
     "source": "Greenhouse:brex"
   },
   {
@@ -4691,31 +4614,20 @@
     "title": "Enterprise Account Executive",
     "company": "brex",
     "location": {
-      "name": "San Francisco, California, United States"
-    },
-    "apply_url": "https://www.brex.com/careers/8079486002?gh_jid=8079486002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
-    "title": "Enterprise Account Executive",
-    "company": "brex",
-    "location": {
-      "name": "Vancouver, British Columbia, Canada"
-    },
-    "apply_url": "https://www.brex.com/careers/7814866002?gh_jid=7814866002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
-    "title": "Enterprise Account Executive",
-    "company": "brex",
-    "location": {
       "name": "New York, New York, United States"
     },
     "apply_url": "https://www.brex.com/careers/7732133002?gh_jid=7732133002",
+    "source": "Greenhouse:brex"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Enterprise Account Executive",
+    "company": "brex",
+    "location": {
+      "name": "San Francisco, California, United States"
+    },
+    "apply_url": "https://www.brex.com/careers/8079486002?gh_jid=8079486002",
     "source": "Greenhouse:brex"
   },
   {
@@ -4732,12 +4644,12 @@
   {
     "date_iso": "2025-09-23",
     "date_human": "Sep 23, 2025",
-    "title": "Enterprise Account Executive, SaaS Expansions",
+    "title": "Enterprise Account Executive",
     "company": "brex",
     "location": {
-      "name": "New York, New York, United States"
+      "name": "Vancouver, British Columbia, Canada"
     },
-    "apply_url": "https://www.brex.com/careers/8083592002?gh_jid=8083592002",
+    "apply_url": "https://www.brex.com/careers/7814866002?gh_jid=7814866002",
     "source": "Greenhouse:brex"
   },
   {
@@ -4754,23 +4666,23 @@
   {
     "date_iso": "2025-09-23",
     "date_human": "Sep 23, 2025",
+    "title": "Enterprise Account Executive, SaaS Expansions",
+    "company": "brex",
+    "location": {
+      "name": "New York, New York, United States"
+    },
+    "apply_url": "https://www.brex.com/careers/8083592002?gh_jid=8083592002",
+    "source": "Greenhouse:brex"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
     "title": "European Counsel",
     "company": "brex",
     "location": {
       "name": "London, England, United Kingdom"
     },
     "apply_url": "https://www.brex.com/careers/8158995002?gh_jid=8158995002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
-    "title": "Growth Client Sales Executive",
-    "company": "brex",
-    "location": {
-      "name": "New York, New York, United States"
-    },
-    "apply_url": "https://www.brex.com/careers/8160623002?gh_jid=8160623002",
     "source": "Greenhouse:brex"
   },
   {
@@ -4798,12 +4710,12 @@
   {
     "date_iso": "2025-09-23",
     "date_human": "Sep 23, 2025",
-    "title": "Head of Events",
+    "title": "Growth Client Sales Executive",
     "company": "brex",
     "location": {
-      "name": "San Francisco, California, United States"
+      "name": "New York, New York, United States"
     },
-    "apply_url": "https://www.brex.com/careers/8181493002?gh_jid=8181493002",
+    "apply_url": "https://www.brex.com/careers/8160623002?gh_jid=8160623002",
     "source": "Greenhouse:brex"
   },
   {
@@ -4826,6 +4738,17 @@
       "name": "Seattle, Washington, United States"
     },
     "apply_url": "https://www.brex.com/careers/8181497002?gh_jid=8181497002",
+    "source": "Greenhouse:brex"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Head of Events",
+    "company": "brex",
+    "location": {
+      "name": "San Francisco, California, United States"
+    },
+    "apply_url": "https://www.brex.com/careers/8181493002?gh_jid=8181493002",
     "source": "Greenhouse:brex"
   },
   {
@@ -4856,17 +4779,6 @@
     "title": "Manager, Sales Development",
     "company": "brex",
     "location": {
-      "name": "Salt Lake City, Utah, United States"
-    },
-    "apply_url": "https://www.brex.com/careers/7882861002?gh_jid=7882861002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
-    "title": "Manager, Sales Development",
-    "company": "brex",
-    "location": {
       "name": "Vancouver, British Columbia, Canada"
     },
     "apply_url": "https://www.brex.com/careers/7918845002?gh_jid=7918845002",
@@ -4886,12 +4798,12 @@
   {
     "date_iso": "2025-09-23",
     "date_human": "Sep 23, 2025",
-    "title": "Mid-Market Account Executive, Expansions",
+    "title": "Manager, Sales Development",
     "company": "brex",
     "location": {
-      "name": "San Francisco, California, United States"
+      "name": "Salt Lake City, Utah, United States"
     },
-    "apply_url": "https://www.brex.com/careers/8045280002?gh_jid=8045280002",
+    "apply_url": "https://www.brex.com/careers/7882861002?gh_jid=7882861002",
     "source": "Greenhouse:brex"
   },
   {
@@ -4900,9 +4812,20 @@
     "title": "Mid-Market Account Executive, Expansions",
     "company": "brex",
     "location": {
-      "name": "New York, New York, United States"
+      "name": "Seattle, Washington, United States"
     },
-    "apply_url": "https://www.brex.com/careers/8045264002?gh_jid=8045264002",
+    "apply_url": "https://www.brex.com/careers/8141935002?gh_jid=8141935002",
+    "source": "Greenhouse:brex"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Mid-Market Account Executive, Expansions",
+    "company": "brex",
+    "location": {
+      "name": "San Francisco, California, United States"
+    },
+    "apply_url": "https://www.brex.com/careers/8045280002?gh_jid=8045280002",
     "source": "Greenhouse:brex"
   },
   {
@@ -4922,20 +4845,9 @@
     "title": "Mid-Market Account Executive, Expansions",
     "company": "brex",
     "location": {
-      "name": "Seattle, Washington, United States"
+      "name": "New York, New York, United States"
     },
-    "apply_url": "https://www.brex.com/careers/8141935002?gh_jid=8141935002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
-    "title": "Operations Analyst - Rotational Program",
-    "company": "brex",
-    "location": {
-      "name": "Vancouver, British Columbia, Canada"
-    },
-    "apply_url": "https://www.brex.com/careers/8172579002?gh_jid=8172579002",
+    "apply_url": "https://www.brex.com/careers/8045264002?gh_jid=8045264002",
     "source": "Greenhouse:brex"
   },
   {
@@ -4963,12 +4875,12 @@
   {
     "date_iso": "2025-09-23",
     "date_human": "Sep 23, 2025",
-    "title": "Outbound Sales Development Representative",
+    "title": "Operations Analyst - Rotational Program",
     "company": "brex",
     "location": {
-      "name": "São Paulo, São Paulo, Brazil"
+      "name": "Vancouver, British Columbia, Canada"
     },
-    "apply_url": "https://www.brex.com/careers/8157922002?gh_jid=8157922002",
+    "apply_url": "https://www.brex.com/careers/8172579002?gh_jid=8172579002",
     "source": "Greenhouse:brex"
   },
   {
@@ -4977,9 +4889,20 @@
     "title": "Outbound Sales Development Representative",
     "company": "brex",
     "location": {
-      "name": "San Francisco, California, United States"
+      "name": "Seattle, Washington, United States"
     },
-    "apply_url": "https://www.brex.com/careers/8007648002?gh_jid=8007648002",
+    "apply_url": "https://www.brex.com/careers/8159838002?gh_jid=8159838002",
+    "source": "Greenhouse:brex"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Outbound Sales Development Representative",
+    "company": "brex",
+    "location": {
+      "name": "São Paulo, São Paulo, Brazil"
+    },
+    "apply_url": "https://www.brex.com/careers/8157922002?gh_jid=8157922002",
     "source": "Greenhouse:brex"
   },
   {
@@ -4999,9 +4922,9 @@
     "title": "Outbound Sales Development Representative",
     "company": "brex",
     "location": {
-      "name": "Salt Lake City, Utah, United States"
+      "name": "San Francisco, California, United States"
     },
-    "apply_url": "https://www.brex.com/careers/8007563002?gh_jid=8007563002",
+    "apply_url": "https://www.brex.com/careers/8007648002?gh_jid=8007648002",
     "source": "Greenhouse:brex"
   },
   {
@@ -5010,20 +4933,9 @@
     "title": "Outbound Sales Development Representative",
     "company": "brex",
     "location": {
-      "name": "Seattle, Washington, United States"
+      "name": "Salt Lake City, Utah, United States"
     },
-    "apply_url": "https://www.brex.com/careers/8159838002?gh_jid=8159838002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
-    "title": "Partner Marketing Manager",
-    "company": "brex",
-    "location": {
-      "name": "New York, New York, United States"
-    },
-    "apply_url": "https://www.brex.com/careers/8072895002?gh_jid=8072895002",
+    "apply_url": "https://www.brex.com/careers/8007563002?gh_jid=8007563002",
     "source": "Greenhouse:brex"
   },
   {
@@ -5051,23 +4963,23 @@
   {
     "date_iso": "2025-09-23",
     "date_human": "Sep 23, 2025",
+    "title": "Partner Marketing Manager",
+    "company": "brex",
+    "location": {
+      "name": "New York, New York, United States"
+    },
+    "apply_url": "https://www.brex.com/careers/8072895002?gh_jid=8072895002",
+    "source": "Greenhouse:brex"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
     "title": "Recruiting Assistant",
     "company": "brex",
     "location": {
       "name": "São Paulo, São Paulo, Brazil"
     },
     "apply_url": "https://www.brex.com/careers/8000198002?gh_jid=8000198002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
-    "title": "Relationship Manager",
-    "company": "brex",
-    "location": {
-      "name": "New York, New York, United States"
-    },
-    "apply_url": "https://www.brex.com/careers/8116393002?gh_jid=8116393002",
     "source": "Greenhouse:brex"
   },
   {
@@ -5084,12 +4996,23 @@
   {
     "date_iso": "2025-09-23",
     "date_human": "Sep 23, 2025",
+    "title": "Relationship Manager",
+    "company": "brex",
+    "location": {
+      "name": "New York, New York, United States"
+    },
+    "apply_url": "https://www.brex.com/careers/8116393002?gh_jid=8116393002",
+    "source": "Greenhouse:brex"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
     "title": "Revenue Operations Manager",
     "company": "brex",
     "location": {
-      "name": "Salt Lake City, Utah, United States"
+      "name": "Vancouver, British Columbia, Canada"
     },
-    "apply_url": "https://www.brex.com/careers/8140097002?gh_jid=8140097002",
+    "apply_url": "https://www.brex.com/careers/8140098002?gh_jid=8140098002",
     "source": "Greenhouse:brex"
   },
   {
@@ -5131,20 +5054,9 @@
     "title": "Revenue Operations Manager",
     "company": "brex",
     "location": {
-      "name": "Vancouver, British Columbia, Canada"
+      "name": "Salt Lake City, Utah, United States"
     },
-    "apply_url": "https://www.brex.com/careers/8140098002?gh_jid=8140098002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
-    "title": "Sales Manager, Startups",
-    "company": "brex",
-    "location": {
-      "name": "Seattle, Washington, United States"
-    },
-    "apply_url": "https://www.brex.com/careers/8148603002?gh_jid=8148603002",
+    "apply_url": "https://www.brex.com/careers/8140097002?gh_jid=8140097002",
     "source": "Greenhouse:brex"
   },
   {
@@ -5175,9 +5087,42 @@
     "title": "Sales Manager, Startups",
     "company": "brex",
     "location": {
+      "name": "Seattle, Washington, United States"
+    },
+    "apply_url": "https://www.brex.com/careers/8148603002?gh_jid=8148603002",
+    "source": "Greenhouse:brex"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Sales Manager, Startups",
+    "company": "brex",
+    "location": {
       "name": "New York, New York, United States"
     },
     "apply_url": "https://www.brex.com/careers/8148601002?gh_jid=8148601002",
+    "source": "Greenhouse:brex"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Security Operations Engineer II",
+    "company": "brex",
+    "location": {
+      "name": "Vancouver, British Columbia, Canada"
+    },
+    "apply_url": "https://www.brex.com/careers/8069896002?gh_jid=8069896002",
+    "source": "Greenhouse:brex"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Security Operations Engineer II",
+    "company": "brex",
+    "location": {
+      "name": "San Francisco, California, United States"
+    },
+    "apply_url": "https://www.brex.com/careers/7980998002?gh_jid=7980998002",
     "source": "Greenhouse:brex"
   },
   {
@@ -5200,28 +5145,6 @@
       "name": "Seattle, Washington, United States"
     },
     "apply_url": "https://www.brex.com/careers/8093244002?gh_jid=8093244002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
-    "title": "Security Operations Engineer II",
-    "company": "brex",
-    "location": {
-      "name": "San Francisco, California, United States"
-    },
-    "apply_url": "https://www.brex.com/careers/7980998002?gh_jid=7980998002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
-    "title": "Security Operations Engineer II",
-    "company": "brex",
-    "location": {
-      "name": "Vancouver, British Columbia, Canada"
-    },
-    "apply_url": "https://www.brex.com/careers/8069896002?gh_jid=8069896002",
     "source": "Greenhouse:brex"
   },
   {
@@ -5271,61 +5194,6 @@
   {
     "date_iso": "2025-09-23",
     "date_human": "Sep 23, 2025",
-    "title": "Senior Engineering Manager",
-    "company": "brex",
-    "location": {
-      "name": "San Francisco, California, United States"
-    },
-    "apply_url": "https://www.brex.com/careers/8013693002?gh_jid=8013693002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
-    "title": "Senior Engineering Manager",
-    "company": "brex",
-    "location": {
-      "name": "Seattle, Washington, United States"
-    },
-    "apply_url": "https://www.brex.com/careers/8013736002?gh_jid=8013736002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
-    "title": "Senior Engineering Manager",
-    "company": "brex",
-    "location": {
-      "name": "Vancouver, British Columbia, Canada"
-    },
-    "apply_url": "https://www.brex.com/careers/8013737002?gh_jid=8013737002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
-    "title": "Senior Engineering Manager",
-    "company": "brex",
-    "location": {
-      "name": "São Paulo, São Paulo, Brazil"
-    },
-    "apply_url": "https://www.brex.com/careers/8013738002?gh_jid=8013738002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
-    "title": "Senior Engineering Manager",
-    "company": "brex",
-    "location": {
-      "name": "New York, New York, United States"
-    },
-    "apply_url": "https://www.brex.com/careers/8013732002?gh_jid=8013732002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
     "title": "Senior Executive Assistant, Office of the CEO",
     "company": "brex",
     "location": {
@@ -5362,17 +5230,6 @@
     "title": "Senior GTM Recruiter",
     "company": "brex",
     "location": {
-      "name": "Salt Lake City, Utah, United States"
-    },
-    "apply_url": "https://www.brex.com/careers/8075285002?gh_jid=8075285002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
-    "title": "Senior GTM Recruiter",
-    "company": "brex",
-    "location": {
       "name": "San Francisco, California, United States"
     },
     "apply_url": "https://www.brex.com/careers/8073147002?gh_jid=8073147002",
@@ -5381,12 +5238,12 @@
   {
     "date_iso": "2025-09-23",
     "date_human": "Sep 23, 2025",
-    "title": "Senior IT Systems Engineer",
+    "title": "Senior GTM Recruiter",
     "company": "brex",
     "location": {
-      "name": "San Francisco, California, United States"
+      "name": "Salt Lake City, Utah, United States"
     },
-    "apply_url": "https://www.brex.com/careers/8153146002?gh_jid=8153146002",
+    "apply_url": "https://www.brex.com/careers/8075285002?gh_jid=8075285002",
     "source": "Greenhouse:brex"
   },
   {
@@ -5406,42 +5263,20 @@
     "title": "Senior IT Systems Engineer",
     "company": "brex",
     "location": {
+      "name": "San Francisco, California, United States"
+    },
+    "apply_url": "https://www.brex.com/careers/8153146002?gh_jid=8153146002",
+    "source": "Greenhouse:brex"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Senior IT Systems Engineer",
+    "company": "brex",
+    "location": {
       "name": "Seattle, Washington, United States"
     },
     "apply_url": "https://www.brex.com/careers/8153178002?gh_jid=8153178002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
-    "title": "Senior Marketing Analyst",
-    "company": "brex",
-    "location": {
-      "name": "San Francisco, California, United States"
-    },
-    "apply_url": "https://www.brex.com/careers/8032541002?gh_jid=8032541002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
-    "title": "Senior Marketing Analyst",
-    "company": "brex",
-    "location": {
-      "name": "New York, New York, United States"
-    },
-    "apply_url": "https://www.brex.com/careers/8036033002?gh_jid=8036033002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
-    "title": "Senior Marketing Analyst",
-    "company": "brex",
-    "location": {
-      "name": "Salt Lake City, Utah, United States"
-    },
-    "apply_url": "https://www.brex.com/careers/8036147002?gh_jid=8036147002",
     "source": "Greenhouse:brex"
   },
   {
@@ -5461,9 +5296,42 @@
     "title": "Senior Marketing Analyst",
     "company": "brex",
     "location": {
+      "name": "Salt Lake City, Utah, United States"
+    },
+    "apply_url": "https://www.brex.com/careers/8036147002?gh_jid=8036147002",
+    "source": "Greenhouse:brex"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Senior Marketing Analyst",
+    "company": "brex",
+    "location": {
       "name": "Vancouver, British Columbia, Canada"
     },
     "apply_url": "https://www.brex.com/careers/8036148002?gh_jid=8036148002",
+    "source": "Greenhouse:brex"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Senior Marketing Analyst",
+    "company": "brex",
+    "location": {
+      "name": "New York, New York, United States"
+    },
+    "apply_url": "https://www.brex.com/careers/8036033002?gh_jid=8036033002",
+    "source": "Greenhouse:brex"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Senior Marketing Analyst",
+    "company": "brex",
+    "location": {
+      "name": "San Francisco, California, United States"
+    },
+    "apply_url": "https://www.brex.com/careers/8032541002?gh_jid=8032541002",
     "source": "Greenhouse:brex"
   },
   {
@@ -5527,9 +5395,9 @@
     "title": "Senior Software Engineer, Cloud Infrastructure",
     "company": "brex",
     "location": {
-      "name": "New York, New York, United States"
+      "name": "San Francisco, California, United States"
     },
-    "apply_url": "https://www.brex.com/careers/8117604002?gh_jid=8117604002",
+    "apply_url": "https://www.brex.com/careers/8117602002?gh_jid=8117602002",
     "source": "Greenhouse:brex"
   },
   {
@@ -5538,9 +5406,9 @@
     "title": "Senior Software Engineer, Cloud Infrastructure",
     "company": "brex",
     "location": {
-      "name": "San Francisco, California, United States"
+      "name": "New York, New York, United States"
     },
-    "apply_url": "https://www.brex.com/careers/8117602002?gh_jid=8117602002",
+    "apply_url": "https://www.brex.com/careers/8117604002?gh_jid=8117604002",
     "source": "Greenhouse:brex"
   },
   {
@@ -5582,17 +5450,6 @@
     "title": "Senior Software Engineer, Product AI",
     "company": "brex",
     "location": {
-      "name": "New York, New York, United States"
-    },
-    "apply_url": "https://www.brex.com/careers/8173980002?gh_jid=8173980002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
-    "title": "Senior Software Engineer, Product AI",
-    "company": "brex",
-    "location": {
       "name": "Seattle, Washington, United States"
     },
     "apply_url": "https://www.brex.com/careers/8173985002?gh_jid=8173985002",
@@ -5607,6 +5464,17 @@
       "name": "San Francisco, California, United States"
     },
     "apply_url": "https://www.brex.com/careers/8173610002?gh_jid=8173610002",
+    "source": "Greenhouse:brex"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Senior Software Engineer, Product AI",
+    "company": "brex",
+    "location": {
+      "name": "New York, New York, United States"
+    },
+    "apply_url": "https://www.brex.com/careers/8173980002?gh_jid=8173980002",
     "source": "Greenhouse:brex"
   },
   {
@@ -5692,9 +5560,9 @@
     "title": "Staff Product Designer",
     "company": "brex",
     "location": {
-      "name": "San Francisco, California, United States"
+      "name": "New York, New York, United States"
     },
-    "apply_url": "https://www.brex.com/careers/7669111002?gh_jid=7669111002",
+    "apply_url": "https://www.brex.com/careers/8124973002?gh_jid=8124973002",
     "source": "Greenhouse:brex"
   },
   {
@@ -5703,9 +5571,9 @@
     "title": "Staff Product Designer",
     "company": "brex",
     "location": {
-      "name": "New York, New York, United States"
+      "name": "San Francisco, California, United States"
     },
-    "apply_url": "https://www.brex.com/careers/8124973002?gh_jid=8124973002",
+    "apply_url": "https://www.brex.com/careers/7669111002?gh_jid=7669111002",
     "source": "Greenhouse:brex"
   },
   {
@@ -5736,9 +5604,9 @@
     "title": "Startups Account Executive",
     "company": "brex",
     "location": {
-      "name": "San Francisco, California, United States"
+      "name": "New York, New York, United States"
     },
-    "apply_url": "https://www.brex.com/careers/8042570002?gh_jid=8042570002",
+    "apply_url": "https://www.brex.com/careers/8057158002?gh_jid=8057158002",
     "source": "Greenhouse:brex"
   },
   {
@@ -5747,9 +5615,9 @@
     "title": "Startups Account Executive",
     "company": "brex",
     "location": {
-      "name": "New York, New York, United States"
+      "name": "San Francisco, California, United States"
     },
-    "apply_url": "https://www.brex.com/careers/8057158002?gh_jid=8057158002",
+    "apply_url": "https://www.brex.com/careers/8042570002?gh_jid=8042570002",
     "source": "Greenhouse:brex"
   },
   {
@@ -5769,9 +5637,9 @@
     "title": "Strategic Customer Success Manager",
     "company": "brex",
     "location": {
-      "name": "Seattle, Washington, United States"
+      "name": "Vancouver, British Columbia, Canada"
     },
-    "apply_url": "https://www.brex.com/careers/8153278002?gh_jid=8153278002",
+    "apply_url": "https://www.brex.com/careers/8153305002?gh_jid=8153305002",
     "source": "Greenhouse:brex"
   },
   {
@@ -5780,9 +5648,9 @@
     "title": "Strategic Customer Success Manager",
     "company": "brex",
     "location": {
-      "name": "Salt Lake City, Utah, United States"
+      "name": "Seattle, Washington, United States"
     },
-    "apply_url": "https://www.brex.com/careers/8153300002?gh_jid=8153300002",
+    "apply_url": "https://www.brex.com/careers/8153278002?gh_jid=8153278002",
     "source": "Greenhouse:brex"
   },
   {
@@ -5813,64 +5681,20 @@
     "title": "Strategic Customer Success Manager",
     "company": "brex",
     "location": {
-      "name": "Vancouver, British Columbia, Canada"
+      "name": "Salt Lake City, Utah, United States"
     },
-    "apply_url": "https://www.brex.com/careers/8153305002?gh_jid=8153305002",
+    "apply_url": "https://www.brex.com/careers/8153300002?gh_jid=8153300002",
     "source": "Greenhouse:brex"
   },
   {
     "date_iso": "2025-09-23",
     "date_human": "Sep 23, 2025",
-    "title": "Support Specialist I (Remote)",
-    "company": "brex",
-    "location": {
-      "name": "Vancouver, British Columbia, Canada"
-    },
-    "apply_url": "https://www.brex.com/careers/7482686002?gh_jid=7482686002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
-    "title": "Support Specialist I (Remote)",
+    "title": "Technical Consultant",
     "company": "brex",
     "location": {
       "name": "Salt Lake City, Utah, United States"
     },
-    "apply_url": "https://www.brex.com/careers/7500999002?gh_jid=7500999002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
-    "title": "Technical Consultant",
-    "company": "brex",
-    "location": {
-      "name": "Vancouver, British Columbia, Canada"
-    },
-    "apply_url": "https://www.brex.com/careers/8136718002?gh_jid=8136718002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
-    "title": "Technical Consultant",
-    "company": "brex",
-    "location": {
-      "name": "San Francisco, California, United States"
-    },
-    "apply_url": "https://www.brex.com/careers/8136713002?gh_jid=8136713002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
-    "title": "Technical Consultant",
-    "company": "brex",
-    "location": {
-      "name": "Seattle, Washington, United States"
-    },
-    "apply_url": "https://www.brex.com/careers/8136710002?gh_jid=8136710002",
+    "apply_url": "https://www.brex.com/careers/8136183002?gh_jid=8136183002",
     "source": "Greenhouse:brex"
   },
   {
@@ -5890,9 +5714,31 @@
     "title": "Technical Consultant",
     "company": "brex",
     "location": {
-      "name": "Salt Lake City, Utah, United States"
+      "name": "Seattle, Washington, United States"
     },
-    "apply_url": "https://www.brex.com/careers/8136183002?gh_jid=8136183002",
+    "apply_url": "https://www.brex.com/careers/8136710002?gh_jid=8136710002",
+    "source": "Greenhouse:brex"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Technical Consultant",
+    "company": "brex",
+    "location": {
+      "name": "San Francisco, California, United States"
+    },
+    "apply_url": "https://www.brex.com/careers/8136713002?gh_jid=8136713002",
+    "source": "Greenhouse:brex"
+  },
+  {
+    "date_iso": "2025-09-23",
+    "date_human": "Sep 23, 2025",
+    "title": "Technical Consultant",
+    "company": "brex",
+    "location": {
+      "name": "Vancouver, British Columbia, Canada"
+    },
+    "apply_url": "https://www.brex.com/careers/8136718002?gh_jid=8136718002",
     "source": "Greenhouse:brex"
   },
   {
@@ -5970,17 +5816,6 @@
       "name": "San Mateo, CA, United States"
     },
     "apply_url": "https://careers.roblox.com/jobs/7268755?gh_jid=7268755",
-    "source": "Greenhouse:roblox"
-  },
-  {
-    "date_iso": "2025-09-23",
-    "date_human": "Sep 23, 2025",
-    "title": "Global Mobility Specialist",
-    "company": "roblox",
-    "location": {
-      "name": "San Mateo, CA, United States"
-    },
-    "apply_url": "https://careers.roblox.com/jobs/7059922?gh_jid=7059922",
     "source": "Greenhouse:roblox"
   },
   {
@@ -6066,9 +5901,9 @@
     "title": "Engineering Manager, Fraud",
     "company": "brex",
     "location": {
-      "name": "Seattle, Washington, United States"
+      "name": "San Francisco, California, United States"
     },
-    "apply_url": "https://www.brex.com/careers/8184694002?gh_jid=8184694002",
+    "apply_url": "https://www.brex.com/careers/8184695002?gh_jid=8184695002",
     "source": "Greenhouse:brex"
   },
   {
@@ -6088,9 +5923,20 @@
     "title": "Engineering Manager, Fraud",
     "company": "brex",
     "location": {
-      "name": "San Francisco, California, United States"
+      "name": "Seattle, Washington, United States"
     },
-    "apply_url": "https://www.brex.com/careers/8184695002?gh_jid=8184695002",
+    "apply_url": "https://www.brex.com/careers/8184694002?gh_jid=8184694002",
+    "source": "Greenhouse:brex"
+  },
+  {
+    "date_iso": "2025-09-24",
+    "date_human": "Sep 24, 2025",
+    "title": "Senior SEO Manager",
+    "company": "brex",
+    "location": {
+      "name": "Vancouver, British Columbia, Canada"
+    },
+    "apply_url": "https://www.brex.com/careers/8018802002?gh_jid=8018802002",
     "source": "Greenhouse:brex"
   },
   {
@@ -6110,9 +5956,9 @@
     "title": "Senior SEO Manager",
     "company": "brex",
     "location": {
-      "name": "San Francisco, California, United States"
+      "name": "Seattle, Washington, United States"
     },
-    "apply_url": "https://www.brex.com/careers/8017231002?gh_jid=8017231002",
+    "apply_url": "https://www.brex.com/careers/8018794002?gh_jid=8018794002",
     "source": "Greenhouse:brex"
   },
   {
@@ -6132,20 +5978,9 @@
     "title": "Senior SEO Manager",
     "company": "brex",
     "location": {
-      "name": "Seattle, Washington, United States"
+      "name": "San Francisco, California, United States"
     },
-    "apply_url": "https://www.brex.com/careers/8018794002?gh_jid=8018794002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-24",
-    "date_human": "Sep 24, 2025",
-    "title": "Senior SEO Manager",
-    "company": "brex",
-    "location": {
-      "name": "Vancouver, British Columbia, Canada"
-    },
-    "apply_url": "https://www.brex.com/careers/8018802002?gh_jid=8018802002",
+    "apply_url": "https://www.brex.com/careers/8017231002?gh_jid=8017231002",
     "source": "Greenhouse:brex"
   },
   {
@@ -6277,6 +6112,17 @@
     "location": {
       "name": "Seoul, South Korea"
     },
+    "apply_url": "https://careers.datadoghq.com/detail/6512326/?gh_jid=6512326",
+    "source": "Greenhouse:datadog"
+  },
+  {
+    "date_iso": "2025-09-24",
+    "date_human": "Sep 24, 2025",
+    "title": "Commercial Account Executive",
+    "company": "datadog",
+    "location": {
+      "name": "Seoul, South Korea"
+    },
     "apply_url": "https://careers.datadoghq.com/detail/6512586/?gh_jid=6512586",
     "source": "Greenhouse:datadog"
   },
@@ -6289,17 +6135,6 @@
       "name": "Denver, Colorado, USA"
     },
     "apply_url": "https://careers.datadoghq.com/detail/1694375/?gh_jid=1694375",
-    "source": "Greenhouse:datadog"
-  },
-  {
-    "date_iso": "2025-09-24",
-    "date_human": "Sep 24, 2025",
-    "title": "Commercial Account Executive",
-    "company": "datadog",
-    "location": {
-      "name": "Tokyo, Japan"
-    },
-    "apply_url": "https://careers.datadoghq.com/detail/6009777/?gh_jid=6009777",
     "source": "Greenhouse:datadog"
   },
   {
@@ -6321,7 +6156,7 @@
     "location": {
       "name": "Tokyo, Japan"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/5798241/?gh_jid=5798241",
+    "apply_url": "https://careers.datadoghq.com/detail/6009777/?gh_jid=6009777",
     "source": "Greenhouse:datadog"
   },
   {
@@ -6330,9 +6165,9 @@
     "title": "Commercial Account Executive",
     "company": "datadog",
     "location": {
-      "name": "Seoul, South Korea"
+      "name": "Tokyo, Japan"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6512326/?gh_jid=6512326",
+    "apply_url": "https://careers.datadoghq.com/detail/5798241/?gh_jid=5798241",
     "source": "Greenhouse:datadog"
   },
   {
@@ -6459,17 +6294,6 @@
   {
     "date_iso": "2025-09-24",
     "date_human": "Sep 24, 2025",
-    "title": "Commercial Sales Engineer (Spanish-Speaking)",
-    "company": "datadog",
-    "location": {
-      "name": "Amsterdam, The Netherlands; Dublin, Ireland"
-    },
-    "apply_url": "https://careers.datadoghq.com/detail/7102587/?gh_jid=7102587",
-    "source": "Greenhouse:datadog"
-  },
-  {
-    "date_iso": "2025-09-24",
-    "date_human": "Sep 24, 2025",
     "title": "Commercial Sales Engineer (Thai Speaking)",
     "company": "datadog",
     "location": {
@@ -6503,12 +6327,12 @@
   {
     "date_iso": "2025-09-24",
     "date_human": "Sep 24, 2025",
-    "title": "Corporate Development Lead",
+    "title": "Customer Success Associate",
     "company": "datadog",
     "location": {
-      "name": "New York, New York, USA; San Francisco, California, USA"
+      "name": "Seoul, South Korea"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7093471/?gh_jid=7093471",
+    "apply_url": "https://careers.datadoghq.com/detail/7061137/?gh_jid=7061137",
     "source": "Greenhouse:datadog"
   },
   {
@@ -6517,9 +6341,9 @@
     "title": "Customer Success Associate",
     "company": "datadog",
     "location": {
-      "name": "Seoul, South Korea"
+      "name": "Sydney, Australia"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7061137/?gh_jid=7061137",
+    "apply_url": "https://careers.datadoghq.com/detail/6989535/?gh_jid=6989535",
     "source": "Greenhouse:datadog"
   },
   {
@@ -6542,17 +6366,6 @@
       "name": "Tokyo, Japan"
     },
     "apply_url": "https://careers.datadoghq.com/detail/6009779/?gh_jid=6009779",
-    "source": "Greenhouse:datadog"
-  },
-  {
-    "date_iso": "2025-09-24",
-    "date_human": "Sep 24, 2025",
-    "title": "Customer Success Associate",
-    "company": "datadog",
-    "location": {
-      "name": "Sydney, Australia"
-    },
-    "apply_url": "https://careers.datadoghq.com/detail/6989535/?gh_jid=6989535",
     "source": "Greenhouse:datadog"
   },
   {
@@ -6704,20 +6517,9 @@
     "title": "Director, Enterprise Sales",
     "company": "datadog",
     "location": {
-      "name": "Boston, Massachusetts, USA"
+      "name": "Tokyo, Japan"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7216547/?gh_jid=7216547",
-    "source": "Greenhouse:datadog"
-  },
-  {
-    "date_iso": "2025-09-24",
-    "date_human": "Sep 24, 2025",
-    "title": "Director, Enterprise Sales",
-    "company": "datadog",
-    "location": {
-      "name": "New York, New York, USA"
-    },
-    "apply_url": "https://careers.datadoghq.com/detail/7187249/?gh_jid=7187249",
+    "apply_url": "https://careers.datadoghq.com/detail/6840066/?gh_jid=6840066",
     "source": "Greenhouse:datadog"
   },
   {
@@ -6737,9 +6539,9 @@
     "title": "Director, Enterprise Sales",
     "company": "datadog",
     "location": {
-      "name": "Tokyo, Japan"
+      "name": "Seoul, South Korea"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6840066/?gh_jid=6840066",
+    "apply_url": "https://careers.datadoghq.com/detail/6909743/?gh_jid=6909743",
     "source": "Greenhouse:datadog"
   },
   {
@@ -6748,9 +6550,20 @@
     "title": "Director, Enterprise Sales",
     "company": "datadog",
     "location": {
-      "name": "Seoul, South Korea"
+      "name": "Boston, Massachusetts, USA"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6909743/?gh_jid=6909743",
+    "apply_url": "https://careers.datadoghq.com/detail/7216547/?gh_jid=7216547",
+    "source": "Greenhouse:datadog"
+  },
+  {
+    "date_iso": "2025-09-24",
+    "date_human": "Sep 24, 2025",
+    "title": "Director, Enterprise Sales",
+    "company": "datadog",
+    "location": {
+      "name": "New York, New York, USA"
+    },
+    "apply_url": "https://careers.datadoghq.com/detail/7187249/?gh_jid=7187249",
     "source": "Greenhouse:datadog"
   },
   {
@@ -6937,7 +6750,7 @@
     "location": {
       "name": "Tokyo, Japan"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7188438/?gh_jid=7188438",
+    "apply_url": "https://careers.datadoghq.com/detail/7186546/?gh_jid=7186546",
     "source": "Greenhouse:datadog"
   },
   {
@@ -6948,7 +6761,7 @@
     "location": {
       "name": "Tokyo, Japan"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7186546/?gh_jid=7186546",
+    "apply_url": "https://careers.datadoghq.com/detail/7188438/?gh_jid=7188438",
     "source": "Greenhouse:datadog"
   },
   {
@@ -6968,9 +6781,9 @@
     "title": "Enterprise Customer Success Manager - East (French Speaking)",
     "company": "datadog",
     "location": {
-      "name": "Boston, Massachusetts, USA; New York, New York, USA"
+      "name": "Toronto, Canada"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7220300/?gh_jid=7220300",
+    "apply_url": "https://careers.datadoghq.com/detail/7260806/?gh_jid=7260806",
     "source": "Greenhouse:datadog"
   },
   {
@@ -6979,9 +6792,9 @@
     "title": "Enterprise Customer Success Manager - East (French Speaking)",
     "company": "datadog",
     "location": {
-      "name": "Toronto, Canada"
+      "name": "Boston, Massachusetts, USA; New York, New York, USA"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7260806/?gh_jid=7260806",
+    "apply_url": "https://careers.datadoghq.com/detail/7220300/?gh_jid=7220300",
     "source": "Greenhouse:datadog"
   },
   {
@@ -7012,20 +6825,9 @@
     "title": "Enterprise Sales Engineer",
     "company": "datadog",
     "location": {
-      "name": "Seoul, South Korea"
+      "name": "Sydney, Australia"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6937124/?gh_jid=6937124",
-    "source": "Greenhouse:datadog"
-  },
-  {
-    "date_iso": "2025-09-24",
-    "date_human": "Sep 24, 2025",
-    "title": "Enterprise Sales Engineer",
-    "company": "datadog",
-    "location": {
-      "name": "Osaka, Japan"
-    },
-    "apply_url": "https://careers.datadoghq.com/detail/6430289/?gh_jid=6430289",
+    "apply_url": "https://careers.datadoghq.com/detail/6925284/?gh_jid=6925284",
     "source": "Greenhouse:datadog"
   },
   {
@@ -7037,6 +6839,17 @@
       "name": "Tokyo, Japan"
     },
     "apply_url": "https://careers.datadoghq.com/detail/7204247/?gh_jid=7204247",
+    "source": "Greenhouse:datadog"
+  },
+  {
+    "date_iso": "2025-09-24",
+    "date_human": "Sep 24, 2025",
+    "title": "Enterprise Sales Engineer",
+    "company": "datadog",
+    "location": {
+      "name": "Seoul, South Korea"
+    },
+    "apply_url": "https://careers.datadoghq.com/detail/6937124/?gh_jid=6937124",
     "source": "Greenhouse:datadog"
   },
   {
@@ -7058,7 +6871,7 @@
     "location": {
       "name": "Osaka, Japan"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6703351/?gh_jid=6703351",
+    "apply_url": "https://careers.datadoghq.com/detail/6430289/?gh_jid=6430289",
     "source": "Greenhouse:datadog"
   },
   {
@@ -7067,9 +6880,9 @@
     "title": "Enterprise Sales Engineer",
     "company": "datadog",
     "location": {
-      "name": "Sydney, Australia"
+      "name": "Osaka, Japan"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6925284/?gh_jid=6925284",
+    "apply_url": "https://careers.datadoghq.com/detail/6703351/?gh_jid=6703351",
     "source": "Greenhouse:datadog"
   },
   {
@@ -7133,9 +6946,9 @@
     "title": "Enterprise Security Sales Specialist",
     "company": "datadog",
     "location": {
-      "name": "Florida, USA, Remote; Georgia, USA, Remote"
+      "name": "Texas, USA, Remote"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7132132/?gh_jid=7132132",
+    "apply_url": "https://careers.datadoghq.com/detail/7132867/?gh_jid=7132867",
     "source": "Greenhouse:datadog"
   },
   {
@@ -7155,9 +6968,9 @@
     "title": "Enterprise Security Sales Specialist",
     "company": "datadog",
     "location": {
-      "name": "Chicago, Illinois, USA; San Francisco, California, USA"
+      "name": "Florida, USA, Remote; Georgia, USA, Remote"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7129428/?gh_jid=7129428",
+    "apply_url": "https://careers.datadoghq.com/detail/7132132/?gh_jid=7132132",
     "source": "Greenhouse:datadog"
   },
   {
@@ -7166,9 +6979,9 @@
     "title": "Enterprise Security Sales Specialist",
     "company": "datadog",
     "location": {
-      "name": "Texas, USA, Remote"
+      "name": "Chicago, Illinois, USA; San Francisco, California, USA"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7132867/?gh_jid=7132867",
+    "apply_url": "https://careers.datadoghq.com/detail/7129428/?gh_jid=7129428",
     "source": "Greenhouse:datadog"
   },
   {
@@ -7408,9 +7221,9 @@
     "title": "Manager I, Engineering - APM SDK Capabilities",
     "company": "datadog",
     "location": {
-      "name": "Lisbon, Portugal"
+      "name": "Madrid, Spain; Paris, France"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7248773/?gh_jid=7248773",
+    "apply_url": "https://careers.datadoghq.com/detail/7095582/?gh_jid=7095582",
     "source": "Greenhouse:datadog"
   },
   {
@@ -7419,9 +7232,9 @@
     "title": "Manager I, Engineering - APM SDK Capabilities",
     "company": "datadog",
     "location": {
-      "name": "Madrid, Spain; Paris, France"
+      "name": "Lisbon, Portugal"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7095582/?gh_jid=7095582",
+    "apply_url": "https://careers.datadoghq.com/detail/7248773/?gh_jid=7248773",
     "source": "Greenhouse:datadog"
   },
   {
@@ -7507,9 +7320,9 @@
     "title": "Manager I, Engineering - Container Autoscaling",
     "company": "datadog",
     "location": {
-      "name": "Lisbon, Portugal"
+      "name": "Paris, France"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6919120/?gh_jid=6919120",
+    "apply_url": "https://careers.datadoghq.com/detail/6919115/?gh_jid=6919115",
     "source": "Greenhouse:datadog"
   },
   {
@@ -7518,9 +7331,9 @@
     "title": "Manager I, Engineering - Container Autoscaling",
     "company": "datadog",
     "location": {
-      "name": "Paris, France"
+      "name": "Lisbon, Portugal"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6919115/?gh_jid=6919115",
+    "apply_url": "https://careers.datadoghq.com/detail/6919120/?gh_jid=6919120",
     "source": "Greenhouse:datadog"
   },
   {
@@ -7768,17 +7581,6 @@
   {
     "date_iso": "2025-09-24",
     "date_human": "Sep 24, 2025",
-    "title": "Manager I, Technical Program Management",
-    "company": "datadog",
-    "location": {
-      "name": "New York, New York, USA"
-    },
-    "apply_url": "https://careers.datadoghq.com/detail/7050973/?gh_jid=7050973",
-    "source": "Greenhouse:datadog"
-  },
-  {
-    "date_iso": "2025-09-24",
-    "date_human": "Sep 24, 2025",
     "title": "Manager II, Engineering - APM Root Cause Analysis (GenAI / LLM)",
     "company": "datadog",
     "location": {
@@ -7826,6 +7628,17 @@
     "title": "Manager, Commercial Sales",
     "company": "datadog",
     "location": {
+      "name": "Seoul, South Korea"
+    },
+    "apply_url": "https://careers.datadoghq.com/detail/6825958/?gh_jid=6825958",
+    "source": "Greenhouse:datadog"
+  },
+  {
+    "date_iso": "2025-09-24",
+    "date_human": "Sep 24, 2025",
+    "title": "Manager, Commercial Sales",
+    "company": "datadog",
+    "location": {
       "name": "Tokyo, Japan"
     },
     "apply_url": "https://careers.datadoghq.com/detail/5661424/?gh_jid=5661424",
@@ -7839,29 +7652,7 @@
     "location": {
       "name": "Seoul, South Korea"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6825958/?gh_jid=6825958",
-    "source": "Greenhouse:datadog"
-  },
-  {
-    "date_iso": "2025-09-24",
-    "date_human": "Sep 24, 2025",
-    "title": "Manager, Commercial Sales",
-    "company": "datadog",
-    "location": {
-      "name": "Seoul, South Korea"
-    },
     "apply_url": "https://careers.datadoghq.com/detail/6826009/?gh_jid=6826009",
-    "source": "Greenhouse:datadog"
-  },
-  {
-    "date_iso": "2025-09-24",
-    "date_human": "Sep 24, 2025",
-    "title": "Manager, Commercial Sales - LATAM (Portuguese Speaking)",
-    "company": "datadog",
-    "location": {
-      "name": "Denver, Colorado, USA"
-    },
-    "apply_url": "https://careers.datadoghq.com/detail/7094687/?gh_jid=7094687",
     "source": "Greenhouse:datadog"
   },
   {
@@ -8002,17 +7793,6 @@
     "title": "Mid Market Account Executive",
     "company": "datadog",
     "location": {
-      "name": "Tokyo, Japan"
-    },
-    "apply_url": "https://careers.datadoghq.com/detail/6522009/?gh_jid=6522009",
-    "source": "Greenhouse:datadog"
-  },
-  {
-    "date_iso": "2025-09-24",
-    "date_human": "Sep 24, 2025",
-    "title": "Mid Market Account Executive",
-    "company": "datadog",
-    "location": {
       "name": "Denver, Colorado, USA"
     },
     "apply_url": "https://careers.datadoghq.com/detail/6163246/?gh_jid=6163246",
@@ -8024,9 +7804,9 @@
     "title": "Mid Market Account Executive",
     "company": "datadog",
     "location": {
-      "name": "New York, New York, USA"
+      "name": "Tokyo, Japan"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6665385/?gh_jid=6665385",
+    "apply_url": "https://careers.datadoghq.com/detail/6523631/?gh_jid=6523631",
     "source": "Greenhouse:datadog"
   },
   {
@@ -8037,7 +7817,18 @@
     "location": {
       "name": "Tokyo, Japan"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6523631/?gh_jid=6523631",
+    "apply_url": "https://careers.datadoghq.com/detail/6522009/?gh_jid=6522009",
+    "source": "Greenhouse:datadog"
+  },
+  {
+    "date_iso": "2025-09-24",
+    "date_human": "Sep 24, 2025",
+    "title": "Mid Market Account Executive",
+    "company": "datadog",
+    "location": {
+      "name": "New York, New York, USA"
+    },
+    "apply_url": "https://careers.datadoghq.com/detail/6665385/?gh_jid=6665385",
     "source": "Greenhouse:datadog"
   },
   {
@@ -8167,6 +7958,17 @@
     "title": "Partner Solutions Architect",
     "company": "datadog",
     "location": {
+      "name": "Jakarta, Indonesia"
+    },
+    "apply_url": "https://careers.datadoghq.com/detail/6737937/?gh_jid=6737937",
+    "source": "Greenhouse:datadog"
+  },
+  {
+    "date_iso": "2025-09-24",
+    "date_human": "Sep 24, 2025",
+    "title": "Partner Solutions Architect",
+    "company": "datadog",
+    "location": {
       "name": "Tokyo, Japan"
     },
     "apply_url": "https://careers.datadoghq.com/detail/6359712/?gh_jid=6359712",
@@ -8186,34 +7988,12 @@
   {
     "date_iso": "2025-09-24",
     "date_human": "Sep 24, 2025",
-    "title": "Partner Solutions Architect",
-    "company": "datadog",
-    "location": {
-      "name": "Jakarta, Indonesia"
-    },
-    "apply_url": "https://careers.datadoghq.com/detail/6737937/?gh_jid=6737937",
-    "source": "Greenhouse:datadog"
-  },
-  {
-    "date_iso": "2025-09-24",
-    "date_human": "Sep 24, 2025",
     "title": "Partner Success Manager",
     "company": "datadog",
     "location": {
       "name": "Seoul, South Korea"
     },
     "apply_url": "https://careers.datadoghq.com/detail/7190650/?gh_jid=7190650",
-    "source": "Greenhouse:datadog"
-  },
-  {
-    "date_iso": "2025-09-24",
-    "date_human": "Sep 24, 2025",
-    "title": "People Business Partner - NY",
-    "company": "datadog",
-    "location": {
-      "name": "New York, New York, USA"
-    },
-    "apply_url": "https://careers.datadoghq.com/detail/7000599/?gh_jid=7000599",
     "source": "Greenhouse:datadog"
   },
   {
@@ -8236,17 +8016,6 @@
       "name": "New York, New York, USA"
     },
     "apply_url": "https://careers.datadoghq.com/detail/7095084/?gh_jid=7095084",
-    "source": "Greenhouse:datadog"
-  },
-  {
-    "date_iso": "2025-09-24",
-    "date_human": "Sep 24, 2025",
-    "title": "Premier Support Engineer 3 - NYC",
-    "company": "datadog",
-    "location": {
-      "name": "New York, New York, USA"
-    },
-    "apply_url": "https://careers.datadoghq.com/detail/7120493/?gh_jid=7120493",
     "source": "Greenhouse:datadog"
   },
   {
@@ -8376,9 +8145,9 @@
     "title": "Product Solutions Architect 3 - APM",
     "company": "datadog",
     "location": {
-      "name": "Amsterdam, The Netherlands; Dublin, Ireland; London, United Kingdom; Paris, France"
+      "name": "Boston, Massachusetts, USA; New York, New York, USA"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7260760/?gh_jid=7260760",
+    "apply_url": "https://careers.datadoghq.com/detail/6825839/?gh_jid=6825839",
     "source": "Greenhouse:datadog"
   },
   {
@@ -8387,9 +8156,9 @@
     "title": "Product Solutions Architect 3 - APM",
     "company": "datadog",
     "location": {
-      "name": "Boston, Massachusetts, USA; New York, New York, USA"
+      "name": "Amsterdam, The Netherlands; Dublin, Ireland; London, United Kingdom; Paris, France"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6825839/?gh_jid=6825839",
+    "apply_url": "https://careers.datadoghq.com/detail/7260760/?gh_jid=7260760",
     "source": "Greenhouse:datadog"
   },
   {
@@ -8466,7 +8235,7 @@
     "location": {
       "name": "Tokyo, Japan"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6791817/?gh_jid=6791817",
+    "apply_url": "https://careers.datadoghq.com/detail/6791890/?gh_jid=6791890",
     "source": "Greenhouse:datadog"
   },
   {
@@ -8488,7 +8257,7 @@
     "location": {
       "name": "Tokyo, Japan"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6791890/?gh_jid=6791890",
+    "apply_url": "https://careers.datadoghq.com/detail/6791817/?gh_jid=6791817",
     "source": "Greenhouse:datadog"
   },
   {
@@ -8706,9 +8475,9 @@
     "title": "Senior Data Scientist - AI Systems for Business Teams",
     "company": "datadog",
     "location": {
-      "name": "New York, New York, USA"
+      "name": "Paris, France"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6679282/?gh_jid=6679282",
+    "apply_url": "https://careers.datadoghq.com/detail/7227893/?gh_jid=7227893",
     "source": "Greenhouse:datadog"
   },
   {
@@ -8717,9 +8486,9 @@
     "title": "Senior Data Scientist - AI Systems for Business Teams",
     "company": "datadog",
     "location": {
-      "name": "Paris, France"
+      "name": "New York, New York, USA"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7227893/?gh_jid=7227893",
+    "apply_url": "https://careers.datadoghq.com/detail/6679282/?gh_jid=6679282",
     "source": "Greenhouse:datadog"
   },
   {
@@ -8849,9 +8618,9 @@
     "title": "Senior Library Software Engineer - Rust",
     "company": "datadog",
     "location": {
-      "name": "France, Remote; Germany, Remote; Ireland, Remote; Italy, Remote; Spain, Remote; Sweden, Remote; Switzerland, Remote"
+      "name": "Berlin, Germany; Dublin, Ireland; Madrid, Spain; Paris, France; Rome, Italy; Schwyz, Switzerland; Stockholm, Sweden"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7193917/?gh_jid=7193917",
+    "apply_url": "https://careers.datadoghq.com/detail/7192897/?gh_jid=7192897",
     "source": "Greenhouse:datadog"
   },
   {
@@ -8860,9 +8629,9 @@
     "title": "Senior Library Software Engineer - Rust",
     "company": "datadog",
     "location": {
-      "name": "Lisbon, Portugal"
+      "name": "France, Remote; Germany, Remote; Ireland, Remote; Italy, Remote; Spain, Remote; Sweden, Remote; Switzerland, Remote"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7193942/?gh_jid=7193942",
+    "apply_url": "https://careers.datadoghq.com/detail/7193917/?gh_jid=7193917",
     "source": "Greenhouse:datadog"
   },
   {
@@ -8882,9 +8651,9 @@
     "title": "Senior Library Software Engineer - Rust",
     "company": "datadog",
     "location": {
-      "name": "Berlin, Germany; Dublin, Ireland; Madrid, Spain; Paris, France; Rome, Italy; Schwyz, Switzerland; Stockholm, Sweden"
+      "name": "Lisbon, Portugal"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7192897/?gh_jid=7192897",
+    "apply_url": "https://careers.datadoghq.com/detail/7193942/?gh_jid=7193942",
     "source": "Greenhouse:datadog"
   },
   {
@@ -8970,9 +8739,9 @@
     "title": "Senior Product Designer - Product Analytics",
     "company": "datadog",
     "location": {
-      "name": "Paris, France"
+      "name": "New York, New York, USA"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7021023/?gh_jid=7021023",
+    "apply_url": "https://careers.datadoghq.com/detail/7011810/?gh_jid=7011810",
     "source": "Greenhouse:datadog"
   },
   {
@@ -8981,9 +8750,9 @@
     "title": "Senior Product Designer - Product Analytics",
     "company": "datadog",
     "location": {
-      "name": "New York, New York, USA"
+      "name": "Paris, France"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7011810/?gh_jid=7011810",
+    "apply_url": "https://careers.datadoghq.com/detail/7021023/?gh_jid=7021023",
     "source": "Greenhouse:datadog"
   },
   {
@@ -9025,9 +8794,9 @@
     "title": "Senior Product Designer, Data Visualization",
     "company": "datadog",
     "location": {
-      "name": "New York, New York, USA"
+      "name": "Paris, France"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7116818/?gh_jid=7116818",
+    "apply_url": "https://careers.datadoghq.com/detail/7117237/?gh_jid=7117237",
     "source": "Greenhouse:datadog"
   },
   {
@@ -9036,9 +8805,9 @@
     "title": "Senior Product Designer, Data Visualization",
     "company": "datadog",
     "location": {
-      "name": "Paris, France"
+      "name": "New York, New York, USA"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7117237/?gh_jid=7117237",
+    "apply_url": "https://careers.datadoghq.com/detail/7116818/?gh_jid=7116818",
     "source": "Greenhouse:datadog"
   },
   {
@@ -9154,17 +8923,6 @@
   {
     "date_iso": "2025-09-24",
     "date_human": "Sep 24, 2025",
-    "title": "Senior Product Marketing Manager (Threat Management)",
-    "company": "datadog",
-    "location": {
-      "name": "New York, New York, USA; San Francisco, California, USA"
-    },
-    "apply_url": "https://careers.datadoghq.com/detail/6983807/?gh_jid=6983807",
-    "source": "Greenhouse:datadog"
-  },
-  {
-    "date_iso": "2025-09-24",
-    "date_human": "Sep 24, 2025",
     "title": "Senior Recruiter, Business Recruiting",
     "company": "datadog",
     "location": {
@@ -9179,9 +8937,9 @@
     "title": "Senior Recruiter, Tech Recruiting",
     "company": "datadog",
     "location": {
-      "name": "Lisbon, Portugal"
+      "name": "Madrid, Spain; Paris, France"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7105200/?gh_jid=7105200",
+    "apply_url": "https://careers.datadoghq.com/detail/7089557/?gh_jid=7089557",
     "source": "Greenhouse:datadog"
   },
   {
@@ -9190,9 +8948,9 @@
     "title": "Senior Recruiter, Tech Recruiting",
     "company": "datadog",
     "location": {
-      "name": "Madrid, Spain; Paris, France"
+      "name": "Lisbon, Portugal"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7089557/?gh_jid=7089557",
+    "apply_url": "https://careers.datadoghq.com/detail/7105200/?gh_jid=7105200",
     "source": "Greenhouse:datadog"
   },
   {
@@ -9520,9 +9278,9 @@
     "title": "Senior Software Engineer - IDE AI Experiences - LLM Engineer",
     "company": "datadog",
     "location": {
-      "name": "Boston, Massachusetts, USA"
+      "name": "Tel Aviv, Israel"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7107873/?gh_jid=7107873",
+    "apply_url": "https://careers.datadoghq.com/detail/7097751/?gh_jid=7097751",
     "source": "Greenhouse:datadog"
   },
   {
@@ -9531,9 +9289,9 @@
     "title": "Senior Software Engineer - IDE AI Experiences - LLM Engineer",
     "company": "datadog",
     "location": {
-      "name": "Tel Aviv, Israel"
+      "name": "Boston, Massachusetts, USA"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7097751/?gh_jid=7097751",
+    "apply_url": "https://careers.datadoghq.com/detail/7107873/?gh_jid=7107873",
     "source": "Greenhouse:datadog"
   },
   {
@@ -9894,9 +9652,9 @@
     "title": "Software Engineer with Systems Depth",
     "company": "datadog",
     "location": {
-      "name": "Denver, Colorado, USA"
+      "name": "Bordeaux, France; Grenoble, France; Lyon, France; Madrid, Spain; Nantes, France; Paris, France; Sophia Antipolis, France"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/3851948/?gh_jid=3851948",
+    "apply_url": "https://careers.datadoghq.com/detail/6158712/?gh_jid=6158712",
     "source": "Greenhouse:datadog"
   },
   {
@@ -9905,9 +9663,9 @@
     "title": "Software Engineer with Systems Depth",
     "company": "datadog",
     "location": {
-      "name": "Bordeaux, France; Grenoble, France; Lyon, France; Madrid, Spain; Nantes, France; Paris, France; Sophia Antipolis, France"
+      "name": "Denver, Colorado, USA"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6158712/?gh_jid=6158712",
+    "apply_url": "https://careers.datadoghq.com/detail/3851948/?gh_jid=3851948",
     "source": "Greenhouse:datadog"
   },
   {
@@ -9929,7 +9687,7 @@
     "location": {
       "name": "Tokyo, Japan"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6888865/?gh_jid=6888865",
+    "apply_url": "https://careers.datadoghq.com/detail/7142207/?gh_jid=7142207",
     "source": "Greenhouse:datadog"
   },
   {
@@ -9940,7 +9698,7 @@
     "location": {
       "name": "Tokyo, Japan"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7142207/?gh_jid=7142207",
+    "apply_url": "https://careers.datadoghq.com/detail/6888865/?gh_jid=6888865",
     "source": "Greenhouse:datadog"
   },
   {
@@ -10048,17 +9806,6 @@
     "title": "Staff Software Engineer",
     "company": "datadog",
     "location": {
-      "name": "Lisbon, Portugal"
-    },
-    "apply_url": "https://careers.datadoghq.com/detail/6476652/?gh_jid=6476652",
-    "source": "Greenhouse:datadog"
-  },
-  {
-    "date_iso": "2025-09-24",
-    "date_human": "Sep 24, 2025",
-    "title": "Staff Software Engineer",
-    "company": "datadog",
-    "location": {
       "name": "France, Remote; Germany, Remote; Ireland, Remote; Italy, Remote; Spain, Remote; Sweden, Remote"
     },
     "apply_url": "https://careers.datadoghq.com/detail/6514572/?gh_jid=6514572",
@@ -10073,6 +9820,17 @@
       "name": "Bordeaux, France; Grenoble, France; Lyon, France; Madrid, Spain; Montpellier, France; Nantes, France; Paris, France; Sophia Antipolis, France"
     },
     "apply_url": "https://careers.datadoghq.com/detail/6476651/?gh_jid=6476651",
+    "source": "Greenhouse:datadog"
+  },
+  {
+    "date_iso": "2025-09-24",
+    "date_human": "Sep 24, 2025",
+    "title": "Staff Software Engineer",
+    "company": "datadog",
+    "location": {
+      "name": "Lisbon, Portugal"
+    },
+    "apply_url": "https://careers.datadoghq.com/detail/6476652/?gh_jid=6476652",
     "source": "Greenhouse:datadog"
   },
   {
@@ -10147,9 +9905,9 @@
     "title": "Staff Software Engineer - APM Troubleshooting Experience",
     "company": "datadog",
     "location": {
-      "name": "Lisbon, Portugal"
+      "name": "Dublin, Ireland; Madrid, Spain; Paris, France"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7058954/?gh_jid=7058954",
+    "apply_url": "https://careers.datadoghq.com/detail/7058935/?gh_jid=7058935",
     "source": "Greenhouse:datadog"
   },
   {
@@ -10169,9 +9927,9 @@
     "title": "Staff Software Engineer - APM Troubleshooting Experience",
     "company": "datadog",
     "location": {
-      "name": "Dublin, Ireland; Madrid, Spain; Paris, France"
+      "name": "Lisbon, Portugal"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7058935/?gh_jid=7058935",
+    "apply_url": "https://careers.datadoghq.com/detail/7058954/?gh_jid=7058954",
     "source": "Greenhouse:datadog"
   },
   {
@@ -10191,9 +9949,9 @@
     "title": "Staff Software Engineer - Dashboards",
     "company": "datadog",
     "location": {
-      "name": "Alabama, USA, Remote; Arizona, USA, Remote; Arkansas, USA, Remote; California, USA, Remote; Colorado, USA, Remote; Connecticut, USA, Remote; Delaware, USA, Remote; Florida, USA, Remote; Georgia, USA, Remote; Idaho, USA, Remote; Illinois, USA, Remote; Indiana, USA, Remote; Iowa, USA, Remote; Kansas, USA, Remote; Kentucky, USA, Remote; Louisiana, USA, Remote; Maine, USA, Remote; Maryland, USA, Remote; Massachusetts, USA, Remote; Michigan, USA, Remote; Minnesota, USA, Remote; Missouri, USA, Remote; Montana, USA, Remote; Nebraska, USA, Remote; Nevada, USA, Remote; New Hampshire, USA, Remote; New Jersey, USA, Remote; New Mexico, USA, Remote; New York, USA, Remote; North Carolina, USA, Remote; Ohio, USA, Remote; Oklahoma, USA, Remote; Oregon, USA, Remote; Pennsylvania, USA, Remote; Rhode Island, USA, Remote; South Carolina, USA, Remote; Tennessee, USA, Remote; Texas, USA, Remote; Utah, USA, Remote; Vermont, USA, Remote; Virginia, USA, Remote; Washington, USA, Remote; Wisconsin, USA, Remote"
+      "name": "New York, New York, USA"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7248989/?gh_jid=7248989",
+    "apply_url": "https://careers.datadoghq.com/detail/6678803/?gh_jid=6678803",
     "source": "Greenhouse:datadog"
   },
   {
@@ -10202,9 +9960,9 @@
     "title": "Staff Software Engineer - Dashboards",
     "company": "datadog",
     "location": {
-      "name": "New York, New York, USA"
+      "name": "Alabama, USA, Remote; Arizona, USA, Remote; Arkansas, USA, Remote; California, USA, Remote; Colorado, USA, Remote; Connecticut, USA, Remote; Delaware, USA, Remote; Florida, USA, Remote; Georgia, USA, Remote; Idaho, USA, Remote; Illinois, USA, Remote; Indiana, USA, Remote; Iowa, USA, Remote; Kansas, USA, Remote; Kentucky, USA, Remote; Louisiana, USA, Remote; Maine, USA, Remote; Maryland, USA, Remote; Massachusetts, USA, Remote; Michigan, USA, Remote; Minnesota, USA, Remote; Missouri, USA, Remote; Montana, USA, Remote; Nebraska, USA, Remote; Nevada, USA, Remote; New Hampshire, USA, Remote; New Jersey, USA, Remote; New Mexico, USA, Remote; New York, USA, Remote; North Carolina, USA, Remote; Ohio, USA, Remote; Oklahoma, USA, Remote; Oregon, USA, Remote; Pennsylvania, USA, Remote; Rhode Island, USA, Remote; South Carolina, USA, Remote; Tennessee, USA, Remote; Texas, USA, Remote; Utah, USA, Remote; Vermont, USA, Remote; Virginia, USA, Remote; Washington, USA, Remote; Wisconsin, USA, Remote"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6678803/?gh_jid=6678803",
+    "apply_url": "https://careers.datadoghq.com/detail/7248989/?gh_jid=7248989",
     "source": "Greenhouse:datadog"
   },
   {
@@ -10345,9 +10103,9 @@
     "title": "Strategic Account Executive",
     "company": "datadog",
     "location": {
-      "name": "California, USA, Remote"
+      "name": "Tennessee, USA, Remote"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7155024/?gh_jid=7155024",
+    "apply_url": "https://careers.datadoghq.com/detail/7131363/?gh_jid=7131363",
     "source": "Greenhouse:datadog"
   },
   {
@@ -10356,9 +10114,9 @@
     "title": "Strategic Account Executive",
     "company": "datadog",
     "location": {
-      "name": "Bangalore, India"
+      "name": "Canada, Remote"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6252677/?gh_jid=6252677",
+    "apply_url": "https://careers.datadoghq.com/detail/6522865/?gh_jid=6522865",
     "source": "Greenhouse:datadog"
   },
   {
@@ -10367,9 +10125,31 @@
     "title": "Strategic Account Executive",
     "company": "datadog",
     "location": {
-      "name": "San Francisco, California, USA"
+      "name": "Chicago, Illinois, USA"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7178512/?gh_jid=7178512",
+    "apply_url": "https://careers.datadoghq.com/detail/6522755/?gh_jid=6522755",
+    "source": "Greenhouse:datadog"
+  },
+  {
+    "date_iso": "2025-09-24",
+    "date_human": "Sep 24, 2025",
+    "title": "Strategic Account Executive",
+    "company": "datadog",
+    "location": {
+      "name": "Mexico City, Mexico"
+    },
+    "apply_url": "https://careers.datadoghq.com/detail/7131396/?gh_jid=7131396",
+    "source": "Greenhouse:datadog"
+  },
+  {
+    "date_iso": "2025-09-24",
+    "date_human": "Sep 24, 2025",
+    "title": "Strategic Account Executive",
+    "company": "datadog",
+    "location": {
+      "name": "Osaka, Japan"
+    },
+    "apply_url": "https://careers.datadoghq.com/detail/6395980/?gh_jid=6395980",
     "source": "Greenhouse:datadog"
   },
   {
@@ -10389,9 +10169,9 @@
     "title": "Strategic Account Executive",
     "company": "datadog",
     "location": {
-      "name": "Osaka, Japan"
+      "name": "Bangalore, India"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/6395980/?gh_jid=6395980",
+    "apply_url": "https://careers.datadoghq.com/detail/6252677/?gh_jid=6252677",
     "source": "Greenhouse:datadog"
   },
   {
@@ -10422,61 +10202,6 @@
     "title": "Strategic Account Executive",
     "company": "datadog",
     "location": {
-      "name": "Jakarta, Indonesia"
-    },
-    "apply_url": "https://careers.datadoghq.com/detail/7131726/?gh_jid=7131726",
-    "source": "Greenhouse:datadog"
-  },
-  {
-    "date_iso": "2025-09-24",
-    "date_human": "Sep 24, 2025",
-    "title": "Strategic Account Executive",
-    "company": "datadog",
-    "location": {
-      "name": "Tennessee, USA, Remote"
-    },
-    "apply_url": "https://careers.datadoghq.com/detail/7131363/?gh_jid=7131363",
-    "source": "Greenhouse:datadog"
-  },
-  {
-    "date_iso": "2025-09-24",
-    "date_human": "Sep 24, 2025",
-    "title": "Strategic Account Executive",
-    "company": "datadog",
-    "location": {
-      "name": "Texas, USA, Remote"
-    },
-    "apply_url": "https://careers.datadoghq.com/detail/7134079/?gh_jid=7134079",
-    "source": "Greenhouse:datadog"
-  },
-  {
-    "date_iso": "2025-09-24",
-    "date_human": "Sep 24, 2025",
-    "title": "Strategic Account Executive",
-    "company": "datadog",
-    "location": {
-      "name": "Chicago, Illinois, USA"
-    },
-    "apply_url": "https://careers.datadoghq.com/detail/6522755/?gh_jid=6522755",
-    "source": "Greenhouse:datadog"
-  },
-  {
-    "date_iso": "2025-09-24",
-    "date_human": "Sep 24, 2025",
-    "title": "Strategic Account Executive",
-    "company": "datadog",
-    "location": {
-      "name": "Canada, Remote"
-    },
-    "apply_url": "https://careers.datadoghq.com/detail/6522865/?gh_jid=6522865",
-    "source": "Greenhouse:datadog"
-  },
-  {
-    "date_iso": "2025-09-24",
-    "date_human": "Sep 24, 2025",
-    "title": "Strategic Account Executive",
-    "company": "datadog",
-    "location": {
       "name": "Boston, Massachusetts, USA"
     },
     "apply_url": "https://careers.datadoghq.com/detail/7117086/?gh_jid=7117086",
@@ -10488,9 +10213,9 @@
     "title": "Strategic Account Executive",
     "company": "datadog",
     "location": {
-      "name": "Mexico City, Mexico"
+      "name": "San Francisco, California, USA"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7131396/?gh_jid=7131396",
+    "apply_url": "https://careers.datadoghq.com/detail/7178512/?gh_jid=7178512",
     "source": "Greenhouse:datadog"
   },
   {
@@ -10513,6 +10238,39 @@
       "name": "District of Columbia, USA, Remote; Maryland, USA, Remote; Virginia, USA, Remote"
     },
     "apply_url": "https://careers.datadoghq.com/detail/7057036/?gh_jid=7057036",
+    "source": "Greenhouse:datadog"
+  },
+  {
+    "date_iso": "2025-09-24",
+    "date_human": "Sep 24, 2025",
+    "title": "Strategic Account Executive",
+    "company": "datadog",
+    "location": {
+      "name": "California, USA, Remote"
+    },
+    "apply_url": "https://careers.datadoghq.com/detail/7155024/?gh_jid=7155024",
+    "source": "Greenhouse:datadog"
+  },
+  {
+    "date_iso": "2025-09-24",
+    "date_human": "Sep 24, 2025",
+    "title": "Strategic Account Executive",
+    "company": "datadog",
+    "location": {
+      "name": "Jakarta, Indonesia"
+    },
+    "apply_url": "https://careers.datadoghq.com/detail/7131726/?gh_jid=7131726",
+    "source": "Greenhouse:datadog"
+  },
+  {
+    "date_iso": "2025-09-24",
+    "date_human": "Sep 24, 2025",
+    "title": "Strategic Account Executive",
+    "company": "datadog",
+    "location": {
+      "name": "Texas, USA, Remote"
+    },
+    "apply_url": "https://careers.datadoghq.com/detail/7134079/?gh_jid=7134079",
     "source": "Greenhouse:datadog"
   },
   {
@@ -10765,7 +10523,7 @@
     "location": {
       "name": "Tokyo, Japan"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7118895/?gh_jid=7118895",
+    "apply_url": "https://careers.datadoghq.com/detail/7114602/?gh_jid=7114602",
     "source": "Greenhouse:datadog"
   },
   {
@@ -10776,18 +10534,7 @@
     "location": {
       "name": "Tokyo, Japan"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7114602/?gh_jid=7114602",
-    "source": "Greenhouse:datadog"
-  },
-  {
-    "date_iso": "2025-09-24",
-    "date_human": "Sep 24, 2025",
-    "title": "Technical Support Engineer 1 - 2",
-    "company": "datadog",
-    "location": {
-      "name": "Seoul, South Korea"
-    },
-    "apply_url": "https://careers.datadoghq.com/detail/6882229/?gh_jid=6882229",
+    "apply_url": "https://careers.datadoghq.com/detail/7118895/?gh_jid=7118895",
     "source": "Greenhouse:datadog"
   },
   {
@@ -10799,6 +10546,17 @@
       "name": "Seoul, South Korea"
     },
     "apply_url": "https://careers.datadoghq.com/detail/6883301/?gh_jid=6883301",
+    "source": "Greenhouse:datadog"
+  },
+  {
+    "date_iso": "2025-09-24",
+    "date_human": "Sep 24, 2025",
+    "title": "Technical Support Engineer 1 - 2",
+    "company": "datadog",
+    "location": {
+      "name": "Seoul, South Korea"
+    },
+    "apply_url": "https://careers.datadoghq.com/detail/6882229/?gh_jid=6882229",
     "source": "Greenhouse:datadog"
   },
   {
@@ -10983,42 +10741,9 @@
     "title": "Business Development Representative",
     "company": "asana",
     "location": {
-      "name": "Dublin"
-    },
-    "apply_url": "https://www.asana.com/jobs/apply/7227221?gh_jid=7227221",
-    "source": "Greenhouse:asana"
-  },
-  {
-    "date_iso": "2025-09-25",
-    "date_human": "Sep 25, 2025",
-    "title": "Business Development Representative",
-    "company": "asana",
-    "location": {
       "name": "Chicago"
     },
     "apply_url": "https://www.asana.com/jobs/apply/6806660?gh_jid=6806660",
-    "source": "Greenhouse:asana"
-  },
-  {
-    "date_iso": "2025-09-25",
-    "date_human": "Sep 25, 2025",
-    "title": "Business Development Representative",
-    "company": "asana",
-    "location": {
-      "name": "Dublin"
-    },
-    "apply_url": "https://www.asana.com/jobs/apply/7227199?gh_jid=7227199",
-    "source": "Greenhouse:asana"
-  },
-  {
-    "date_iso": "2025-09-25",
-    "date_human": "Sep 25, 2025",
-    "title": "Business Development Representative",
-    "company": "asana",
-    "location": {
-      "name": "Dublin"
-    },
-    "apply_url": "https://www.asana.com/jobs/apply/5677738?gh_jid=5677738",
     "source": "Greenhouse:asana"
   },
   {
@@ -11038,9 +10763,42 @@
     "title": "Business Development Representative",
     "company": "asana",
     "location": {
+      "name": "Dublin"
+    },
+    "apply_url": "https://www.asana.com/jobs/apply/5677738?gh_jid=5677738",
+    "source": "Greenhouse:asana"
+  },
+  {
+    "date_iso": "2025-09-25",
+    "date_human": "Sep 25, 2025",
+    "title": "Business Development Representative",
+    "company": "asana",
+    "location": {
       "name": "Sydney"
     },
     "apply_url": "https://www.asana.com/jobs/apply/7129460?gh_jid=7129460",
+    "source": "Greenhouse:asana"
+  },
+  {
+    "date_iso": "2025-09-25",
+    "date_human": "Sep 25, 2025",
+    "title": "Business Development Representative",
+    "company": "asana",
+    "location": {
+      "name": "Dublin"
+    },
+    "apply_url": "https://www.asana.com/jobs/apply/7227221?gh_jid=7227221",
+    "source": "Greenhouse:asana"
+  },
+  {
+    "date_iso": "2025-09-25",
+    "date_human": "Sep 25, 2025",
+    "title": "Business Development Representative",
+    "company": "asana",
+    "location": {
+      "name": "Dublin"
+    },
+    "apply_url": "https://www.asana.com/jobs/apply/7227199?gh_jid=7227199",
     "source": "Greenhouse:asana"
   },
   {
@@ -11063,6 +10821,17 @@
       "name": "Dublin"
     },
     "apply_url": "https://www.asana.com/jobs/apply/7251706?gh_jid=7251706",
+    "source": "Greenhouse:asana"
+  },
+  {
+    "date_iso": "2025-09-25",
+    "date_human": "Sep 25, 2025",
+    "title": "Business Development Representative - German Speaking",
+    "company": "asana",
+    "location": {
+      "name": "Dublin"
+    },
+    "apply_url": "https://www.asana.com/jobs/apply/7181245?gh_jid=7181245",
     "source": "Greenhouse:asana"
   },
   {
@@ -11101,34 +10870,12 @@
   {
     "date_iso": "2025-09-25",
     "date_human": "Sep 25, 2025",
-    "title": "Business Development Representative - German Speaking",
-    "company": "asana",
-    "location": {
-      "name": "Dublin"
-    },
-    "apply_url": "https://www.asana.com/jobs/apply/7181245?gh_jid=7181245",
-    "source": "Greenhouse:asana"
-  },
-  {
-    "date_iso": "2025-09-25",
-    "date_human": "Sep 25, 2025",
     "title": "Business Development Representative - Nordics",
     "company": "asana",
     "location": {
       "name": "Dublin"
     },
     "apply_url": "https://www.asana.com/jobs/apply/7251755?gh_jid=7251755",
-    "source": "Greenhouse:asana"
-  },
-  {
-    "date_iso": "2025-09-25",
-    "date_human": "Sep 25, 2025",
-    "title": "Customer Success Manager - Top Accounts",
-    "company": "asana",
-    "location": {
-      "name": "US NY - Remote"
-    },
-    "apply_url": "https://www.asana.com/jobs/apply/7264843?gh_jid=7264843",
     "source": "Greenhouse:asana"
   },
   {
@@ -11214,9 +10961,9 @@
     "title": "Sales Development Representative",
     "company": "asana",
     "location": {
-      "name": "Dublin"
+      "name": "Chicago"
     },
-    "apply_url": "https://www.asana.com/jobs/apply/7243266?gh_jid=7243266",
+    "apply_url": "https://www.asana.com/jobs/apply/7272910?gh_jid=7272910",
     "source": "Greenhouse:asana"
   },
   {
@@ -11225,9 +10972,9 @@
     "title": "Sales Development Representative",
     "company": "asana",
     "location": {
-      "name": "Chicago"
+      "name": "Dublin"
     },
-    "apply_url": "https://www.asana.com/jobs/apply/7272910?gh_jid=7272910",
+    "apply_url": "https://www.asana.com/jobs/apply/7243266?gh_jid=7243266",
     "source": "Greenhouse:asana"
   },
   {
@@ -11244,13 +10991,13 @@
   {
     "date_iso": "2025-09-25",
     "date_human": "Sep 25, 2025",
-    "title": "Technical Product Readiness Program Manager, Field Readiness",
-    "company": "asana",
+    "title": "Implementation Consultant II",
+    "company": "brex",
     "location": {
-      "name": "Chicago"
+      "name": "Salt Lake City, Utah, United States"
     },
-    "apply_url": "https://www.asana.com/jobs/apply/7264494?gh_jid=7264494",
-    "source": "Greenhouse:asana"
+    "apply_url": "https://www.brex.com/careers/8175966002?gh_jid=8175966002",
+    "source": "Greenhouse:brex"
   },
   {
     "date_iso": "2025-09-25",
@@ -11261,17 +11008,6 @@
       "name": "Vancouver, British Columbia, Canada"
     },
     "apply_url": "https://www.brex.com/careers/7975946002?gh_jid=7975946002",
-    "source": "Greenhouse:brex"
-  },
-  {
-    "date_iso": "2025-09-25",
-    "date_human": "Sep 25, 2025",
-    "title": "Implementation Consultant II",
-    "company": "brex",
-    "location": {
-      "name": "Salt Lake City, Utah, United States"
-    },
-    "apply_url": "https://www.brex.com/careers/8175966002?gh_jid=8175966002",
     "source": "Greenhouse:brex"
   },
   {
@@ -11324,9 +11060,9 @@
     "title": "Assistant Controller, Prime Financing & Capital Markets",
     "company": "coinbase",
     "location": {
-      "name": "Remote - USA"
+      "name": "Remote - Canada"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/7241709?gh_jid=7241709",
+    "apply_url": "https://www.coinbase.com/careers/positions/7241711?gh_jid=7241711",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -11335,9 +11071,9 @@
     "title": "Assistant Controller, Prime Financing & Capital Markets",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Canada"
+      "name": "Remote - USA"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/7241711?gh_jid=7241711",
+    "apply_url": "https://www.coinbase.com/careers/positions/7241709?gh_jid=7241709",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -11401,9 +11137,9 @@
     "title": "Associate Manager, Compliance",
     "company": "coinbase",
     "location": {
-      "name": "Remote - USA"
+      "name": "Charlotte, NC"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6675524?gh_jid=6675524",
+    "apply_url": "https://www.coinbase.com/careers/positions/6675509?gh_jid=6675509",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -11423,9 +11159,9 @@
     "title": "Associate Manager, Compliance",
     "company": "coinbase",
     "location": {
-      "name": "Charlotte, NC"
+      "name": "Remote - USA"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6675509?gh_jid=6675509",
+    "apply_url": "https://www.coinbase.com/careers/positions/6675524?gh_jid=6675524",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -11563,17 +11299,6 @@
   {
     "date_iso": "2025-09-25",
     "date_human": "Sep 25, 2025",
-    "title": "Client Strategist, Coinbase Asset Management (Capital Formation)",
-    "company": "coinbase",
-    "location": {
-      "name": "New York City, NY"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/6669415?gh_jid=6669415",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-09-25",
-    "date_human": "Sep 25, 2025",
     "title": "Coinbase Ventures, Principal",
     "company": "coinbase",
     "location": {
@@ -11599,9 +11324,9 @@
     "title": "Complaints Analyst III",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Luxembourg"
+      "name": "Remote - Canada"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/7182062?gh_jid=7182062",
+    "apply_url": "https://www.coinbase.com/careers/positions/7227285?gh_jid=7227285",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -11610,9 +11335,9 @@
     "title": "Complaints Analyst III",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Canada"
+      "name": "Remote - Luxembourg"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/7227285?gh_jid=7227285",
+    "apply_url": "https://www.coinbase.com/careers/positions/7182062?gh_jid=7182062",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -11706,17 +11431,6 @@
   {
     "date_iso": "2025-09-25",
     "date_human": "Sep 25, 2025",
-    "title": "Consumer QA Analyst III",
-    "company": "coinbase",
-    "location": {
-      "name": "Charlotte, NC"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/6756878?gh_jid=6756878",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-09-25",
-    "date_human": "Sep 25, 2025",
     "title": "Country Manager, Mexico",
     "company": "coinbase",
     "location": {
@@ -11764,9 +11478,9 @@
     "title": "Customer Support Supervisor",
     "company": "coinbase",
     "location": {
-      "name": "Manila, Philippines"
+      "name": "Hyderabad, India"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6342576?gh_jid=6342576",
+    "apply_url": "https://www.coinbase.com/careers/positions/6313644?gh_jid=6313644",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -11775,9 +11489,9 @@
     "title": "Customer Support Supervisor",
     "company": "coinbase",
     "location": {
-      "name": "Hyderabad, India"
+      "name": "Manila, Philippines"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6313644?gh_jid=6313644",
+    "apply_url": "https://www.coinbase.com/careers/positions/6342576?gh_jid=6342576",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -11808,9 +11522,9 @@
     "title": "Data Scientist II - Product Analytics",
     "company": "coinbase",
     "location": {
-      "name": "Remote - UK"
+      "name": "Berlin, Germany"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6746202?gh_jid=6746202",
+    "apply_url": "https://www.coinbase.com/careers/positions/6746206?gh_jid=6746206",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -11819,9 +11533,9 @@
     "title": "Data Scientist II - Product Analytics",
     "company": "coinbase",
     "location": {
-      "name": "Berlin, Germany"
+      "name": "Remote - UK"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6746206?gh_jid=6746206",
+    "apply_url": "https://www.coinbase.com/careers/positions/6746202?gh_jid=6746202",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -11855,17 +11569,6 @@
       "name": "Remote - UK"
     },
     "apply_url": "https://www.coinbase.com/careers/positions/7140867?gh_jid=7140867",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-09-25",
-    "date_human": "Sep 25, 2025",
-    "title": "Engineering Manager (Consumer - Growth)",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - USA"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/7261791?gh_jid=7261791",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -11948,17 +11651,6 @@
   {
     "date_iso": "2025-09-25",
     "date_human": "Sep 25, 2025",
-    "title": "Engineering Manager (Platform - Risk Platform, Payments Risk)",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - USA"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/7261297?gh_jid=7261297",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-09-25",
-    "date_human": "Sep 25, 2025",
     "title": "Engineering Manager (Platform)",
     "company": "coinbase",
     "location": {
@@ -12009,17 +11701,6 @@
       "name": "Remote - USA"
     },
     "apply_url": "https://www.coinbase.com/careers/positions/7272354?gh_jid=7272354",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-09-25",
-    "date_human": "Sep 25, 2025",
-    "title": "Engineering Manager - Machine Learning Platform",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - Canada"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/7272359?gh_jid=7272359",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -12091,17 +11772,6 @@
   {
     "date_iso": "2025-09-25",
     "date_human": "Sep 25, 2025",
-    "title": "Growth Engineering Manager - Consumer Products",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - Canada; Remote - USA"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/5951332?gh_jid=5951332",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-09-25",
-    "date_human": "Sep 25, 2025",
     "title": "HR Business Partner",
     "company": "coinbase",
     "location": {
@@ -12141,17 +11811,6 @@
       "name": "Remote - USA"
     },
     "apply_url": "https://www.coinbase.com/careers/positions/7235232?gh_jid=7235232",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-09-25",
-    "date_human": "Sep 25, 2025",
-    "title": "L&D Trainer - Complaints SME",
-    "company": "coinbase",
-    "location": {
-      "name": "Singapore, SG"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/7027270?gh_jid=7027270",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -12325,9 +11984,9 @@
     "title": "Principal Software Engineer, Backend - Platform",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Canada"
+      "name": "Remote - India"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6710137?gh_jid=6710137",
+    "apply_url": "https://www.coinbase.com/careers/positions/6821476?gh_jid=6821476",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -12347,9 +12006,9 @@
     "title": "Principal Software Engineer, Backend - Platform",
     "company": "coinbase",
     "location": {
-      "name": "Remote - India"
+      "name": "Remote - Canada"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6821476?gh_jid=6821476",
+    "apply_url": "https://www.coinbase.com/careers/positions/6710137?gh_jid=6710137",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -12369,9 +12028,9 @@
     "title": "Product Designer II - Consumer",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Canada"
+      "name": "Remote - USA"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6713603?gh_jid=6713603",
+    "apply_url": "https://www.coinbase.com/careers/positions/5959810?gh_jid=5959810",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -12380,9 +12039,9 @@
     "title": "Product Designer II - Consumer",
     "company": "coinbase",
     "location": {
-      "name": "Remote - USA"
+      "name": "Remote - Canada"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/5959810?gh_jid=5959810",
+    "apply_url": "https://www.coinbase.com/careers/positions/6713603?gh_jid=6713603",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -12446,9 +12105,9 @@
     "title": "Product Manager II - Coinbase Business",
     "company": "coinbase",
     "location": {
-      "name": "Remote - USA"
+      "name": "Remote - Canada"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/7274215?gh_jid=7274215",
+    "apply_url": "https://www.coinbase.com/careers/positions/7274223?gh_jid=7274223",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -12457,9 +12116,9 @@
     "title": "Product Manager II - Coinbase Business",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Canada"
+      "name": "Remote - USA"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/7274223?gh_jid=7274223",
+    "apply_url": "https://www.coinbase.com/careers/positions/7274215?gh_jid=7274215",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -12537,17 +12196,6 @@
       "name": "Remote - Singapore"
     },
     "apply_url": "https://www.coinbase.com/careers/positions/7180858?gh_jid=7180858",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-09-25",
-    "date_human": "Sep 25, 2025",
-    "title": "Senior Analyst, Tech Risk",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - India"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/7180857?gh_jid=7180857",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -12718,17 +12366,6 @@
   {
     "date_iso": "2025-09-25",
     "date_human": "Sep 25, 2025",
-    "title": "Senior Finance & Strategy Manager, FP&A",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - USA"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/7277778?gh_jid=7277778",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-09-25",
-    "date_human": "Sep 25, 2025",
     "title": "Senior IT Technical Program Manager",
     "company": "coinbase",
     "location": {
@@ -12809,9 +12446,9 @@
     "title": "Senior Product Designer - (Institutional, Custody)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Canada"
+      "name": "Remote - USA"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6545489?gh_jid=6545489",
+    "apply_url": "https://www.coinbase.com/careers/positions/5960244?gh_jid=5960244",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -12820,9 +12457,9 @@
     "title": "Senior Product Designer - (Institutional, Custody)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - USA"
+      "name": "Remote - Canada"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/5960244?gh_jid=5960244",
+    "apply_url": "https://www.coinbase.com/careers/positions/6545489?gh_jid=6545489",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -12864,9 +12501,9 @@
     "title": "Senior Product Designer - Developer Platform",
     "company": "coinbase",
     "location": {
-      "name": "Remote - USA"
+      "name": "Remote - Canada"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/7260895?gh_jid=7260895",
+    "apply_url": "https://www.coinbase.com/careers/positions/7260900?gh_jid=7260900",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -12875,9 +12512,9 @@
     "title": "Senior Product Designer - Developer Platform",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Canada"
+      "name": "Remote - USA"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/7260900?gh_jid=7260900",
+    "apply_url": "https://www.coinbase.com/careers/positions/7260895?gh_jid=7260895",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -12941,9 +12578,9 @@
     "title": "Senior Product Manager - P2P Payments",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Canada"
+      "name": "Remote - USA"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/7166947?gh_jid=7166947",
+    "apply_url": "https://www.coinbase.com/careers/positions/7166935?gh_jid=7166935",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -12952,9 +12589,9 @@
     "title": "Senior Product Manager - P2P Payments",
     "company": "coinbase",
     "location": {
-      "name": "Remote - USA"
+      "name": "Remote - Canada"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/7166935?gh_jid=7166935",
+    "apply_url": "https://www.coinbase.com/careers/positions/7166947?gh_jid=7166947",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -13117,9 +12754,9 @@
     "title": "Senior Software Engineer, Backend (Consumer - Growth)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Canada"
+      "name": "Remote - USA"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6650938?gh_jid=6650938",
+    "apply_url": "https://www.coinbase.com/careers/positions/6650932?gh_jid=6650932",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -13128,9 +12765,9 @@
     "title": "Senior Software Engineer, Backend (Consumer - Growth)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - USA"
+      "name": "Remote - Canada"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6650932?gh_jid=6650932",
+    "apply_url": "https://www.coinbase.com/careers/positions/6650938?gh_jid=6650938",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -13172,9 +12809,9 @@
     "title": "Senior Software Engineer, Backend (Core Automation)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Canada"
+      "name": "Remote - USA"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/7202326?gh_jid=7202326",
+    "apply_url": "https://www.coinbase.com/careers/positions/7184757?gh_jid=7184757",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -13183,9 +12820,9 @@
     "title": "Senior Software Engineer, Backend (Core Automation)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - USA"
+      "name": "Remote - Canada"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/7184757?gh_jid=7184757",
+    "apply_url": "https://www.coinbase.com/careers/positions/7202326?gh_jid=7202326",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -13469,9 +13106,9 @@
     "title": "Senior Software Engineer, Infrastructure (Platform - Datastores)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - USA"
+      "name": "Remote - Canada"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6196407?gh_jid=6196407",
+    "apply_url": "https://www.coinbase.com/careers/positions/6196410?gh_jid=6196410",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -13480,9 +13117,9 @@
     "title": "Senior Software Engineer, Infrastructure (Platform - Datastores)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Canada"
+      "name": "Remote - USA"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6196410?gh_jid=6196410",
+    "apply_url": "https://www.coinbase.com/careers/positions/6196407?gh_jid=6196407",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -13535,9 +13172,9 @@
     "title": "Senior Staff Software Engineer (Platform - DevX)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - USA"
+      "name": "Remote - Canada"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/7181058?gh_jid=7181058",
+    "apply_url": "https://www.coinbase.com/careers/positions/7181072?gh_jid=7181072",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -13546,9 +13183,9 @@
     "title": "Senior Staff Software Engineer (Platform - DevX)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Canada"
+      "name": "Remote - USA"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/7181072?gh_jid=7181072",
+    "apply_url": "https://www.coinbase.com/careers/positions/7181058?gh_jid=7181058",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -13623,17 +13260,6 @@
     "title": "Senior Staff Software Engineer, Backend (Platform - Risk)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - USA"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/6698654?gh_jid=6698654",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-09-25",
-    "date_human": "Sep 25, 2025",
-    "title": "Senior Staff Software Engineer, Backend (Platform - Risk)",
-    "company": "coinbase",
-    "location": {
       "name": "Remote - Canada"
     },
     "apply_url": "https://www.coinbase.com/careers/positions/6698657?gh_jid=6698657",
@@ -13642,12 +13268,12 @@
   {
     "date_iso": "2025-09-25",
     "date_human": "Sep 25, 2025",
-    "title": "Senior Staff Software Engineer, Backend - (Platform - Core Automation)",
+    "title": "Senior Staff Software Engineer, Backend (Platform - Risk)",
     "company": "coinbase",
     "location": {
       "name": "Remote - USA"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/7171141?gh_jid=7171141",
+    "apply_url": "https://www.coinbase.com/careers/positions/6698654?gh_jid=6698654",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -13659,6 +13285,17 @@
       "name": "Remote - Canada"
     },
     "apply_url": "https://www.coinbase.com/careers/positions/7216623?gh_jid=7216623",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-25",
+    "date_human": "Sep 25, 2025",
+    "title": "Senior Staff Software Engineer, Backend - (Platform - Core Automation)",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - USA"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/7171141?gh_jid=7171141",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -13692,17 +13329,6 @@
       "name": "Remote - Canada"
     },
     "apply_url": "https://www.coinbase.com/careers/positions/7277093?gh_jid=7277093",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-09-25",
-    "date_human": "Sep 25, 2025",
-    "title": "Senior Technical Program Manager, Infrastructure",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - USA"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/6891869?gh_jid=6891869",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -13777,9 +13403,9 @@
     "title": "Software Engineer, Backend  (Consumer - Trading)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Canada"
+      "name": "Remote - USA"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6869392?gh_jid=6869392",
+    "apply_url": "https://www.coinbase.com/careers/positions/6812261?gh_jid=6812261",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -13788,9 +13414,9 @@
     "title": "Software Engineer, Backend  (Consumer - Trading)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - USA"
+      "name": "Remote - Canada"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6812261?gh_jid=6812261",
+    "apply_url": "https://www.coinbase.com/careers/positions/6869392?gh_jid=6869392",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -13821,9 +13447,9 @@
     "title": "Software Engineer, Backend (Consumer - Stablecoin)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - USA"
+      "name": "Remote - Canada"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/5948501?gh_jid=5948501",
+    "apply_url": "https://www.coinbase.com/careers/positions/6570379?gh_jid=6570379",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -13832,9 +13458,9 @@
     "title": "Software Engineer, Backend (Consumer - Stablecoin)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Canada"
+      "name": "Remote - USA"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6570379?gh_jid=6570379",
+    "apply_url": "https://www.coinbase.com/careers/positions/5948501?gh_jid=5948501",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -13898,9 +13524,9 @@
     "title": "Software Engineer, Backend - Blockchain Platform",
     "company": "coinbase",
     "location": {
-      "name": "Remote - USA"
+      "name": "Remote - Canada"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/7059317?gh_jid=7059317",
+    "apply_url": "https://www.coinbase.com/careers/positions/7059313?gh_jid=7059313",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -13909,9 +13535,9 @@
     "title": "Software Engineer, Backend - Blockchain Platform",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Canada"
+      "name": "Remote - USA"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/7059313?gh_jid=7059313",
+    "apply_url": "https://www.coinbase.com/careers/positions/7059317?gh_jid=7059317",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -14140,9 +13766,9 @@
     "title": "Software Engineer, Infrastructure - Platform (Compute)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Canada"
+      "name": "Remote - USA"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6305998?gh_jid=6305998",
+    "apply_url": "https://www.coinbase.com/careers/positions/6305997?gh_jid=6305997",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -14151,9 +13777,9 @@
     "title": "Software Engineer, Infrastructure - Platform (Compute)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - USA"
+      "name": "Remote - Canada"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6305997?gh_jid=6305997",
+    "apply_url": "https://www.coinbase.com/careers/positions/6305998?gh_jid=6305998",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -14198,17 +13824,6 @@
       "name": "Remote - USA"
     },
     "apply_url": "https://www.coinbase.com/careers/positions/7066494?gh_jid=7066494",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-09-25",
-    "date_human": "Sep 25, 2025",
-    "title": "Staff Applied Scientist (Causal Inference)",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - USA"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/7088358?gh_jid=7088358",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -14313,34 +13928,12 @@
   {
     "date_iso": "2025-09-25",
     "date_human": "Sep 25, 2025",
-    "title": "Staff Software Engineer, Backend (Blockchain Platform - Platform)",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - USA"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/7071526?gh_jid=7071526",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-09-25",
-    "date_human": "Sep 25, 2025",
     "title": "Staff Software Engineer, Backend (Consumer - Growth)",
     "company": "coinbase",
     "location": {
       "name": "Remote - USA"
     },
     "apply_url": "https://www.coinbase.com/careers/positions/6650942?gh_jid=6650942",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-09-25",
-    "date_human": "Sep 25, 2025",
-    "title": "Staff Software Engineer, Backend (Consumer - Growth)",
-    "company": "coinbase",
-    "location": {
-      "name": "Remote - Canada"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/6650948?gh_jid=6650948",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -14437,17 +14030,6 @@
     "title": "Staff Software Engineer, Backend (Platform - Payments)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - USA"
-    },
-    "apply_url": "https://www.coinbase.com/careers/positions/6894602?gh_jid=6894602",
-    "source": "Greenhouse:coinbase"
-  },
-  {
-    "date_iso": "2025-09-25",
-    "date_human": "Sep 25, 2025",
-    "title": "Staff Software Engineer, Backend (Platform - Payments)",
-    "company": "coinbase",
-    "location": {
       "name": "Remote - Canada"
     },
     "apply_url": "https://www.coinbase.com/careers/positions/6894608?gh_jid=6894608",
@@ -14456,12 +14038,12 @@
   {
     "date_iso": "2025-09-25",
     "date_human": "Sep 25, 2025",
-    "title": "Staff Software Engineer, Backend (Platform - Risk Platform)",
+    "title": "Staff Software Engineer, Backend (Platform - Payments)",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Canada"
+      "name": "Remote - USA"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/6872461?gh_jid=6872461",
+    "apply_url": "https://www.coinbase.com/careers/positions/6894602?gh_jid=6894602",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -14473,6 +14055,17 @@
       "name": "Remote - USA"
     },
     "apply_url": "https://www.coinbase.com/careers/positions/6872457?gh_jid=6872457",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-25",
+    "date_human": "Sep 25, 2025",
+    "title": "Staff Software Engineer, Backend (Platform - Risk Platform)",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - Canada"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/6872461?gh_jid=6872461",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -14591,9 +14184,9 @@
     "title": "TMS Compliance Analyst 4",
     "company": "coinbase",
     "location": {
-      "name": "Remote - UK"
+      "name": "Remote - Ireland"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/7078159?gh_jid=7078159",
+    "apply_url": "https://www.coinbase.com/careers/positions/7078204?gh_jid=7078204",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -14602,9 +14195,9 @@
     "title": "TMS Compliance Analyst 4",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Ireland"
+      "name": "Remote - UK"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/7078204?gh_jid=7078204",
+    "apply_url": "https://www.coinbase.com/careers/positions/7078159?gh_jid=7078159",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -14822,9 +14415,9 @@
     "title": "Senior Applied Scientist - Observability Data Platform",
     "company": "datadog",
     "location": {
-      "name": "Boston, Massachusetts, USA; Denver, Colorado, USA; New York, New York, USA"
+      "name": "California, USA, Remote; Colorado, USA, Remote; Massachusetts, USA, Remote; New York, USA, Remote; Washington, USA, Remote"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7273615/?gh_jid=7273615",
+    "apply_url": "https://careers.datadoghq.com/detail/7275640/?gh_jid=7275640",
     "source": "Greenhouse:datadog"
   },
   {
@@ -14833,9 +14426,9 @@
     "title": "Senior Applied Scientist - Observability Data Platform",
     "company": "datadog",
     "location": {
-      "name": "California, USA, Remote; Colorado, USA, Remote; Massachusetts, USA, Remote; New York, USA, Remote; Washington, USA, Remote"
+      "name": "Boston, Massachusetts, USA; Denver, Colorado, USA; New York, New York, USA"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7275640/?gh_jid=7275640",
+    "apply_url": "https://careers.datadoghq.com/detail/7273615/?gh_jid=7273615",
     "source": "Greenhouse:datadog"
   },
   {
@@ -14866,9 +14459,9 @@
     "title": "Staff Applied Scientist - Observability Data Platform",
     "company": "datadog",
     "location": {
-      "name": "California, USA, Remote; Colorado, USA, Remote; Massachusetts, USA, Remote; New York, USA, Remote; Washington, USA, Remote"
+      "name": "Boston, Massachusetts, USA; Denver, Colorado, USA; New York, New York, USA"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7275644/?gh_jid=7275644",
+    "apply_url": "https://careers.datadoghq.com/detail/7273649/?gh_jid=7273649",
     "source": "Greenhouse:datadog"
   },
   {
@@ -14877,9 +14470,9 @@
     "title": "Staff Applied Scientist - Observability Data Platform",
     "company": "datadog",
     "location": {
-      "name": "Boston, Massachusetts, USA; Denver, Colorado, USA; New York, New York, USA"
+      "name": "California, USA, Remote; Colorado, USA, Remote; Massachusetts, USA, Remote; New York, USA, Remote; Washington, USA, Remote"
     },
-    "apply_url": "https://careers.datadoghq.com/detail/7273649/?gh_jid=7273649",
+    "apply_url": "https://careers.datadoghq.com/detail/7275644/?gh_jid=7275644",
     "source": "Greenhouse:datadog"
   },
   {
@@ -14984,17 +14577,6 @@
   {
     "date_iso": "2025-09-25",
     "date_human": "Sep 25, 2025",
-    "title": "Senior Enterprise Applications Engineer",
-    "company": "roblox",
-    "location": {
-      "name": "San Mateo, CA, United States"
-    },
-    "apply_url": "https://careers.roblox.com/jobs/7178700?gh_jid=7178700",
-    "source": "Greenhouse:roblox"
-  },
-  {
-    "date_iso": "2025-09-25",
-    "date_human": "Sep 25, 2025",
     "title": "Senior Manager of Policy Communications, Middle East",
     "company": "roblox",
     "location": {
@@ -15050,12 +14632,78 @@
   {
     "date_iso": "2025-09-26",
     "date_human": "Sep 26, 2025",
-    "title": "Associate Manager, Complaints",
+    "title": "Customer Success Manager - Top Accounts",
+    "company": "asana",
+    "location": {
+      "name": "US NY - Remote"
+    },
+    "apply_url": "https://www.asana.com/jobs/apply/7264843?gh_jid=7264843",
+    "source": "Greenhouse:asana"
+  },
+  {
+    "date_iso": "2025-09-26",
+    "date_human": "Sep 26, 2025",
+    "title": "Product Owner",
+    "company": "asana",
+    "location": {
+      "name": "San Francisco"
+    },
+    "apply_url": "https://www.asana.com/jobs/apply/7272952?gh_jid=7272952",
+    "source": "Greenhouse:asana"
+  },
+  {
+    "date_iso": "2025-09-26",
+    "date_human": "Sep 26, 2025",
+    "title": "Product Readiness Program Manager, Field Readiness",
+    "company": "asana",
+    "location": {
+      "name": "Chicago"
+    },
+    "apply_url": "https://www.asana.com/jobs/apply/7264494?gh_jid=7264494",
+    "source": "Greenhouse:asana"
+  },
+  {
+    "date_iso": "2025-09-26",
+    "date_human": "Sep 26, 2025",
+    "title": "Account Executive, Mid Market",
+    "company": "brex",
+    "location": {
+      "name": "San Francisco, California, United States"
+    },
+    "apply_url": "https://www.brex.com/careers/7704415002?gh_jid=7704415002",
+    "source": "Greenhouse:brex"
+  },
+  {
+    "date_iso": "2025-09-26",
+    "date_human": "Sep 26, 2025",
+    "title": "Salesforce Engineering Manager",
+    "company": "brex",
+    "location": {
+      "name": "San Francisco, California, United States"
+    },
+    "apply_url": "https://www.brex.com/careers/7950552002?gh_jid=7950552002",
+    "source": "Greenhouse:brex"
+  },
+  {
+    "date_iso": "2025-09-26",
+    "date_human": "Sep 26, 2025",
+    "title": "Salesforce Engineering Manager",
+    "company": "brex",
+    "location": {
+      "name": "São Paulo, São Paulo, Brazil"
+    },
+    "apply_url": "https://www.brex.com/careers/8188031002?gh_jid=8188031002",
+    "source": "Greenhouse:brex"
+  },
+  {
+    "date_iso": "2025-09-26",
+    "date_human": "Sep 26, 2025",
+    "title": "Consumer QA Analyst III",
     "company": "coinbase",
     "location": {
-      "name": "Remote - Singapore"
+      "name": "Charlotte, NC"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/7277777?gh_jid=7277777",
+    "apply_url": "https://www.coinbase.com/careers/positions/6756878?gh_jid=6756878",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -15072,12 +14720,45 @@
   {
     "date_iso": "2025-09-26",
     "date_human": "Sep 26, 2025",
-    "title": "Product Manager I - Martech & SEO (Consumer Growth)",
+    "title": "Engineering Manager (Consumer - Growth)",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - Canada"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/5963736?gh_jid=5963736",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-26",
+    "date_human": "Sep 26, 2025",
+    "title": "Engineering Manager (Consumer - Growth)",
     "company": "coinbase",
     "location": {
       "name": "Remote - USA"
     },
-    "apply_url": "https://www.coinbase.com/careers/positions/7121821?gh_jid=7121821",
+    "apply_url": "https://www.coinbase.com/careers/positions/7261791?gh_jid=7261791",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-26",
+    "date_human": "Sep 26, 2025",
+    "title": "Engineering Manager (Platform - Risk Platform, Payments Risk)",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - USA"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/7261297?gh_jid=7261297",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-26",
+    "date_human": "Sep 26, 2025",
+    "title": "Engineering Manager - Machine Learning Platform",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - Canada"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/7272359?gh_jid=7272359",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -15094,12 +14775,45 @@
   {
     "date_iso": "2025-09-26",
     "date_human": "Sep 26, 2025",
+    "title": "Product Manager I - Martech & SEO (Consumer Growth)",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - USA"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/7121821?gh_jid=7121821",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-26",
+    "date_human": "Sep 26, 2025",
     "title": "Product Manager I - Retail Staking",
     "company": "coinbase",
     "location": {
       "name": "Remote - USA"
     },
     "apply_url": "https://www.coinbase.com/careers/positions/7179408?gh_jid=7179408",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-26",
+    "date_human": "Sep 26, 2025",
+    "title": "Program Manager II (Governance, Risk & Compliance)",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - USA"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/6843167?gh_jid=6843167",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-26",
+    "date_human": "Sep 26, 2025",
+    "title": "Regulatory Policy Manager",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - USA"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/7269579?gh_jid=7269579",
     "source": "Greenhouse:coinbase"
   },
   {
@@ -15116,6 +14830,72 @@
   {
     "date_iso": "2025-09-26",
     "date_human": "Sep 26, 2025",
+    "title": "Senior Client Strategist, Coinbase Asset Management (Capital Formation)",
+    "company": "coinbase",
+    "location": {
+      "name": "New York City, NY"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/6669415?gh_jid=6669415",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-26",
+    "date_human": "Sep 26, 2025",
+    "title": "Senior Finance & Strategy Manager, FP&A",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - USA"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/7277778?gh_jid=7277778",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-26",
+    "date_human": "Sep 26, 2025",
+    "title": "Senior Technical Program Manager, Infrastructure",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - USA"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/6891869?gh_jid=6891869",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-26",
+    "date_human": "Sep 26, 2025",
+    "title": "Staff Applied Scientist (Causal Inference)",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - USA"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/7088358?gh_jid=7088358",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-26",
+    "date_human": "Sep 26, 2025",
+    "title": "Staff Software Engineer, Backend (Blockchain Platform - Platform)",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - USA"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/7071526?gh_jid=7071526",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-26",
+    "date_human": "Sep 26, 2025",
+    "title": "Staff Software Engineer, Backend (Consumer - Growth)",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - Canada"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/6650948?gh_jid=6650948",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-26",
+    "date_human": "Sep 26, 2025",
     "title": "Supervisor, Executive Escalation Support",
     "company": "coinbase",
     "location": {
@@ -15127,12 +14907,34 @@
   {
     "date_iso": "2025-09-26",
     "date_human": "Sep 26, 2025",
+    "title": "Corporate Development Lead",
+    "company": "datadog",
+    "location": {
+      "name": "San Francisco, California, USA"
+    },
+    "apply_url": "https://careers.datadoghq.com/detail/7093471/?gh_jid=7093471",
+    "source": "Greenhouse:datadog"
+  },
+  {
+    "date_iso": "2025-09-26",
+    "date_human": "Sep 26, 2025",
     "title": "Enterprise Sales Engineer",
     "company": "datadog",
     "location": {
       "name": "Delhi, India"
     },
     "apply_url": "https://careers.datadoghq.com/detail/7060242/?gh_jid=7060242",
+    "source": "Greenhouse:datadog"
+  },
+  {
+    "date_iso": "2025-09-26",
+    "date_human": "Sep 26, 2025",
+    "title": "Growth Marketing Manager - Paid Search",
+    "company": "datadog",
+    "location": {
+      "name": "Boston, Massachusetts, USA; New York, New York, USA"
+    },
+    "apply_url": "https://careers.datadoghq.com/detail/7262211/?gh_jid=7262211",
     "source": "Greenhouse:datadog"
   },
   {
@@ -15149,6 +14951,28 @@
   {
     "date_iso": "2025-09-26",
     "date_human": "Sep 26, 2025",
+    "title": "Senior Product Manager - API Security (EMEA)",
+    "company": "datadog",
+    "location": {
+      "name": "Paris, France"
+    },
+    "apply_url": "https://careers.datadoghq.com/detail/7279006/?gh_jid=7279006",
+    "source": "Greenhouse:datadog"
+  },
+  {
+    "date_iso": "2025-09-26",
+    "date_human": "Sep 26, 2025",
+    "title": "Staff Accountant II - NYC",
+    "company": "datadog",
+    "location": {
+      "name": "New York, New York, USA"
+    },
+    "apply_url": "https://careers.datadoghq.com/detail/7027505/?gh_jid=7027505",
+    "source": "Greenhouse:datadog"
+  },
+  {
+    "date_iso": "2025-09-26",
+    "date_human": "Sep 26, 2025",
     "title": "Technical Support Engineer 2",
     "company": "datadog",
     "location": {
@@ -15156,5 +14980,104 @@
     },
     "apply_url": "https://careers.datadoghq.com/detail/6517964/?gh_jid=6517964",
     "source": "Greenhouse:datadog"
+  },
+  {
+    "date_iso": "2025-09-26",
+    "date_human": "Sep 26, 2025",
+    "title": "Senior Software Engineer - Safety Experience",
+    "company": "discord",
+    "location": {
+      "name": "San Francisco Bay Area (U.S.)"
+    },
+    "apply_url": "https://job-boards.greenhouse.io/discord/jobs/8183147002",
+    "source": "Greenhouse:discord"
+  },
+  {
+    "date_iso": "2025-09-26",
+    "date_human": "Sep 26, 2025",
+    "title": "Enterprise Solutions Consultant",
+    "company": "figma",
+    "location": {
+      "name": "São Paulo, Brazil"
+    },
+    "apply_url": "https://boards.greenhouse.io/figma/jobs/5659640004?gh_jid=5659640004",
+    "source": "Greenhouse:figma"
+  },
+  {
+    "date_iso": "2025-09-26",
+    "date_human": "Sep 26, 2025",
+    "title": "Executive Assistant, People",
+    "company": "figma",
+    "location": {
+      "name": "San Francisco, CA"
+    },
+    "apply_url": "https://boards.greenhouse.io/figma/jobs/5657538004?gh_jid=5657538004",
+    "source": "Greenhouse:figma"
+  },
+  {
+    "date_iso": "2025-09-26",
+    "date_human": "Sep 26, 2025",
+    "title": "Global Sales Onboarding Program Manager",
+    "company": "figma",
+    "location": {
+      "name": "San Francisco, CA • New York, NY • United States"
+    },
+    "apply_url": "https://boards.greenhouse.io/figma/jobs/5659927004?gh_jid=5659927004",
+    "source": "Greenhouse:figma"
+  },
+  {
+    "date_iso": "2025-09-26",
+    "date_human": "Sep 26, 2025",
+    "title": "Product Designer, Growth & Monetization",
+    "company": "figma",
+    "location": {
+      "name": "San Francisco, CA • New York, NY • United States"
+    },
+    "apply_url": "https://boards.greenhouse.io/figma/jobs/5656950004?gh_jid=5656950004",
+    "source": "Greenhouse:figma"
+  },
+  {
+    "date_iso": "2025-09-26",
+    "date_human": "Sep 26, 2025",
+    "title": "Principal Platform Engineer, ML Platform",
+    "company": "roblox",
+    "location": {
+      "name": "San Mateo, CA, United States"
+    },
+    "apply_url": "https://careers.roblox.com/jobs/7185278?gh_jid=7185278",
+    "source": "Greenhouse:roblox"
+  },
+  {
+    "date_iso": "2025-09-27",
+    "date_human": "Sep 27, 2025",
+    "title": "Associate Manager, Complaints",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - Singapore"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/7277777?gh_jid=7277777",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-27",
+    "date_human": "Sep 27, 2025",
+    "title": "L&D Trainer - Complaints SME",
+    "company": "coinbase",
+    "location": {
+      "name": "Singapore, SG"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/7027270?gh_jid=7027270",
+    "source": "Greenhouse:coinbase"
+  },
+  {
+    "date_iso": "2025-09-27",
+    "date_human": "Sep 27, 2025",
+    "title": "Senior Analyst, Tech Risk",
+    "company": "coinbase",
+    "location": {
+      "name": "Remote - India"
+    },
+    "apply_url": "https://www.coinbase.com/careers/positions/7180857?gh_jid=7180857",
+    "source": "Greenhouse:coinbase"
   }
 ]
