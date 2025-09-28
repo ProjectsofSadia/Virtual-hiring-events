@@ -1,426 +1,399 @@
-import os, json, re, sys
-from datetime import datetime, timezone
-from dateutil import parser as dtp
-import pandas as pd
+import os, re, csv, json, sys
+from datetime import datetime, timezone, timedelta
+from pathlib import Path
+
 import requests
 import feedparser
+import pandas as pd
 from bs4 import BeautifulSoup
-from ics import Calendar
 
-DATA_DIR = "data"
-SRC_DIR = os.path.join(DATA_DIR, "sources")
-README = "README.md"
+ROOT = Path(__file__).resolve().parents[1]
+DATA = ROOT / "data"
+SRC  = DATA / "sources"
+DATA.mkdir(parents=True, exist_ok=True)
+SRC.mkdir(parents=True, exist_ok=True)
 
-EVENTS_CSV = os.path.join(DATA_DIR, "events.csv")
-EVENTS_JSON = os.path.join(DATA_DIR, "events.json")
-JOBS_CSV = os.path.join(DATA_DIR, "jobs.csv")
-JOBS_JSON = os.path.join(DATA_DIR, "jobs.json")
-INTERNSHIPS_CSV = os.path.join(DATA_DIR, "internships.csv")
-INTERNSHIPS_JSON = os.path.join(DATA_DIR, "internships.json")
-FULLTIME_CSV = os.path.join(DATA_DIR, "fulltime.csv")
-FULLTIME_JSON = os.path.join(DATA_DIR, "fulltime.json")
+UTC = timezone.utc
+TODAY = datetime.now(UTC).date()
+MAX_EVENT_AGE_DAYS = 180  # 6 months window
+DEBUG = os.getenv("DEBUG", "0") == "1"
 
-os.makedirs(DATA_DIR, exist_ok=True)
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+}
 
-SEARCH_TERMS = [t.strip().lower() for t in (os.getenv("SEARCH_TERMS","").split(",")) if t.strip()]
-LOCATIONS    = [l.strip().lower() for l in (os.getenv("LOCATIONS","").split(";")) if l.strip()]
+def load_lines(p: Path):
+    if not p.exists(): return []
+    return [ln.strip() for ln in p.read_text(encoding="utf-8").splitlines()
+            if ln.strip() and not ln.strip().startswith("#")]
 
-def parse_date(s):
+def write_csv(path: Path, rows, fieldnames):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=fieldnames)
+        w.writeheader()
+        for r in rows:
+            w.writerow({k: r.get(k, "") for k in fieldnames})
+
+def write_json(path: Path, data):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+
+def norm_date(dt_str):
+    if not dt_str: return None
     try:
-        dt = dtp.parse(s)
-        if not dt.tzinfo:
-            dt = dt.replace(tzinfo=timezone.utc)
-        return dt
+        return datetime.fromisoformat(dt_str.replace("Z","+00:00")).astimezone(UTC)
+    except Exception:
+        pass
+    try:
+        return datetime.strptime(dt_str, "%a, %d %b %Y %H:%M:%S %Z").replace(tzinfo=UTC)
     except Exception:
         return None
 
-def load_list(path):
-    items = []
-    if not os.path.exists(path):
-        return items
-    with open(path, "r", encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
-            if not line or line.startswith("#"):
-                continue
-            items.append(line)
-    return items
+def is_intern(title: str):
+    t = (title or "").lower()
+    return any(k in t for k in ["intern", "internship", "co-op", "co op"])
 
-def to_event_row(event):
-    return {
-        "date_iso": event.get("date_iso",""),
-        "date_human": event.get("date_human",""),
-        "name": event.get("name",""),
-        "org": event.get("org",""),
-        "location": event.get("location","Virtual"),
-        "url": event.get("url",""),
-        "source": event.get("source",""),
-    }
+def clean_location(loc: str):
+    loc = (loc or "").strip()
+    return loc if loc else "Remote/Virtual"
 
-def dedupe_sort_events(events):
+def top_table(rows, cols, limit=25):
+    lines = []
+    lines.append("| " + " | ".join(cols) + " |")
+    lines.append("|" + "|".join(["------"]*len(cols)) + "|")
+    for r in rows[:limit]:
+        lines.append("| " + " | ".join(str(r.get(c,"")).replace("|","-") for c in cols) + " |")
+    return "\n".join(lines)
+
+def readme_replace_section(md: str, header: str, table_md: str):
+    pattern = rf"(## {re.escape(header)}\s*\n)(.*?)(?=\n## |\Z)"
+    repl = r"\1" + table_md.strip() + "\n"
+    new, n = re.subn(pattern, repl, md, flags=re.S|re.M)
+    if n == 0:
+        new = md.rstrip() + f"\n\n## {header}\n{table_md.strip()}\n"
+    return new
+
+# -------------------- JOBS (Greenhouse + Lever) --------------------
+
+def fetch_greenhouse_company(board):
+    out = []
+    url = f"https://boards-api.greenhouse.io/v1/boards/{board}/jobs"
+    try:
+        resp = requests.get(url, timeout=30, headers=HEADERS)
+        resp.raise_for_status()
+        data = resp.json()
+        for j in data.get("jobs", []):
+            title = j.get("title","").strip()
+            locations = j.get("locations") or []
+            loc = ", ".join([l.get("name","") for l in locations]) if locations else (j.get("location",{}) or {}).get("name","")
+            link = j.get("absolute_url") or j.get("url") or ""
+            created = j.get("updated_at") or j.get("created_at") or ""
+            dtv = norm_date(created) or datetime.now(UTC)
+            out.append({
+                "date_iso": dtv.date().isoformat(),
+                "date_human": dtv.strftime("%b %d, %Y"),
+                "title": title,
+                "company": board,
+                "location": clean_location(loc),
+                "apply": link,
+                "source": "greenhouse",
+                "department": ((j.get("departments") or [{}])[0] or {}).get("name","")
+            })
+    except Exception as ex:
+        if DEBUG: print(f"[WARN] Greenhouse fetch failed for {board}: {ex}", file=sys.stderr)
+    if DEBUG: print(f"[DEBUG] Greenhouse {board}: {len(out)} jobs")
+    return out
+
+def fetch_lever_company(company):
+    out = []
+    url = f"https://api.lever.co/v0/postings/{company}?mode=json"
+    try:
+        resp = requests.get(url, timeout=30, headers=HEADERS)
+        resp.raise_for_status()
+        data = resp.json()
+        for j in data:
+            title = (j.get("text") or "").strip()
+            loc = j.get("categories",{}).get("location","")
+            link = j.get("hostedUrl") or j.get("applyUrl") or ""
+            created = j.get("createdAt") or j.get("updatedAt")
+            if isinstance(created, (int, float)):
+                dtv = datetime.fromtimestamp(int(created)/1000, tz=UTC)
+            else:
+                dtv = norm_date(str(created)) or datetime.now(UTC)
+            out.append({
+                "date_iso": dtv.date().isoformat(),
+                "date_human": dtv.strftime("%b %d, %Y"),
+                "title": title,
+                "company": company,
+                "location": clean_location(loc),
+                "apply": link,
+                "source": "lever",
+                "department": j.get("categories",{}).get("team","")
+            })
+    except Exception as ex:
+        if DEBUG: print(f"[WARN] Lever fetch failed for {company}: {ex}", file=sys.stderr)
+    if DEBUG: print(f"[DEBUG] Lever {company}: {len(out)} jobs")
+    return out
+
+def collect_jobs():
+    ghs = load_lines(SRC / "greenhouse.txt")
+    lev = load_lines(SRC / "lever.txt")
+    jobs = []
+    for c in ghs:
+        jobs += fetch_greenhouse_company(c)
+    for c in lev:
+        jobs += fetch_lever_company(c)
+    # Dedup
     seen = set()
     uniq = []
-    for e in events:
-        key = (e.get("url",""), e.get("date_iso",""), e.get("name",""))
+    for j in jobs:
+        key = (j["title"].lower(), j["company"].lower(), j["apply"])
+        if key in seen: continue
+        seen.add(key)
+        uniq.append(j)
+    # Sort newest first
+    uniq.sort(key=lambda x: (x.get("date_iso",""), x.get("title","").lower()), reverse=True)
+    return uniq
+
+def split_jobs(jobs):
+    interns = [j for j in jobs if is_intern(j["title"])]
+    fulltime = [j for j in jobs if not is_intern(j["title"])]
+    return interns, fulltime
+
+# -------------------- EVENTS --------------------
+
+def fetch_rss_events(url):
+    out = []
+    try:
+        # Use requests with headers then feedparser on the bytes (helps with sites blocking default clients)
+        r = requests.get(url, timeout=30, headers=HEADERS)
+        r.raise_for_status()
+        d = feedparser.parse(r.content)
+        if DEBUG: print(f"[DEBUG] RSS '{url}' entries: {len(d.entries)}")
+        for e in d.entries:
+            # pick a date
+            dtv = None
+            if getattr(e, "published_parsed", None):
+                p = e.published_parsed
+                dtv = datetime(p.tm_year, p.tm_mon, p.tm_mday, p.tm_hour, p.tm_min, p.tm_sec, tzinfo=UTC)
+            elif getattr(e, "updated_parsed", None):
+                p = e.updated_parsed
+                dtv = datetime(p.tm_year, p.tm_mon, p.tm_mday, p.tm_hour, p.tm_min, p.tm_sec, tzinfo=UTC)
+            else:
+                # fallback: now
+                dtv = datetime.now(UTC)
+            # window filter
+            if not (TODAY - timedelta(days=7) <= dtv.date() <= TODAY + timedelta(days=MAX_EVENT_AGE_DAYS)):
+                continue
+            out.append({
+                "date_iso": dtv.date().isoformat(),
+                "date_human": dtv.strftime("%b %d, %Y"),
+                "name": (getattr(e, "title", "") or "").strip(),
+                "org": (getattr(e, "author", "") or getattr(e, "source", "") or "").strip(),
+                "location": "Virtual/Online",
+                "url": getattr(e, "link", "") or "",
+                "source": url,
+            })
+    except Exception as ex:
+        if DEBUG: print(f"[WARN] RSS fetch failed for {url}: {ex}", file=sys.stderr)
+    return out
+
+def fetch_eventbrite_category(base_url: str, pages: int = 5):
+    out = []
+    for p in range(1, pages + 1):
+        url = base_url if p == 1 else (base_url.rstrip("/") + f"/?page={p}")
+        try:
+            resp = requests.get(url, headers=HEADERS, timeout=30)
+            resp.raise_for_status()
+            soup = BeautifulSoup(resp.text, "html.parser")
+
+            # JSON-LD events
+            for tag in soup.find_all("script", type="application/ld+json"):
+                try:
+                    data = json.loads(tag.string or "{}")
+                    items = data if isinstance(data, list) else [data]
+                except Exception:
+                    continue
+                for item in items:
+                    if item.get("@type") == "Event":
+                        name = (item.get("name") or "").strip()
+                        start = item.get("startDate") or item.get("startdate")
+                        link = (item.get("url") or "").strip()
+                        dtv = norm_date(start) or datetime.now(UTC)
+                        ev = {
+                            "date_iso": dtv.date().isoformat(),
+                            "date_human": dtv.strftime("%b %d, %Y"),
+                            "name": name,
+                            "org": "Eventbrite",
+                            "location": "Virtual/Online",
+                            "url": link,
+                            "source": base_url,
+                        }
+                        out.append(ev)
+
+            # Visible cards fallback
+            cards = soup.select('[data-testid="event-card"]') or soup.select("div[data-spec*='event-card']")
+            for c in cards:
+                a = c.find("a", href=True)
+                if not a: continue
+                link = a["href"]
+                ttl = c.select_one('[data-testid="event-card__formatted-name"], h2, h3')
+                date_el = c.select_one('[data-testid="event-card__formatted-date"]')
+                name = (ttl.get_text(strip=True) if ttl else "Event").strip()
+                date_txt = (date_el.get_text(" ", strip=True) if date_el else "")
+                # naive parse: keep today if unknown
+                dtv = norm_date(date_txt) or datetime.now(UTC)
+                ev = {
+                    "date_iso": dtv.date().isoformat(),
+                    "date_human": dtv.strftime("%b %d, %Y"),
+                    "name": name,
+                    "org": "Eventbrite",
+                    "location": "Virtual/Online",
+                    "url": link,
+                    "source": base_url,
+                }
+                out.append(ev)
+
+            if DEBUG: print(f"[DEBUG] Eventbrite page {p} -> {len(out)} total from {base_url}")
+            # simple early break if page returned nothing new
+            if p > 1 and not cards and not any(True for _ in soup.find_all("script", type="application/ld+json")):
+                break
+
+        except Exception as ex:
+            if DEBUG: print(f"[WARN] Eventbrite fetch failed for {url}: {ex}", file=sys.stderr)
+            if p == 1:
+                continue
+            else:
+                break
+    return out
+
+def collect_events():
+    events = []
+
+    rss_list = load_lines(SRC / "rss.txt")
+    if DEBUG: print(f"[DEBUG] rss.txt URLs: {len(rss_list)}")
+    for url in rss_list:
+        before = len(events)
+        events += fetch_rss_events(url)
+        if DEBUG: print(f"[DEBUG] RSS added {len(events)-before} (total {len(events)}) from {url}")
+
+    eb_list = load_lines(SRC / "eventbrite.txt")
+    if DEBUG: print(f"[DEBUG] eventbrite.txt URLs: {len(eb_list)}")
+    for url in eb_list:
+        before = len(events)
+        events += fetch_eventbrite_category(url, pages=5)
+        if DEBUG: print(f"[DEBUG] Eventbrite added {len(events)-before} (total {len(events)}) from {url}")
+
+    # Keep upcoming-ish
+    kept = []
+    for ev in events:
+        try:
+            d = datetime.fromisoformat(ev["date_iso"]).date()
+        except Exception:
+            continue
+        if d >= TODAY - timedelta(days=7) and d <= TODAY + timedelta(days=MAX_EVENT_AGE_DAYS):
+            kept.append(ev)
+
+    # Dedupe by (name,url,date)
+    seen = set()
+    uniq = []
+    for e in kept:
+        key = (e["name"].lower(), e["url"], e["date_iso"])
         if key in seen: continue
         seen.add(key)
         uniq.append(e)
-    uniq.sort(key=lambda x: (x.get("date_iso","9999-12-31"), x.get("name","")))
+
+    uniq.sort(key=lambda x: (x["date_iso"], x["name"].lower()))
     return uniq
 
-def matches_event_filters(ev):
-    title = f"{ev.get('name','')} {ev.get('org','')} {ev.get('source','')}".lower()
-    loc  = (ev.get("location","") or "").lower()
-    is_virtual = any(k in title for k in ["virtual","online","webinar","remote"]) or loc in ("virtual","online","remote")
-    if not is_virtual:
-        return False
-    if SEARCH_TERMS and not any(t in title for t in SEARCH_TERMS):
-        return False
-    if LOCATIONS and all(l not in loc for l in LOCATIONS):
-        if loc not in ("virtual","online","remote"):
-            return False
-    return True
+# -------------------- README UPDATE --------------------
 
-def md_event_table(sample):
-    lines = [
-        "| Date | Event Name | Company/Org | Location | Link |",
-        "|------|------------|-------------|----------|------|",
-    ]
-    for e in sample:
-        date = str(e.get('date_human') or e.get('date_iso',''))
-        name = str(e.get('name','')).replace('|','-')
-        org = str(e.get('org','')).replace('|','-')
-        loc = str(e.get('location','')).replace('|','-')
-        url = e.get('url','')
-        lines.append(f"| {date} | {name} | {org} | {loc} | [Register]({url}) |")
-    return "\n".join(lines)
+def update_readme(events, jobs, interns, fulltime):
+    path = ROOT / "README.md"
+    if not path.exists(): return
+    md = path.read_text(encoding="utf-8")
 
-def fetch_from_rss(url, label=None):
-    out = []
-    feed = feedparser.parse(url)
-    label = label or (getattr(feed, "feed", {}) or {}).get("title","RSS")
-    for entry in getattr(feed, "entries", []):
-        title = (entry.get("title") or "").strip()
-        link  = (entry.get("link") or "").strip()
-        dt = entry.get("published") or entry.get("updated") or ""
-        pdt = parse_date(dt) or _guess_date_from_text(title + " " + (entry.get("summary") or ""))
-        if not pdt: continue
-        ev = {
-            "date_iso": pdt.date().isoformat(),
-            "date_human": pdt.strftime("%b %d, %Y"),
-            "name": title,
-            "org": label,
-            "location": "Virtual",
-            "url": link,
-            "source": f"RSS:{label}",
-        }
-        if matches_event_filters(ev):
-            out.append(to_event_row(ev))
-    return out
+    events_view = [{
+        "date_human": e["date_human"],
+        "name": e["name"],
+        "org": e["org"],
+        "location": e["location"],
+        "url": f"[Register]({e['url']})" if e.get("url") else ""
+    } for e in events]
+    ev_table = top_table(events_view, ["date_human","name","org","location","url"], limit=25) + \
+        "\n\n➡️ [View All Events (CSV)](data/events.csv) | [View All Events (JSON)](data/events.json)\n"
 
-def _guess_date_from_text(txt):
-    m = re.findall(r"\b(\d{4}-\d{2}-\d{2})\b", txt)
-    if m: return parse_date(m[0])
-    m = re.findall(r"\b([A-Za-z]{3,9}\s+\d{1,2},\s*\d{4})\b", txt)
-    if m: return parse_date(m[0])
-    return None
+    jobs_view = [{
+        "date_human": j["date_human"],
+        "title": j["title"],
+        "company": j["company"],
+        "location": j["location"],
+        "apply": f"[Apply]({j['apply']})" if j.get("apply") else ""
+    } for j in jobs]
+    jobs_table = top_table(jobs_view, ["date_human","title","company","location","apply"], limit=25) + \
+        "\n\n➡️ [All Jobs (CSV)](data/jobs.csv) | [All Jobs (JSON)](data/jobs.json)\n"
 
-def fetch_from_ics(url, label=None):
-    out = []
-    try:
-        resp = requests.get(url, timeout=30)
-        resp.raise_for_status()
-        cal = Calendar(resp.text)
-        for ev in cal.events:
-            if not ev.begin: continue
-            dt = ev.begin.datetime
-            if dt.tzinfo is None:
-                dt = dt.replace(tzinfo=timezone.utc)
-            name = (ev.name or "").strip()
-            loc = (ev.location or "Virtual").strip()
-            link = (ev.url or url)
-            evr = {
-                "date_iso": dt.date().isoformat(),
-                "date_human": dt.strftime("%b %d, %Y"),
-                "name": name,
-                "org": label or "ICS",
-                "location": loc,
-                "url": str(link),
-                "source": f"ICS:{label or 'ICS'}",
-            }
-            if matches_event_filters(evr):
-                out.append(to_event_row(evr))
-    except Exception as e:
-        print(f"[WARN] ICS fetch failed for {url}: {e}", file=sys.stderr)
-    return out
+    interns_view = [{
+        "date_human": j["date_human"],
+        "title": j["title"],
+        "company": j["company"],
+        "location": j["location"],
+        "apply": f"[Apply]({j['apply']})" if j.get("apply") else ""
+    } for j in interns]
+    interns_table = top_table(interns_view, ["date_human","title","company","location","apply"], limit=25) + \
+        "\n\n➡️ [Internships (CSV)](data/internships.csv) | [Internships (JSON)](data/internships.json)\n"
 
-def fetch_eventbrite_category(url):
-    out = []
-    try:
-        resp = requests.get(url, timeout=30, headers={
-            "User-Agent": "Mozilla/5.0"
-        })
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
+    ft_view = [{
+        "date_human": j["date_human"],
+        "title": j["title"],
+        "company": j["company"],
+        "location": j["location"],
+        "apply": f"[Apply]({j['apply']})" if j.get("apply") else ""
+    } for j in fulltime]
+    ft_table = top_table(ft_view, ["date_human","title","company","location","apply"], limit=25) + \
+        "\n\n➡️ [Full-Time (CSV)](data/fulltime.csv) | [Full-Time (JSON)](data/fulltime.json)\n"
 
-        # 1) Try JSON-LD structured data (often contains events on listing pages)
-        found = False
-        for tag in soup.find_all("script", type="application/ld+json"):
-            try:
-                data = json.loads(tag.string or "{}")
-            except Exception:
-                continue
+    md = readme_replace_section(md, "📅 Upcoming Events (Auto-updated)", ev_table)
+    md = readme_replace_section(md, "💼 Open Roles (Auto-updated)", jobs_table)
+    md = readme_replace_section(md, "🎓 Internship Roles (Auto-updated)", interns_table)
+    md = readme_replace_section(md, "🏢 Full-Time Opportunities (Auto-updated)", ft_table)
 
-            # Normalize to list
-            candidates = data if isinstance(data, list) else [data]
-            for item in candidates:
-                if item.get("@type") in ("Event",):
-                    name = (item.get("name") or "").strip()
-                    start = item.get("startDate") or item.get("startdate")
-                    url_e = item.get("url") or ""
-                    loc_block = item.get("location") or {}
-                    # virtual if "VirtualLocation" or online meetup
-                    is_virtual = (
-                        (isinstance(loc_block, dict) and loc_block.get("@type") in ("VirtualLocation","OnlineEventAttendanceMode")) or
-                        "virtual" in (name.lower()) or "online" in (name.lower())
-                    )
-                    pdt = parse_date(start) or datetime.now(timezone.utc)
-                    ev = {
-                        "date_iso": pdt.date().isoformat(),
-                        "date_human": pdt.strftime("%b %d, %Y"),
-                        "name": name,
-                        "org": "Eventbrite",
-                        "location": "Virtual",
-                        "url": url_e,
-                        "source": "Eventbrite",
-                    }
-                    if is_virtual and matches_event_filters(ev):
-                        out.append(to_event_row(ev))
-                        found = True
+    path.write_text(md, encoding="utf-8")
 
-        if found:
-            return out
-
-        # 2) Fallback to card selectors
-        cards = soup.select('[data-testid="event-card"]') or soup.select("section div div[data-spec*='event-card']")
-        for c in cards[:50]:
-            a = c.find("a", href=True)
-            if not a:
-                continue
-            link = a["href"]
-            title_el = c.select_one('[data-testid="event-card__formatted-name"], h2, h3')
-            title = (title_el.get_text(strip=True) if title_el else "Event").strip()
-            date_el = c.select_one('[data-testid="event-card__formatted-date"]')
-            date_txt = (date_el.get_text(" ", strip=True) if date_el else "")
-            pdt = parse_date(date_txt) or datetime.now(timezone.utc)
-            ev = {
-                "date_iso": pdt.date().isoformat(),
-                "date_human": pdt.strftime("%b %d, %Y"),
-                "name": title,
-                "org": "Eventbrite",
-                "location": "Virtual",
-                "url": link,
-                "source": "Eventbrite",
-            }
-            if matches_event_filters(ev):
-                out.append(to_event_row(ev))
-    except Exception as e:
-        print(f"[WARN] Eventbrite fetch failed for {url}: {e}", file=sys.stderr)
-    return out
-
-
-def dedupe_sort_jobs(rows):
-    seen = set()
-    uniq = []
-    for r in rows:
-        key = (r.get("apply_url",""), r.get("title",""), r.get("company",""))
-        if key in seen: continue
-        seen.add(key)
-        uniq.append(r)
-    uniq.sort(key=lambda x: (x.get("date_iso","9999-12-31"), x.get("company",""), x.get("title","")))
-    return uniq
-
-def jobs_md_table(rows):
-    lines = [
-        "| Date | Title | Company | Location | Apply |",
-        "|------|-------|---------|----------|-------|",
-    ]
-    for r in rows:
-        date = str(r.get('date_human') or r.get('date_iso',''))
-        title = str(r.get('title','')).replace('|','-')
-        company = str(r.get('company','')).replace('|','-')
-        location = str(r.get('location','')).replace('|','-')
-        apply_url = r.get('apply_url','')
-        lines.append(f"| {date} | {title} | {company} | {location} | [Apply]({apply_url}) |")
-    return "\n".join(lines)
-
-def fetch_greenhouse_jobs(subdomain):
-    out = []
-    api_url = f"https://boards-api.greenhouse.io/v1/boards/{subdomain}/jobs"
-    try:
-        r = requests.get(api_url, timeout=30)
-        if r.status_code != 200: return out
-        data = r.json()
-        for job in data.get("jobs", []):
-            title = (job.get("title") or "").strip()
-            if SEARCH_TERMS and not any(t in title.lower() for t in SEARCH_TERMS):
-                continue
-            locs = [l.get("name","") for l in job.get("offices",[])]
-            loc_text = ", ".join([l for l in locs if l]) or (job.get("location","") or "")
-            if LOCATIONS and (not any(L in (loc_text or "").lower() for L in LOCATIONS) and "remote" not in (loc_text or "").lower()):
-                continue
-            url = job.get("absolute_url")
-            dt = parse_date(job.get("updated_at") or job.get("created_at")) or datetime.now(timezone.utc)
-            out.append({
-                "date_iso": dt.date().isoformat(),
-                "date_human": dt.strftime("%b %d, %Y"),
-                "title": title,
-                "company": subdomain,
-                "location": loc_text or "Remote",
-                "apply_url": url,
-                "source": f"Greenhouse:{subdomain}",
-            })
-    except Exception as e:
-        print(f"[WARN] Greenhouse jobs failed for {subdomain}: {e}", file=sys.stderr)
-    return out
-
-def fetch_lever_jobs(subdomain):
-    out = []
-    api_url = f"https://api.lever.co/v0/postings/{subdomain}?mode=json"
-    try:
-        r = requests.get(api_url, timeout=30)
-        if r.status_code != 200: return out
-        data = r.json()
-        for job in data:
-            title = (job.get("text") or job.get("title") or "").strip()
-            if SEARCH_TERMS and not any(t in title.lower() for t in SEARCH_TERMS):
-                continue
-            loc_text = (job.get("categories",{}).get("location") or "")
-            if LOCATIONS and (not any(L in (loc_text or "").lower() for L in LOCATIONS) and "remote" not in (loc_text or "").lower()):
-                continue
-            url = job.get("hostedUrl") or job.get("applyUrl")
-            dt = parse_date(job.get("updatedAt")) or datetime.now(timezone.utc)
-            out.append({
-                "date_iso": dt.date().isoformat(),
-                "date_human": dt.strftime("%b %d, %Y"),
-                "title": title,
-                "company": subdomain,
-                "location": loc_text or "Remote",
-                "apply_url": url,
-                "source": f"Lever:{subdomain}",
-            })
-    except Exception as e:
-        print(f"[WARN] Lever jobs failed for {subdomain}: {e}", file=sys.stderr)
-    return out
-
-def categorize_job(job):
-    title = (job.get("title","") or "").lower()
-    if "intern" in title or "internship" in title:
-        return "internship"
-    return "fulltime"
-
-def replace_or_append_section(content, header, table_text, footer_links=""):
-    block = f"{table_text}\n\n{footer_links}".strip() + "\n"
-    if header in content:
-        return re.sub(
-            rf"({re.escape(header)}\s*\n)(?:\|.*\n)+(?:\n*(?:➡️.*\n)*)?",
-            r"\1" + block,
-            content,
-            flags=re.DOTALL
-        )
-    else:
-        return content + f"\n\n{header}\n\n{block}"
-
-def update_readme_events(events, readme_path=README):
-    table = md_event_table(events[:20])
-    footer = "➡️ [View All Events (CSV)](data/events.csv) | [View All Events (JSON)](data/events.json)"
-    try:
-        with open(readme_path, "r", encoding="utf-8") as f:
-            content = f.read()
-    except FileNotFoundError:
-        content = "# Virtual Hiring Events & Jobs Hub\n"
-    content = replace_or_append_section(content, "## 📅 Upcoming Events (Auto-updated)", table, footer)
-    with open(readme_path, "w", encoding="utf-8") as f:
-        f.write(content)
-
-def update_readme_jobs(jobs, readme_path=README):
-    table = jobs_md_table(jobs[:25])
-    footer = "➡️ [View All Jobs (CSV)](data/jobs.csv) | [View All Jobs (JSON)](data/jobs.json)"
-    try:
-        with open(readme_path, "r", encoding="utf-8") as f:
-            content = f.read()
-    except FileNotFoundError:
-        content = "# Virtual Hiring Events & Jobs Hub\n"
-    content = replace_or_append_section(content, "## 💼 Open Roles (Auto-updated)", table, footer)
-    with open(readme_path, "w", encoding="utf-8") as f:
-        f.write(content)
-
-def update_readme_internships(internships, readme_path=README):
-    table = jobs_md_table(internships[:20])
-    footer = "➡️ [View All Internships (CSV)](data/internships.csv) | [View All Internships (JSON)](data/internships.json)"
-    try:
-        with open(readme_path,"r",encoding="utf-8") as f:
-            content = f.read()
-    except FileNotFoundError:
-        content = "# Virtual Hiring Events & Jobs Hub\n"
-    content = replace_or_append_section(content, "## 🎓 Internship Roles (Auto-updated)", table, footer)
-    with open(readme_path,"w",encoding="utf-8") as f:
-        f.write(content)
-
-def update_readme_fulltime(fulltime, readme_path=README):
-    table = jobs_md_table(fulltime[:20])
-    footer = "➡️ [View All Full-Time (CSV)](data/fulltime.csv) | [View All Full-Time (JSON)](data/fulltime.json)"
-    try:
-        with open(readme_path,"r",encoding="utf-8") as f:
-            content = f.read()
-    except FileNotFoundError:
-        content = "# Virtual Hiring Events & Jobs Hub\n"
-    content = replace_or_append_section(content, "## 🏢 Full-Time Opportunities (Auto-updated)", table, footer)
-    with open(readme_path,"w",encoding="utf-8") as f:
-        f.write(content)
+# -------------------- MAIN --------------------
 
 def main():
-    events = []
-    rss_list = load_list(os.path.join(SRC_DIR, "rss.txt"))
-    ics_list = load_list(os.path.join(SRC_DIR, "ics.txt"))
-    gh_list  = load_list(os.path.join(SRC_DIR, "greenhouse.txt"))
-    lever_list = load_list(os.path.join(SRC_DIR, "lever.txt"))
-    eb_list = load_list(os.path.join(SRC_DIR, "eventbrite.txt"))
+    # Jobs
+    jobs = collect_jobs()
+    interns, fulltime = split_jobs(jobs)
 
-    for url in rss_list:
-        events += fetch_from_rss(url)
-    for url in ics_list:
-        events += fetch_from_ics(url)
-    for url in eb_list:
-        events += fetch_eventbrite_category(url)
+    # Events
+    events = collect_events()
 
-    events = dedupe_sort_events(events)
-    pd.DataFrame(events).to_csv(EVENTS_CSV, index=False)
-    with open(EVENTS_JSON,"w",encoding="utf-8") as f: json.dump(events,f,indent=2,ensure_ascii=False)
+    # Save datasets
+    write_csv(DATA / "jobs.csv", jobs, ["date_iso","date_human","title","company","location","apply","source","department"])
+    write_json(DATA / "jobs.json", jobs)
+    write_csv(DATA / "internships.csv", interns, ["date_iso","date_human","title","company","location","apply","source","department"])
+    write_json(DATA / "internships.json", interns)
+    write_csv(DATA / "fulltime.csv", fulltime, ["date_iso","date_human","title","company","location","apply","source","department"])
+    write_json(DATA / "fulltime.json", fulltime)
 
-    jobs = []
-    for sub in gh_list:
-        jobs += fetch_greenhouse_jobs(sub)
-    for sub in lever_list:
-        jobs += fetch_lever_jobs(sub)
+    write_csv(DATA / "events.csv", events, ["date_iso","date_human","name","org","location","url","source"])
+    write_json(DATA / "events.json", events)
 
-    jobs = dedupe_sort_jobs(jobs)
-    pd.DataFrame(jobs).to_csv(JOBS_CSV, index=False)
-    with open(JOBS_JSON,"w",encoding="utf-8") as f: json.dump(jobs,f,indent=2,ensure_ascii=False)
+    # README
+    update_readme(events, jobs, interns, fulltime)
 
-    internships = [j for j in jobs if categorize_job(j) == "internship"]
-    fulltime = [j for j in jobs if categorize_job(j) == "fulltime"]
-
-    pd.DataFrame(internships).to_csv(INTERNSHIPS_CSV, index=False)
-    with open(INTERNSHIPS_JSON,"w",encoding="utf-8") as f: json.dump(internships,f,indent=2,ensure_ascii=False)
-
-    pd.DataFrame(fulltime).to_csv(FULLTIME_CSV, index=False)
-    with open(FULLTIME_JSON,"w",encoding="utf-8") as f: json.dump(fulltime,f,indent=2,ensure_ascii=False)
-
-    update_readme_events(events)
-    update_readme_jobs(jobs)
-    update_readme_internships(internships)
-    update_readme_fulltime(fulltime)
+    if DEBUG:
+        print(f"[DEBUG] Wrote {len(events)} events, {len(jobs)} jobs "
+              f"({len(interns)} interns, {len(fulltime)} full-time)")
 
 if __name__ == "__main__":
     main()

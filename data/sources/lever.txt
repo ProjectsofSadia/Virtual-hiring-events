@@ -1,8 +1,7 @@
-﻿openai
+﻿affirm
+loom
+mercury
+retool
 scaleai
-databricks
-notion
-figma
-rippling
-mixpanel
-pilot
+nuro
+rivet

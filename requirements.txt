@@ -1,6 +1,5 @@
-requests
-pandas
-python-dateutil
-beautifulsoup4
-feedparser
-ics
+requests>=2.32.3
+feedparser>=6.0.11
+beautifulsoup4>=4.12.3
+python-dateutil>=2.9.0.post0
+pandas>=2.2.3

@@ -1,3 +1,5 @@
 ﻿https://developer.microsoft.com/reactor/feed/
 https://developers.google.com/events/rss.xml
 https://community.aws/events/rss
+https://www.eventbrite.com/d/online/career--fair/rss/
+https://www.eventbrite.com/d/online/networking--events/rss/

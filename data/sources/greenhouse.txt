@@ -1,12 +1,8 @@
-﻿stripe
-datadog
+﻿datadog
 roblox
 asana
-figma
-notion
 discord
-snowflake
-ramp
 brex
-square
-coinbase
+block
+snowflakeinc
+ramp
