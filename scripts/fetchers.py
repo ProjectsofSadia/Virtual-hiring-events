@@ -1,10 +1,10 @@
-import time
 from typing import Tuple, Optional
+import time
 import requests
 from urllib.parse import urljoin, urlparse
 
 UA = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) VirtualHiringEvents/1.0 (+https://github.com/ProjectsofSadia/Virtual-hiring-events)"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) VirtualHiringBot/1.0 (+https://github.com/ProjectsofSadia/Virtual-hiring-events)"
 }
 
 def fetch(url: str, timeout: int = 25, tries: int = 3, backoff: float = 1.7) -> requests.Response:
@@ -22,8 +22,7 @@ def fetch(url: str, timeout: int = 25, tries: int = 3, backoff: float = 1.7) -> 
 def absolutize(base_url: str, href: Optional[str]) -> str:
     return urljoin(base_url, href or "")
 
-def resolve_canonical(url: str, timeout: int = 20) -> Tuple[str, int]:
-    """Follow redirects and return (final_url, http_status)."""
+def resolve_canonical(url: str, timeout: int = 10) -> Tuple[str, int]:
     try:
         r = requests.get(url, headers=UA, timeout=timeout, allow_redirects=True)
         return r.url, r.status_code

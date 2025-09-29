@@ -1,26 +1,48 @@
 rss:
   - https://aws.amazon.com/blogs/aws/feed/
   - https://aws.amazon.com/new/feed/
-  - https://status.aws.amazon.com/rss/all.rss
 
 html:
-  - url: https://developers.google.com/events
-    item: "article"           
-    title: "h3, h2"
+  - url: https://boards.greenhouse.io/stripe
+    item: "div.opening, .opening"
+    title: "a"
     link: "a"
-    include: "/events/"       
     date: ""
     date_fmt: ""
+    timeout: 20
 
-  - url: https://developer.microsoft.com/en-us/reactor/
-    item: "article"          
-    title: "h3, h2, a"
+  - url: https://boards.greenhouse.io/databricks
+    item: "div.opening, .opening"
+    title: "a"
     link: "a"
-    include: "/reactor/events/"
     date: ""
     date_fmt: ""
+    timeout: 20
+
+  - url: https://boards.greenhouse.io/notion
+    item: "div.opening, .opening"
+    title: "a"
+    link: "a"
+    date: ""
+    date_fmt: ""
+    timeout: 20
+
+  - url: https://boards.greenhouse.io/cloudflare
+    item: "div.opening, .opening"
+    title: "a"
+    link: "a"
+    date: ""
+    date_fmt: ""
+    timeout: 20
+
+  - url: https://boards.greenhouse.io/github
+    item: "div.opening, .opening"
+    title: "a"
+    link: "a"
+    date: ""
+    date_fmt: ""
+    timeout: 20
 
 settings:
   freshness_days: 90
   verify_http_200: true
-

@@ -1,3 +1,4 @@
+# scripts/parsers.py
 from __future__ import annotations
 
 from datetime import datetime, timedelta, timezone
@@ -74,6 +75,7 @@ def parse_html_cards(
         published = ""
         if d_el:
             raw = d_el.get_text(strip=True)
+            dt = None
             if date_fmt:
                 try:
                     dt = datetime.strptime(raw, date_fmt).replace(tzinfo=timezone.utc)
@@ -155,17 +157,6 @@ def parse_jsonld_from_pages(urls: Iterable[str], freshness_days: int = 180) -> l
                             "published": pub_dt.isoformat() if pub_dt else "",
                             "source": u,
                         }
-                        loc = ev.get("location")
-                        if isinstance(loc, dict):
-                            name = loc.get("name") or ""
-                            addr = ""
-                            if isinstance(loc.get("address"), dict):
-                                addr = ", ".join(filter(None, [
-                                    loc["address"].get("addressLocality"),
-                                    loc["address"].get("addressRegion"),
-                                    loc["address"].get("addressCountry"),
-                                ]))
-                            item["location"] = ", ".join(filter(None, [name, addr]))
                         out.append(item)
         except Exception:
             continue

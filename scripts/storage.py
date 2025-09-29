@@ -18,14 +18,15 @@ def key_for(item: Dict) -> str:
 def load_keys(name: str) -> set:
     keys = set()
     path = _db_path(name)
-    if not os.path.exists(path): 
+    if not os.path.exists(path):
         return keys
     with open(path, "r", encoding="utf-8") as f:
         for line in f:
             try:
                 obj = json.loads(line)
-                if "_k" in obj:
-                    keys.add(obj["_k"])
+                k = obj.get("_k")
+                if k:
+                    keys.add(k)
             except:
                 pass
     return keys
@@ -36,9 +37,9 @@ def append_items(name: str, items: List[Dict]) -> int:
     added = 0
     with open(path, "a", encoding="utf-8") as f:
         for it in items:
-            it["_k"] = key_for(it)
             if not it.get("url"):
                 continue
+            it["_k"] = key_for(it)
             if it["_k"] in seen:
                 continue
             f.write(json.dumps(it, ensure_ascii=False) + "\n")

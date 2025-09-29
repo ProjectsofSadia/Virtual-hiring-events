@@ -1,0 +1,19 @@
+alerts:
+  keywords:
+    - "machine learning"
+    - "qa"
+    - "intern"
+    - "ai"
+  include_domains:
+    - "aws.amazon.com"
+    - "greenhouse.io"
+    - "roblox.com"
+
+notify:
+  email:
+    enabled: false
+    to: "you@example.com"
+    from: "bot@example.com"
+  discord:
+    enabled: true
+    webhook_secret_name: "DISCORD_WEBHOOK_URL"
