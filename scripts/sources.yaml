@@ -1,25 +1,26 @@
 rss:
-  - https://boards-api.greenhouse.io/v1/boards/figma/jobs?content=true    
-  - https://community.aws/events/rss                                    
-  - https://about.google/events/feed/                                    
-  - https://developer.microsoft.com/reactor/feed/                        
+  - https://aws.amazon.com/blogs/aws/feed/
+  - https://aws.amazon.com/new/feed/
+  - https://status.aws.amazon.com/rss/all.rss
 
 html:
-
-  - url: https://boards.greenhouse.io/figma
-    item: "div.opening"          
-    title: "a"
+  - url: https://developers.google.com/events
+    item: "article"           
+    title: "h3, h2"
     link: "a"
-    date: ""                     
+    include: "/events/"       
+    date: ""
     date_fmt: ""
 
-  - url: https://careers.roblox.com/jobs
-    item: "li.jobs-list-item"
-    title: "h3"
+  - url: https://developer.microsoft.com/en-us/reactor/
+    item: "article"          
+    title: "h3, h2, a"
     link: "a"
-    date: "time"
-    date_fmt: ""                
+    include: "/reactor/events/"
+    date: ""
+    date_fmt: ""
 
 settings:
   freshness_days: 90
   verify_http_200: true
+

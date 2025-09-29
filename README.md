@@ -27,31 +27,31 @@ This repository auto-updates with the latest **career fairs, internships, and jo
 
 | date_human | title | company | location | apply |
 |------|------|------|------|------|
-| Sep 23, 2025 | Staff Android Engineer, Retail | block | Bay Area, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4930253008?gh_jid=4930253008) |
-| Sep 23, 2025 | Staff Android Engineer, Retail | block | New York, NY, United States of America | [Apply](http://block.xyz/careers/jobs/4930331008?gh_jid=4930331008) |
-| Sep 23, 2025 | Head of Events | brex | Seattle, Washington, United States | [Apply](https://www.brex.com/careers/8181497002?gh_jid=8181497002) |
-| Sep 23, 2025 | Head of Events | brex | San Francisco, California, United States | [Apply](https://www.brex.com/careers/8181493002?gh_jid=8181493002) |
-| Sep 23, 2025 | Head of Events | brex | New York, New York, United States | [Apply](https://www.brex.com/careers/8181496002?gh_jid=8181496002) |
-| Sep 22, 2025 | Workplace Programs Lead | brex | New York, New York, United States | [Apply](https://www.brex.com/careers/8178247002?gh_jid=8178247002) |
-| Sep 22, 2025 | Workplace Lead | asana | Vancouver, BC | [Apply](https://www.asana.com/jobs/apply/6976256?gh_jid=6976256) |
-| Sep 22, 2025 | Visual Designer, Contract | datadog | New York, New York, USA | [Apply](https://careers.datadoghq.com/detail/7263543/?gh_jid=7263543) |
-| Sep 22, 2025 | Territory Account Executive, Halifax | block | Halifax, Nova Scotia, Canada | [Apply](http://block.xyz/careers/jobs/4805314008?gh_jid=4805314008) |
-| Sep 22, 2025 | Strategic Program Manager, Global Public Affairs | roblox | San Mateo, CA, United States | [Apply](https://careers.roblox.com/jobs/7259111?gh_jid=7259111) |
-| Sep 22, 2025 | Strategic Finance Associate - NYC | datadog | New York, New York, USA | [Apply](https://careers.datadoghq.com/detail/7262906/?gh_jid=7262906) |
-| Sep 22, 2025 | Staff Technical Program Manager, Block Data & Platform | block | Bay Area, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4885119008?gh_jid=4885119008) |
-| Sep 22, 2025 | Staff Software Engineer, Platform Security | discord | San Francisco Bay Area | [Apply](https://job-boards.greenhouse.io/discord/jobs/8177912002) |
-| Sep 22, 2025 | Staff Product Designer, Core Experience | block | Bay Area, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4913901008?gh_jid=4913901008) |
-| Sep 22, 2025 | Staff Information Systems Architect - Oracle Financials | block | Bay Area, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4888465008?gh_jid=4888465008) |
-| Sep 22, 2025 | Software Engineering Intern | datadog | Madrid, Spain | [Apply](https://careers.datadoghq.com/detail/7158112/?gh_jid=7158112) |
-| Sep 22, 2025 | Software Engineering Intern | datadog | Paris, France | [Apply](https://careers.datadoghq.com/detail/7158118/?gh_jid=7158118) |
-| Sep 22, 2025 | SMB Sales Manager | block | London, United Kingdom | [Apply](http://block.xyz/careers/jobs/4928875008?gh_jid=4928875008) |
-| Sep 22, 2025 | SMB Account Executive, Square | block | Dublin, Ireland | [Apply](http://block.xyz/careers/jobs/4928843008?gh_jid=4928843008) |
-| Sep 22, 2025 | SMB Account Executive | block | London, United Kingdom | [Apply](http://block.xyz/careers/jobs/4928869008?gh_jid=4928869008) |
-| Sep 22, 2025 | Senior/Principal Machine Learning Engineer - Core AI | roblox | San Mateo, CA, United States | [Apply](https://careers.roblox.com/jobs/7246965?gh_jid=7246965) |
-| Sep 22, 2025 | Senior Technical Program Manager, Creator | roblox | San Mateo, CA, United States | [Apply](https://careers.roblox.com/jobs/7254934?gh_jid=7254934) |
-| Sep 22, 2025 | Senior Software Engineer - Threat Intelligence & Detection Experiences (TIDEx) | datadog | New York, New York, USA | [Apply](https://careers.datadoghq.com/detail/7264409/?gh_jid=7264409) |
-| Sep 22, 2025 | Senior Software Engineer - Engine UI  | roblox | San Mateo, CA, United States | [Apply](https://careers.roblox.com/jobs/7260757?gh_jid=7260757) |
-| Sep 22, 2025 | Senior Manager, Education Policy | roblox | United Kingdom | [Apply](https://careers.roblox.com/jobs/7260973?gh_jid=7260973) |
+| Sep 28, 2025 | Product Owner - Coupa | asana | San Francisco | [Apply](https://www.asana.com/jobs/apply/7272952?gh_jid=7272952) |
+| Sep 27, 2025 | Business Development Rep Associate | block | Toronto, Ontario, Canada | [Apply](http://block.xyz/careers/jobs/4931888008?gh_jid=4931888008) |
+| Sep 27, 2025 | Account Management Enablement Program Manager | block | Bay Area, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4933067008?gh_jid=4933067008) |
+| Sep 26, 2025 | Vendor Operations Coordinator – BPO | block | Bay Area, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4742877008?gh_jid=4742877008) |
+| Sep 26, 2025 | Staff Product Designer, Core Experience | block | Bay Area, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4913901008?gh_jid=4913901008) |
+| Sep 26, 2025 | Senior Software Engineer - Safety Experience | discord | San Francisco Bay Area (U.S.) | [Apply](https://job-boards.greenhouse.io/discord/jobs/8183147002) |
+| Sep 26, 2025 | Senior Network Security Engineer | block | Bay Area, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4896147008?gh_jid=4896147008) |
+| Sep 26, 2025 | Senior Designer, Square Australia | block | Melbourne, Australia | [Apply](http://block.xyz/careers/jobs/4935630008?gh_jid=4935630008) |
+| Sep 26, 2025 | Salesforce Engineering Manager | brex | San Francisco, California, United States | [Apply](https://www.brex.com/careers/7950552002?gh_jid=7950552002) |
+| Sep 26, 2025 | Salesforce Engineering Manager | brex | São Paulo, São Paulo, Brazil | [Apply](https://www.brex.com/careers/8188031002?gh_jid=8188031002) |
+| Sep 26, 2025 | Program Support, Issuing Programs | block | Bay Area, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4915521008?gh_jid=4915521008) |
+| Sep 26, 2025 | Product Readiness Program Manager, Field Readiness | asana | Chicago | [Apply](https://www.asana.com/jobs/apply/7264494?gh_jid=7264494) |
+| Sep 26, 2025 | Principal Platform Engineer, ML Platform | roblox | San Mateo, CA, United States | [Apply](https://careers.roblox.com/jobs/7185278?gh_jid=7185278) |
+| Sep 26, 2025 | Mandarin-speaking Territory Account Executive, San Gabriel Valley | block | Los Angeles, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4933278008?gh_jid=4933278008) |
+| Sep 26, 2025 | Manager, Field Sales | block | Saint Louis, MO, United States of America | [Apply](http://block.xyz/careers/jobs/4931900008?gh_jid=4931900008) |
+| Sep 26, 2025 | Machine Learning Engineer | block | Melbourne, Australia | [Apply](http://block.xyz/careers/jobs/4912447008?gh_jid=4912447008) |
+| Sep 26, 2025 | Issuer Processor Operations Partner, Card Issuing | block | Seattle, WA, United States of America | [Apply](http://block.xyz/careers/jobs/4936121008?gh_jid=4936121008) |
+| Sep 26, 2025 | Issuer Processor Operations Partner, Card Issuing | block | Bay Area, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4936128008?gh_jid=4936128008) |
+| Sep 26, 2025 | Inside Sales Account Executive | block | Toronto, Ontario, Canada | [Apply](http://block.xyz/careers/jobs/4935557008?gh_jid=4935557008) |
+| Sep 26, 2025 | Head of Growth Content | block | San Francisco, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4668481008?gh_jid=4668481008) |
+| Sep 26, 2025 | Global Sanctions Program Manager | block | Bay Area, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4936064008?gh_jid=4936064008) |
+| Sep 26, 2025 | Customer Success Manager - Top Accounts | asana | US NY - Remote | [Apply](https://www.asana.com/jobs/apply/7264843?gh_jid=7264843) |
+| Sep 26, 2025 | Account Executive, Mid Market | brex | San Francisco, California, United States | [Apply](https://www.brex.com/careers/7704415002?gh_jid=7704415002) |
+| Sep 25, 2025 | Workforce Management Long-Range Planner | block | Bay Area, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4821452008?gh_jid=4821452008) |
+| Sep 25, 2025 | Wallet Operations Manager, Bitcoin Platform | block | Bay Area, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4888620008?gh_jid=4888620008) |
 
 ➡️ [All Jobs (CSV)](data/jobs.csv) | [All Jobs (JSON)](data/jobs.json)
 
@@ -59,31 +59,21 @@ This repository auto-updates with the latest **career fairs, internships, and jo
 
 | date_human | title | company | location | apply |
 |------|------|------|------|------|
-| Sep 22, 2025 | Software Engineering Intern | datadog | Madrid, Spain | [Apply](https://careers.datadoghq.com/detail/7158112/?gh_jid=7158112) |
-| Sep 22, 2025 | Software Engineering Intern | datadog | Paris, France | [Apply](https://careers.datadoghq.com/detail/7158118/?gh_jid=7158118) |
+| Sep 25, 2025 | Software Engineer Intern (Summer 2026) | block | Toronto, Ontario , Canada | [Apply](http://block.xyz/careers/jobs/4904198008?gh_jid=4904198008) |
+| Sep 25, 2025 | Software Engineer Intern (Summer 2026) | block | Bay Area, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4904196008?gh_jid=4904196008) |
+| Sep 25, 2025 | Senior Product Manager, Square International - Canada | block | Toronto, Ontario, Canada | [Apply](http://block.xyz/careers/jobs/4673576008?gh_jid=4673576008) |
+| Sep 25, 2025 | Internal Audit Senior Manager - Regulatory Compliance | block | Bay Area, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4899263008?gh_jid=4899263008) |
+| Sep 24, 2025 | Operations Intern | brex | São Paulo, São Paulo, Brazil | [Apply](https://www.brex.com/careers/8172520002?gh_jid=8172520002) |
 | Sep 19, 2025 | [Summer 2026 Canada] Software Engineer Intern | roblox | Vancouver, British Columbia, Canada | [Apply](https://careers.roblox.com/jobs/7206219?gh_jid=7206219) |
-| Sep 17, 2025 | Senior Internal Auditor | datadog | New York, New York, USA | [Apply](https://careers.datadoghq.com/detail/6993745/?gh_jid=6993745) |
-| Sep 17, 2025 | Operations Intern | brex | São Paulo, São Paulo, Brazil | [Apply](https://www.brex.com/careers/8172520002?gh_jid=8172520002) |
-| Sep 16, 2025 | Governance Risk and Compliance, Intern | brex | São Paulo, São Paulo, Brazil | [Apply](https://www.brex.com/careers/8121844002?gh_jid=8121844002) |
 | Sep 15, 2025 | [Summer 2026] Product Management Intern | roblox | San Mateo, CA, United States | [Apply](https://careers.roblox.com/jobs/7167598?gh_jid=7167598) |
-| Sep 12, 2025 | Product Management Intern | datadog | Paris, France | [Apply](https://careers.datadoghq.com/detail/7158105/?gh_jid=7158105) |
-| Sep 12, 2025 | Manager I, Engineering - Internal Services Platform: Workloads & Integrations | datadog | Lisbon, Portugal | [Apply](https://careers.datadoghq.com/detail/7137278/?gh_jid=7137278) |
 | Sep 12, 2025 | Internal Audit Lead | asana | San Francisco | [Apply](https://www.asana.com/jobs/apply/7211201?gh_jid=7211201) |
-| Sep 11, 2025 | Applied Science Intern | datadog | Paris, France | [Apply](https://careers.datadoghq.com/detail/7158100/?gh_jid=7158100) |
-| Sep 09, 2025 | Software Engineer Intern (Summer 2026) | block | Bay Area, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4904196008?gh_jid=4904196008) |
-| Sep 08, 2025 | Software Engineering Intern (Summer) | datadog | Boston, Massachusetts, USA; New York, New York, USA | [Apply](https://careers.datadoghq.com/detail/7158137/?gh_jid=7158137) |
-| Sep 08, 2025 | Software Engineer Intern, Developer Tools (2026) (London, United Kingdom) | figma | London, England | [Apply](https://boards.greenhouse.io/figma/jobs/5621177004?gh_jid=5621177004) |
-| Sep 08, 2025 | Software Engineer Intern (Summer 2026) | block | Toronto, Ontario , Canada | [Apply](http://block.xyz/careers/jobs/4904198008?gh_jid=4904198008) |
-| Sep 08, 2025 | Senior Product Manager, Square International - Canada | block | Toronto, Ontario, Canada | [Apply](http://block.xyz/careers/jobs/4673576008?gh_jid=4673576008) |
-| Sep 08, 2025 | Senior Frontend Software Engineer, Square International | block | London, United Kingdom | [Apply](http://block.xyz/careers/jobs/4914203008?gh_jid=4914203008) |
 | Sep 08, 2025 | Senior Frontend Software Engineer, Square International | block | Dublin, Ireland | [Apply](http://block.xyz/careers/jobs/4903276008?gh_jid=4903276008) |
-| Sep 08, 2025 | Product Management Intern | datadog | New York, New York, USA | [Apply](https://careers.datadoghq.com/detail/7127832/?gh_jid=7127832) |
-| Sep 08, 2025 | PhD Intern, Software Engineer - Graphics (2026) | figma | San Francisco, CA • New York, NY | [Apply](https://boards.greenhouse.io/figma/jobs/5609067004?gh_jid=5609067004) |
-| Sep 08, 2025 | PhD Intern, Security Engineer (2026) | figma | San Francisco, CA • New York, NY | [Apply](https://boards.greenhouse.io/figma/jobs/5611154004?gh_jid=5611154004) |
-| Sep 08, 2025 | PhD Intern, AI Applied Scientist (2026) | figma | San Francisco, CA • New York, NY | [Apply](https://boards.greenhouse.io/figma/jobs/5598934004?gh_jid=5598934004) |
-| Sep 08, 2025 | Internal Audit Senior Manager - Regulatory Compliance | block | Bay Area, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4899263008?gh_jid=4899263008) |
+| Sep 08, 2025 | Senior Frontend Software Engineer, Square International | block | London, United Kingdom | [Apply](http://block.xyz/careers/jobs/4914203008?gh_jid=4914203008) |
 | Sep 05, 2025 | Engineering Manager - Internal Developer Experience | discord | San Francisco Bay Area | [Apply](https://job-boards.greenhouse.io/discord/jobs/8150540002) |
-| Sep 03, 2025 | Senior Security Engineer, Internal Trust | datadog | New York, New York, USA | [Apply](https://careers.datadoghq.com/detail/6574046/?gh_jid=6574046) |
+| Sep 02, 2025 | [Summer 2026] Product Design Intern | roblox | San Mateo, CA, United States | [Apply](https://careers.roblox.com/jobs/7167364?gh_jid=7167364) |
+| Aug 29, 2025 | International Leaves and Accommodations Administrator | asana | Warsaw | [Apply](https://www.asana.com/jobs/apply/7089716?gh_jid=7089716) |
+| Aug 26, 2025 | [Summer 2026] Software Engineer Intern | roblox | San Mateo, CA, United States | [Apply](https://careers.roblox.com/jobs/7114765?gh_jid=7114765) |
+| Aug 06, 2025 | Senior Director, Internal Audit | discord | San Francisco Bay Area | [Apply](https://job-boards.greenhouse.io/discord/jobs/8103520002) |
 
 ➡️ [Internships (CSV)](data/internships.csv) | [Internships (JSON)](data/internships.json)
 
@@ -91,30 +81,30 @@ This repository auto-updates with the latest **career fairs, internships, and jo
 
 | date_human | title | company | location | apply |
 |------|------|------|------|------|
-| Sep 23, 2025 | Staff Android Engineer, Retail | block | Bay Area, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4930253008?gh_jid=4930253008) |
-| Sep 23, 2025 | Staff Android Engineer, Retail | block | New York, NY, United States of America | [Apply](http://block.xyz/careers/jobs/4930331008?gh_jid=4930331008) |
-| Sep 23, 2025 | Head of Events | brex | Seattle, Washington, United States | [Apply](https://www.brex.com/careers/8181497002?gh_jid=8181497002) |
-| Sep 23, 2025 | Head of Events | brex | San Francisco, California, United States | [Apply](https://www.brex.com/careers/8181493002?gh_jid=8181493002) |
-| Sep 23, 2025 | Head of Events | brex | New York, New York, United States | [Apply](https://www.brex.com/careers/8181496002?gh_jid=8181496002) |
-| Sep 22, 2025 | Workplace Programs Lead | brex | New York, New York, United States | [Apply](https://www.brex.com/careers/8178247002?gh_jid=8178247002) |
-| Sep 22, 2025 | Workplace Lead | asana | Vancouver, BC | [Apply](https://www.asana.com/jobs/apply/6976256?gh_jid=6976256) |
-| Sep 22, 2025 | Visual Designer, Contract | datadog | New York, New York, USA | [Apply](https://careers.datadoghq.com/detail/7263543/?gh_jid=7263543) |
-| Sep 22, 2025 | Territory Account Executive, Halifax | block | Halifax, Nova Scotia, Canada | [Apply](http://block.xyz/careers/jobs/4805314008?gh_jid=4805314008) |
-| Sep 22, 2025 | Strategic Program Manager, Global Public Affairs | roblox | San Mateo, CA, United States | [Apply](https://careers.roblox.com/jobs/7259111?gh_jid=7259111) |
-| Sep 22, 2025 | Strategic Finance Associate - NYC | datadog | New York, New York, USA | [Apply](https://careers.datadoghq.com/detail/7262906/?gh_jid=7262906) |
-| Sep 22, 2025 | Staff Technical Program Manager, Block Data & Platform | block | Bay Area, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4885119008?gh_jid=4885119008) |
-| Sep 22, 2025 | Staff Software Engineer, Platform Security | discord | San Francisco Bay Area | [Apply](https://job-boards.greenhouse.io/discord/jobs/8177912002) |
-| Sep 22, 2025 | Staff Product Designer, Core Experience | block | Bay Area, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4913901008?gh_jid=4913901008) |
-| Sep 22, 2025 | Staff Information Systems Architect - Oracle Financials | block | Bay Area, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4888465008?gh_jid=4888465008) |
-| Sep 22, 2025 | SMB Sales Manager | block | London, United Kingdom | [Apply](http://block.xyz/careers/jobs/4928875008?gh_jid=4928875008) |
-| Sep 22, 2025 | SMB Account Executive, Square | block | Dublin, Ireland | [Apply](http://block.xyz/careers/jobs/4928843008?gh_jid=4928843008) |
-| Sep 22, 2025 | SMB Account Executive | block | London, United Kingdom | [Apply](http://block.xyz/careers/jobs/4928869008?gh_jid=4928869008) |
-| Sep 22, 2025 | Senior/Principal Machine Learning Engineer - Core AI | roblox | San Mateo, CA, United States | [Apply](https://careers.roblox.com/jobs/7246965?gh_jid=7246965) |
-| Sep 22, 2025 | Senior Technical Program Manager, Creator | roblox | San Mateo, CA, United States | [Apply](https://careers.roblox.com/jobs/7254934?gh_jid=7254934) |
-| Sep 22, 2025 | Senior Software Engineer - Threat Intelligence & Detection Experiences (TIDEx) | datadog | New York, New York, USA | [Apply](https://careers.datadoghq.com/detail/7264409/?gh_jid=7264409) |
-| Sep 22, 2025 | Senior Software Engineer - Engine UI  | roblox | San Mateo, CA, United States | [Apply](https://careers.roblox.com/jobs/7260757?gh_jid=7260757) |
-| Sep 22, 2025 | Senior Manager, Education Policy | roblox | United Kingdom | [Apply](https://careers.roblox.com/jobs/7260973?gh_jid=7260973) |
-| Sep 22, 2025 | Senior Manager of Policy Communications  | roblox | San Mateo, CA, United States | [Apply](https://careers.roblox.com/jobs/7263286?gh_jid=7263286) |
-| Sep 22, 2025 | Senior Machine Learning Engineer (Modeling), Risk | block | Melbourne, Australia | [Apply](http://block.xyz/careers/jobs/4930106008?gh_jid=4930106008) |
+| Sep 28, 2025 | Product Owner - Coupa | asana | San Francisco | [Apply](https://www.asana.com/jobs/apply/7272952?gh_jid=7272952) |
+| Sep 27, 2025 | Business Development Rep Associate | block | Toronto, Ontario, Canada | [Apply](http://block.xyz/careers/jobs/4931888008?gh_jid=4931888008) |
+| Sep 27, 2025 | Account Management Enablement Program Manager | block | Bay Area, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4933067008?gh_jid=4933067008) |
+| Sep 26, 2025 | Vendor Operations Coordinator – BPO | block | Bay Area, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4742877008?gh_jid=4742877008) |
+| Sep 26, 2025 | Staff Product Designer, Core Experience | block | Bay Area, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4913901008?gh_jid=4913901008) |
+| Sep 26, 2025 | Senior Software Engineer - Safety Experience | discord | San Francisco Bay Area (U.S.) | [Apply](https://job-boards.greenhouse.io/discord/jobs/8183147002) |
+| Sep 26, 2025 | Senior Network Security Engineer | block | Bay Area, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4896147008?gh_jid=4896147008) |
+| Sep 26, 2025 | Senior Designer, Square Australia | block | Melbourne, Australia | [Apply](http://block.xyz/careers/jobs/4935630008?gh_jid=4935630008) |
+| Sep 26, 2025 | Salesforce Engineering Manager | brex | San Francisco, California, United States | [Apply](https://www.brex.com/careers/7950552002?gh_jid=7950552002) |
+| Sep 26, 2025 | Salesforce Engineering Manager | brex | São Paulo, São Paulo, Brazil | [Apply](https://www.brex.com/careers/8188031002?gh_jid=8188031002) |
+| Sep 26, 2025 | Program Support, Issuing Programs | block | Bay Area, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4915521008?gh_jid=4915521008) |
+| Sep 26, 2025 | Product Readiness Program Manager, Field Readiness | asana | Chicago | [Apply](https://www.asana.com/jobs/apply/7264494?gh_jid=7264494) |
+| Sep 26, 2025 | Principal Platform Engineer, ML Platform | roblox | San Mateo, CA, United States | [Apply](https://careers.roblox.com/jobs/7185278?gh_jid=7185278) |
+| Sep 26, 2025 | Mandarin-speaking Territory Account Executive, San Gabriel Valley | block | Los Angeles, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4933278008?gh_jid=4933278008) |
+| Sep 26, 2025 | Manager, Field Sales | block | Saint Louis, MO, United States of America | [Apply](http://block.xyz/careers/jobs/4931900008?gh_jid=4931900008) |
+| Sep 26, 2025 | Machine Learning Engineer | block | Melbourne, Australia | [Apply](http://block.xyz/careers/jobs/4912447008?gh_jid=4912447008) |
+| Sep 26, 2025 | Issuer Processor Operations Partner, Card Issuing | block | Seattle, WA, United States of America | [Apply](http://block.xyz/careers/jobs/4936121008?gh_jid=4936121008) |
+| Sep 26, 2025 | Issuer Processor Operations Partner, Card Issuing | block | Bay Area, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4936128008?gh_jid=4936128008) |
+| Sep 26, 2025 | Inside Sales Account Executive | block | Toronto, Ontario, Canada | [Apply](http://block.xyz/careers/jobs/4935557008?gh_jid=4935557008) |
+| Sep 26, 2025 | Head of Growth Content | block | San Francisco, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4668481008?gh_jid=4668481008) |
+| Sep 26, 2025 | Global Sanctions Program Manager | block | Bay Area, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4936064008?gh_jid=4936064008) |
+| Sep 26, 2025 | Customer Success Manager - Top Accounts | asana | US NY - Remote | [Apply](https://www.asana.com/jobs/apply/7264843?gh_jid=7264843) |
+| Sep 26, 2025 | Account Executive, Mid Market | brex | San Francisco, California, United States | [Apply](https://www.brex.com/careers/7704415002?gh_jid=7704415002) |
+| Sep 25, 2025 | Workforce Management Long-Range Planner | block | Bay Area, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4821452008?gh_jid=4821452008) |
+| Sep 25, 2025 | Wallet Operations Manager, Bitcoin Platform | block | Bay Area, CA, United States of America | [Apply](http://block.xyz/careers/jobs/4888620008?gh_jid=4888620008) |
 
 ➡️ [Full-Time (CSV)](data/fulltime.csv) | [Full-Time (JSON)](data/fulltime.json)

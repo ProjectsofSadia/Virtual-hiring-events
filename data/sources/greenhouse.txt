@@ -1,8 +1,5 @@
-﻿datadog
 roblox
 asana
 discord
 brex
 block
-snowflakeinc
-ramp
