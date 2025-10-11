@@ -13,6 +13,12 @@ Welcome! This page auto-updates with fresh roles and events.
 ##  Open Roles (Auto-updated)
 | Date | Title | Company/Source | Location | Apply |
 | --- | --- | --- | --- | --- |
+| Jan 01, 1970 | AWS Client VPN is now supporting MacOS Tahoe | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/aws-client-vpn-macos-tahoe/) |
+| Jan 01, 1970 | Amazon Aurora PostgreSQL now supports R8g database instances in additional AWS regions | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-aurora-postgresql-r8g-database-instances-additional-aws-regions/) |
+| Jan 01, 1970 | Amazon Connect now supports agent schedule adherence notifications | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-connect-agent-adherence-notifications/) |
+| Jan 01, 1970 | Amazon Connect now supports copy and bulk edit of agent scheduling configuration | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-connect-copy-bulk-edit-agent-scheduling/) |
+| Jan 01, 1970 | Amazon EBS io2 Block Express supports China Regions | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-ebs-io2-block-express-china-regions/) |
+| Jan 01, 1970 | Amazon Neptune Analytics is now available in AWS Canada (Central) and Australia (Sydney) Regions | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-neptune-analytics-canada-central-australia-sydney/) |
 | Jan 01, 1970 | Introducing Amazon Quick Suite: your agentic AI-powered workspace | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-quick-suite-agentic-ai-powered-workspace/) |
 | Jan 01, 1970 | AWS Direct Connect announces 100G expansion in Kansas City, MO | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/aws-direct-connect-100g-expansion-kansas-city/) |
 | Jan 01, 1970 | Announcing Amazon Quick Suite: your agentic teammate for answering questions and taking action | aws.amazon.com |  | [Apply](https://aws.amazon.com/blogs/aws/reimagine-the-way-you-work-with-ai-agents-in-amazon-quick-suite/) |
@@ -28,13 +34,13 @@ Welcome! This page auto-updates with fresh roles and events.
 | Jan 01, 1970 | Amazon EC2 R8gd instances are now available in additional AWS Regions | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-ec2-r8g-instances-additional-aws-regions/) |
 | Jan 01, 1970 | Amazon Q Developer now help customers understand service prices and estimate workload costs | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-q-developer-understand-service-prices-estimate-workload-costs/) |
 | Jan 01, 1970 | Amazon EC2 C8gd instances are now available in additional AWS Regions | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-ec2-c8gd-instances-regions/) |
-| Jan 01, 1970 | Amazon Location Service Updates for Vietnam's New Administrative Boundaries | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-location-service-new-admin-boundaries-vietnam/) |
 | Jan 01, 1970 | Amazon EC2 C7gd instances are now available in additional AWS Regions | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-ec2-c7gd-instances-additional-aws-regions/) |
+| Jan 01, 1970 | Amazon Location Service Updates for Vietnam's New Administrative Boundaries | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-location-service-new-admin-boundaries-vietnam/) |
 | Jan 01, 1970 | Amazon DocumentDB (with MongoDB compatibility) now available in 4 new regions across Asia Pacific and Mexico | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-documentdb-mongodb-compatibility-new-regions-asia-pacific-mexico/) |
 | Jan 01, 1970 | Amazon RDS for Db2 launches support for native database backups | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-rds-for-db2-native-database-backup/) |
 | Jan 01, 1970 | Amazon VPC Lattice now supports configurable IP addresses for Resource Gateways | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-vpc-lattice-configurable-ip-resource-gateway/) |
-| Jan 01, 1970 | AWS Marketplace expands Japan consumption tax support for Channel Partner Private Offers | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/aws-marketplace-japan-consumption-tax-support/) |
 | Jan 01, 1970 | AWS Marketplace now supports new currencies for usage-based private offers | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/aws-marketplace-currencies-usage-based-private-offers/) |
+| Jan 01, 1970 | AWS Marketplace expands Japan consumption tax support for Channel Partner Private Offers | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/aws-marketplace-japan-consumption-tax-support/) |
 | Jan 01, 1970 | Amazon EC2 Im4gn instances now available in AWS Asia Pacific (Mumbai) region | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-ec2-im4gn-instances-asia-pacific-mumbai-region/) |
 | Jan 01, 1970 | Automatic quota management is now generally available for AWS Service Quotas | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/automatic-quota-management-service-quotas/) |
 | Jan 01, 1970 | AWS Marketplace announces enhanced pricing dimension capabilities for sellers | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/aws-marketplace-pricing-dimension-sellers/) |
@@ -53,15 +59,9 @@ Welcome! This page auto-updates with fresh roles and events.
 | Jan 01, 1970 | AWS End User Messaging now sends onboarding progress alerts via Slack, Email, or any other EventBridge destination | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/aws-end-user-messaging-onboarding-progress-alerts-slack-email-eventbridge-destination/) |
 | Jan 01, 1970 | Amazon Connect now provides generative AI-powered email conversation overviews and suggested responses | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-connect-generative-ai-powered-email-conversation-overviews/) |
 | Jan 01, 1970 | AWS Clean Rooms now supports collaboration with cross-region data sources | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/aws-clean-rooms-collaboration-cross-region-data-sources/) |
-| Jan 01, 1970 | EC2 Image Builder now provides enhanced capabilities for managing image pipelines | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/ec2-image-builder-capabilities-managing-image-pipelines/) |
 | Jan 01, 1970 | AWS Directory Service introduces IPv6 support for Managed Microsoft AD and AD Connector | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/aws-directory-service-ipv6/) |
+| Jan 01, 1970 | EC2 Image Builder now provides enhanced capabilities for managing image pipelines | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/ec2-image-builder-capabilities-managing-image-pipelines/) |
 | Jan 01, 1970 | AWS Introduces self-service invoice correction feature | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/self-service-invoice-correction-feature/) |
 | Jan 01, 1970 | AWS Directory Service enables API-driven Managed Microsoft AD edition upgrades | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/aws-directory-service-api-edition-upgrades/) |
-| Jan 01, 1970 | Amazon Connect now supports agent screen recording for ChromeOS | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-connect-agent-screen-recording-chromeos/) |
-| Jan 01, 1970 | AWS Direct Connect announces 100G expansion in Makati City, Philippines | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/aws-direct-connect-100g-makati-city/) |
-| Jan 01, 1970 | Amazon Connect now provides agent time-off balance data in analytics data lake | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-connect-agent-time-off-balance-data/) |
-| Jan 01, 1970 | Amazon GameLift Servers adds ability to view and connect to instances in the console | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-gamelift-servers-view-connect-instances-console/) |
-| Jan 01, 1970 | AWS Builder ID now supports Sign in with Google | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/aws-builder-id-sign-in-google/) |
-| Jan 01, 1970 | Amazon Connect makes it easier to get customer input on outbound calls | aws.amazon.com |  | [Apply](https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-connect-customer-input-outbound-calls/) |
 
 ➡️ [View All Jobs (CSV)](../data/latest/jobs.csv) | [View All Jobs (JSON)](../data/latest/jobs.json)
